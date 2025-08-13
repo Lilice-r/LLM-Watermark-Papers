@@ -98,6 +98,7 @@
 
 - **Robust Distortion-free Watermarks for Language Models** [[paper]](https://openreview.net/pdf?id=FpaCL1MO2C) ![](https://img.shields.io/badge/TMLR%202024-orange) 
 
+- **Scalable watermarking for identifying large language model outputs** [[paper]](https://www.nature.com/articles/s41586-024-08025-4) ![](https://img.shields.io/badge/Nature%202024-orange) 
 
 - **Ensemble Watermarks for Large Language Models** [[paper]](https://arxiv.org/pdf/2411.19563) ![](https://img.shields.io/badge/ACL%202025-orange) 
 
