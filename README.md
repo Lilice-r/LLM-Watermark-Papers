@@ -149,8 +149,6 @@
 
 - **Optimizing Adaptive Attacks against Watermarks for Language Models**[[paper]](https://openreview.net/pdf?id=AsODat0dkE) ![](https://img.shields.io/badge/ICML%202025-orange)
   
-- **BiMark: Unbiased Multilayer Watermarking for Large Language Models**[[paper]](https://openreview.net/pdf?id=Zvyb3WAg03) ![](https://img.shields.io/badge/ICML%202025-orange)
-  
 - **Discovering Spoofing Attempts on Language Model Watermarks**[[paper]](https://openreview.net/attachment?id=hSCxEZLvxI&name=pdf) ![](https://img.shields.io/badge/ICML%202025-orange)
   
 - **Revealing Weaknesses in Text Watermarking Through Self-Information Rewrite Attacks**[[paper]](https://openreview.net/attachment?id=fE3kgW7kMp&name=pdf) ![](https://img.shields.io/badge/ICML%202025-orange)
@@ -191,6 +189,8 @@
 
 
 - **Robust Multi-bit Text Watermark with LLM-based Paraphrasers**[[paper]](https://openreview.net/attachment?id=DVjkling5x&name=pdf) ![](https://img.shields.io/badge/ICML%202025-orange)
+
+- **BiMark: Unbiased Multilayer Watermarking for Large Language Models**[[paper]](https://openreview.net/pdf?id=Zvyb3WAg03) ![](https://img.shields.io/badge/ICML%202025-orange)
 
 - **StealthInk: A Multi-bit and Stealthy Watermark for Large Language Models**[[paper]](https://openreview.net/attachment?id=dktpDfUTtj&name=pdf) ![](https://img.shields.io/badge/ICML%202025-orange)
 
