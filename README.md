@@ -177,6 +177,21 @@
 
 - **SimMark: A Robust Sentence-Level Similarity-Based Watermarking Algorithm for Large Language Models** [[paper]](https://aclanthology.org/2025.emnlp-main.1567.pdf) ![](https://img.shields.io/badge/EMNLP%202025-orange) 
 
+- **Learning to Watermark: A Selective Watermarking Framework for Large Language Models via Multi-Objective Optimization** [[paper]](https://openreview.net/pdf?id=nJq5z21eUk) ![](https://img.shields.io/badge/NeurIPS%202025-orange) 
+
+- **HeavyWater and SimplexWater: Distortion-free LLM Watermarks for Low-Entropy Distributions** [[paper]](https://openreview.net/pdf?id=R5EBtNE2Y9) ![](https://img.shields.io/badge/NeurIPS%202025-orange)
+
+- **SAEMARK: Steering Personalized Multilingual LLMWatermarks with Sparse Autoencoders** [[paper]](https://openreview.net/pdf?id=tXnyVPNOfa) ![](https://img.shields.io/badge/NeurIPS%202025-orange)
+
+- **Practical and Effective Code Watermarking for Large Language Models** [[paper]](https://openreview.net/pdf?id=RpE4HeuX69) ![](https://img.shields.io/badge/NeurIPS%202025-orange) 
+
+- **Theoretically Grounded Framework for LLM Watermarking: A Distribution-Adaptive Approach** [[paper]](https://openreview.net/pdf?id=CMmKcHFDKL) ![](https://img.shields.io/badge/NeurIPS%202025-orange) 
+
+
+- **Enhancing LLM Watermark Resilience Against Both Scrubbing and Spoofing Attacks** [[paper]](https://openreview.net/pdf?id=RbdLnwEEjk) ![](https://img.shields.io/badge/NeurIPS%202025-orange) 
+
+- **Onthe Empirical Power of Goodness-of-Fit Tests in Watermark Detection** [[paper]](https://openreview.net/pdf?id=YES7VDXPV8) ![](https://img.shields.io/badge/NeurIPS%202025-orange) 
+
 
 ### Multi-bit
 - **Three Bricks to Consolidate Watermarks for Large Language Models** [[paper]](https://arxiv.org/pdf/2308.00113) ![](https://img.shields.io/badge/WIFS%202023-orange)
