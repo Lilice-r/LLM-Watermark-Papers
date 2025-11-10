@@ -167,7 +167,15 @@
 - **ModelShield: Adaptive and Robust Watermark Against Model Extraction Attack** [[paper]](https://arxiv.org/pdf/2405.02365) ![](https://img.shields.io/badge/TIFS%202025-orange)
 
 
-- **Watermarking Language Models for Many Adaptive Users** [[paper]](https://arxiv.org/pdf/2405.11109) ![](https://img.shields.io/badge/S&P%202025-orange) 
+- **Watermarking Language Models for Many Adaptive Users** [[paper]](https://arxiv.org/pdf/2405.11109) ![](https://img.shields.io/badge/S&P%202025-orange)
+
+- **Invisible Entropy: Towards Safe and Efficient Low-Entropy LLM Watermarking** [[paper]](https://aclanthology.org/2025.emnlp-main.341.pdf) ![](https://img.shields.io/badge/EMNLP%202025-orange)
+
+- **Addressing Tokenization Inconsistency in Steganography and Watermarking Based on Large Language Models** [[paper]](https://aclanthology.org/2025.emnlp-main.361.pdf) ![](https://img.shields.io/badge/EMNLP%202025-orange)
+
+- **CLMTracing: Black-box User-level Watermarking for Code Language Model Tracing** [[paper]](https://aclanthology.org/2025.emnlp-main.1475.pdf) ![](https://img.shields.io/badge/EMNLP%202025-orange) 
+
+- **SimMark: A Robust Sentence-Level Similarity-Based Watermarking Algorithm for Large Language Models** [[paper]](https://aclanthology.org/2025.emnlp-main.1567.pdf) ![](https://img.shields.io/badge/EMNLP%202025-orange) 
 
 
 ### Multi-bit
