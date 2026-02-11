@@ -3,7 +3,7 @@
 - [LLM Watermark Papers](#llm-watermark-papers)
   - [Survey](#survey)
   - [LLM Watermark](#llm-watermark)
-    - [One-bit](#one-bit)
+    - [Zero-bit](#zero-bit)
     - [Multi-bit](#multi-bit)
   - [Backdoor Watermark Since 2024](#backdoor-watermark-since-2024)
 
@@ -15,7 +15,7 @@
 ## LLM Watermark
 > **Note:** We believe that KGW is the starting point of LLM Watermark, so we only collect watermarking work after KGW.
 
-### One-bit
+### Zero-bit
 - **A Watermark for Large Language Models** [[paper]](https://arxiv.org/pdf/2301.10226) ![](https://img.shields.io/badge/ICML%202023-OutstandingPaper-orange)
 
 - **WaterBench: Towards Holistic Evaluation of Watermarks for Large Language Models** [[paper]](https://arxiv.org/pdf/2311.07138.pdf) ![](https://img.shields.io/badge/ACL%202024-orange) 
