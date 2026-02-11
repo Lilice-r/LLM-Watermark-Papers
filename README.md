@@ -190,8 +190,27 @@
 
 - **Enhancing LLM Watermark Resilience Against Both Scrubbing and Spoofing Attacks** [[paper]](https://openreview.net/pdf?id=RbdLnwEEjk) ![](https://img.shields.io/badge/NeurIPS%202025-orange) 
 
-- **Onthe Empirical Power of Goodness-of-Fit Tests in Watermark Detection** [[paper]](https://openreview.net/pdf?id=YES7VDXPV8) ![](https://img.shields.io/badge/NeurIPS%202025-orange) 
+- **Onthe Empirical Power of Goodness-of-Fit Tests in Watermark Detection** [[paper]](https://openreview.net/pdf?id=YES7VDXPV8) ![](https://img.shields.io/badge/NeurIPS%202025-orange)
+  
+- **Traceable Black-Box Watermarks For Federated Learning** [[paper]](https://openreview.net/attachment?id=xHRuyXnJXd&name=pdf) ![](https://img.shields.io/badge/ICLR%202026-orange)
 
+- **Distilling the Thought, Watermarking the Answer: A Principle Semantic Guided Watermark for Reasoning Large Language Models** [[paper]](https://openreview.net/attachment?id=T6NVogsXCZ&name=pdf) ![](https://img.shields.io/badge/ICLR%202026-orange)
+
+- **In-Context Watermarks for Large Language Models** [[paper]](https://openreview.net/attachment?id=fD9YRHazW3&name=pdf) ![](https://img.shields.io/badge/ICLR%202026-orange)
+
+- **Break the Trade-off Between Watermark Strength and Speculative Sampling Efficiency for Language Models** [[paper]](https://openreview.net/attachment?id=HA8vzzT6Ax&name=pdf) ![](https://img.shields.io/badge/ICLR%202026-orange)
+
+- **An Ensemble Framework for Unbiased Language Model Watermarking** [[paper]](https://openreview.net/attachment?id=iZ7i2y1YxO&name=pdf) ![](https://img.shields.io/badge/ICLR%202026-orange)
+
+- **Analyzing and Evaluating Unbiased Language Model Watermark** [[paper]](https://openreview.net/attachment?id=6T4LR1oRwA&name=pdf) ![](https://img.shields.io/badge/ICLR%202026-orange)
+
+- **PMark: Towards Robust and Distortion-free Semantic-level Watermarking with Channel Constraints** [[paper]](https://openreview.net/attachment?id=EhDgP69DJG&name=pdf) ![](https://img.shields.io/badge/ICLR%202026-orange)
+
+- **Watermarking Diffusion Language Models** [[paper]](https://openreview.net/attachment?id=3aBWTYGcaT&name=pdf) ![](https://img.shields.io/badge/ICLR%202026-orange)
+
+- **LLM Fingerprinting via Semantically Conditioned Watermarks** [[paper]](https://openreview.net/attachment?id=t38nZqqi3Z&name=pdf) ![](https://img.shields.io/badge/ICLR%202026-orange)
+
+- **Every Language Model Has a Forgery-Resistant Signature** [[paper]](https://openreview.net/attachment?id=vLFqOoMBol&name=pdf) ![](https://img.shields.io/badge/ICLR%202026-orange)
 
 ### Multi-bit
 - **Three Bricks to Consolidate Watermarks for Large Language Models** [[paper]](https://arxiv.org/pdf/2308.00113) ![](https://img.shields.io/badge/WIFS%202023-orange)
