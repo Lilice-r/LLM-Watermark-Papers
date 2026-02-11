@@ -191,8 +191,6 @@
 - **Enhancing LLM Watermark Resilience Against Both Scrubbing and Spoofing Attacks** [[paper]](https://openreview.net/pdf?id=RbdLnwEEjk) ![](https://img.shields.io/badge/NeurIPS%202025-orange) 
 
 - **Onthe Empirical Power of Goodness-of-Fit Tests in Watermark Detection** [[paper]](https://openreview.net/pdf?id=YES7VDXPV8) ![](https://img.shields.io/badge/NeurIPS%202025-orange)
-  
-- **Traceable Black-Box Watermarks For Federated Learning** [[paper]](https://openreview.net/attachment?id=xHRuyXnJXd&name=pdf) ![](https://img.shields.io/badge/ICLR%202026-orange)
 
 - **Distilling the Thought, Watermarking the Answer: A Principle Semantic Guided Watermark for Reasoning Large Language Models** [[paper]](https://openreview.net/attachment?id=T6NVogsXCZ&name=pdf) ![](https://img.shields.io/badge/ICLR%202026-orange)
 
