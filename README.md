@@ -277,6 +277,8 @@
 
 - **StealthInk: A Multi-bit and Stealthy Watermark for Large Language Models**[[paper]](https://openreview.net/attachment?id=dktpDfUTtj&name=pdf) ![](https://img.shields.io/badge/ICML%202025-orange)
 
+- **WaterMod: Modular Token-Rank Partitioning for Probability-Balanced LLM Watermarking**[[paper]](https://ojs.aaai.org/index.php/AAAI/article/view/40546/44507) ![](https://img.shields.io/badge/AAAI%202026-orange)
+
 ## Backdoor Watermark Since 2024
 
 - **WARDEN: Multi-Directional Backdoor Watermarks for Embedding-as-a-Service Copyright Protection** [[paper]](https://aclanthology.org/2024.acl-long.725.pdf) ![](https://img.shields.io/badge/ACL%202024-orange) 
