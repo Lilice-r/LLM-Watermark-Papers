@@ -232,6 +232,10 @@
 
 - **ModelShield: Adaptive and Robust Watermark Against Model Extraction Attack** [[paper]](https://arxiv.org/pdf/2405.02365) ![](https://img.shields.io/badge/TIFS%202025-orange)
 
+#### NDSS'26 (Feb 2026)
+
+- **Character-Level Perturbations Disrupt LLM Watermarks** [[paper](https://www.ndss-symposium.org/wp-content/uploads/2026-s138-paper.pdf)] ![](https://img.shields.io/badge/NDSS%202026-orange)
+
 #### ICLR'26 (April 2026)
 
 - **Distilling the Thought, Watermarking the Answer: A Principle Semantic Guided Watermark for Reasoning Large Language Models** [[paper]](https://openreview.net/attachment?id=T6NVogsXCZ&name=pdf) ![](https://img.shields.io/badge/ICLR%202026-orange)
