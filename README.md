@@ -256,6 +256,21 @@
 
 - **Every Language Model Has a Forgery-Resistant Signature** [[paper]](https://openreview.net/attachment?id=vLFqOoMBol&name=pdf) ![](https://img.shields.io/badge/ICLR%202026-orange)
 
+#### ACL'26 (July 2026)
+
+- **AgentMark: Utility-Preserving Behavioral Watermarking for Agents** [[paper]](https://arxiv.org/abs/2601.03294) ![](https://img.shields.io/badge/ACL%202026-orange)
+
+- **A Linguistics-Aware LLM Watermarking via Syntactic Predictability** [[paper]](https://arxiv.org/abs/2510.13829) ![](https://img.shields.io/badge/ACL%202026-orange)
+
+- **SWAN: Semantic Watermarking with Abstract Meaning Representation** [[paper]](https://arxiv.org/abs/2605.04305) ![](https://img.shields.io/badge/ACL%202026-orange)
+
+- **SSG: Logit-Balanced Vocabulary Partitioning for LLM Watermarking** [[paper]](https://arxiv.org/abs/2604.22438) ![](https://img.shields.io/badge/ACL%202026-orange)
+
+- **Don’t Corrupt the Fact: A Trustworthy RAG Watermarking Framework based on Dual Factual Shield** [[paper]]() ![](https://img.shields.io/badge/ACL%202026-orange)
+ 
+- **ReasMark: A Robust Watermark for Attributing LLM Reasoning Under Knowledge Distillation Attacks** [[paper]](https://ntu-dps.com/paper%20pdf/REASMARK-%20A%20Robust%20Watermark%20for%20Attributing%20LLM%20Reasoning%20Under%20Knowledge%20Distillation%20Attacks.pdf) ![](https://img.shields.io/badge/ACL%202026-orange)
+
+ 
 ### Multi-bit
 
 - **Three Bricks to Consolidate Watermarks for Large Language Models** [[paper]](https://arxiv.org/pdf/2308.00113) ![](https://img.shields.io/badge/WIFS%202023-orange)
