@@ -48,12 +48,8 @@
 #### ICML'24 (July 2024)
 
 - **Optimizing Watermarks for Large Language Models** [[paper]](https://arxiv.org/pdf/2312.17295) ![](https://img.shields.io/badge/ICML%202024-orange)
-  
-
-- **Watermark Stealing in Large Language Models** [[paper]](https://arxiv.org/pdf/2402.19361) ![](https://img.shields.io/badge/ICML%202024-orange)
 
 - **Adaptive Text Watermark for Large Language Models** [[paper]](https://arxiv.org/pdf/2401.13927.pdf) ![](https://img.shields.io/badge/ICML%202024-orange)
-
 
 - **Watermarks in the Sand: Impossibility of Strong Watermarking for Language Models** [[paper]](https://arxiv.org/pdf/2311.04378) ![](https://img.shields.io/badge/ICML%202024-orange)
 
@@ -70,8 +66,6 @@
 - **Who Wrote this Code? Watermarking for Code Generation** [[paper]](https://aclanthology.org/2024.acl-long.268.pdf) ![](https://img.shields.io/badge/ACL%202024-orange)
 
 - **GumbelSoft: Diversified Language Model Watermarking via the GumbelMax-trick** [[paper]](https://arxiv.org/pdf/2402.12948.pdf) ![](https://img.shields.io/badge/ACL%202024-orange)
-
-- **Bypassing LLM Watermarks with Color-Aware Substitutions** [[paper]](https://aclanthology.org/2024.acl-long.464.pdf) ![](https://img.shields.io/badge/ACL%202024-orange) 
 
 - **WatME: Towards Lossless Watermarking Through Lexical Redundancy** [[paper]](https://aclanthology.org/2024.acl-long.496.pdf) ![](https://img.shields.io/badge/ACL%202024-orange)
 
@@ -173,8 +167,6 @@
 #### ICML'25 (July 2025)
 
 - **Lightweight-Mark: Rethinking Deep Learning-Based Watermarking**[[paper]](https://openreview.net/attachment?id=ag3uveGZCb&name=pdf) ![](https://img.shields.io/badge/ICML%202025-orange)
-
-- **De-mark: Watermark Removal in Large Language Models**[[paper]](https://openreview.net/attachment?id=5dF4mqVVqK&name=pdf) ![](https://img.shields.io/badge/ICML%202025-orange)
   
 - **GaussMark: A Practical Approach for Structural Watermarking of Language Models**[[paper]](https://openreview.net/attachment?id=YG3DbpAQBf&name=pdf) ![](https://img.shields.io/badge/ICML%202025-orange)
 
@@ -195,8 +187,6 @@
 - **SimMark: A Robust Sentence-Level Similarity-Based Watermarking Algorithm for Large Language Models** [[paper]](https://aclanthology.org/2025.emnlp-main.1567.pdf) ![](https://img.shields.io/badge/EMNLP%202025-orange) 
 
 - **Watermarking with Low-Entropy POS-Guided Token Partitioning and Z-Score-Driven Dynamic Bias for Large Language Models** [[paper]](https://aclanthology.org/2025.findings-emnlp.260.pdf) ![](https://img.shields.io/badge/EMNLP%202025%20Findings-orange)
-
-- **Watermark Smoothing Attacks against Language Models** [[paper]](https://aclanthology.org/2025.findings-emnlp.264.pdf) ![](https://img.shields.io/badge/EMNLP%202025%20Findings-orange)
 
 - **Evaluating the Robustness and Accuracy of Text Watermarking Under Real-World Cross-Lingual Manipulations** [[paper]](https://aclanthology.org/2025.findings-emnlp.390.pdf) ![](https://img.shields.io/badge/EMNLP%202025%20Findings-orange)
 
@@ -310,8 +300,6 @@
  
 - **Ideal Attribution and Faithful Watermarks for Language Models**[[paper]](https://arxiv.org/abs/2512.07038) ![](https://img.shields.io/badge/ICML%202026-orange)
 
-- **Linear Ensembles Wash Away Watermarks: On the Fragility of Distributional Perturbations in LLMs**[[paper]](https://arxiv.org/abs/2605.30501) ![](https://img.shields.io/badge/ICML%202026-orange)
-
 ### Multi-bit
 
 - **Three Bricks to Consolidate Watermarks for Large Language Models** [[paper]](https://arxiv.org/pdf/2308.00113) ![](https://img.shields.io/badge/WIFS%202023-orange)
@@ -344,7 +332,13 @@
 
 ### Attack
 
+- **Watermark Stealing in Large Language Models** [[paper]](https://arxiv.org/pdf/2402.19361) ![](https://img.shields.io/badge/ICML%202024-orange)
+
+- **Bypassing LLM Watermarks with Color-Aware Substitutions** [[paper]](https://aclanthology.org/2024.acl-long.464.pdf) ![](https://img.shields.io/badge/ACL%202024-orange) 
+
 - **$B^4$: A Black-Box Scrubbing Attack on LLM Watermarks**[[paper]](https://aclanthology.org/2025.naacl-long.460/)![](https://img.shields.io/badge/NAACL%202025-orange)
+
+- **De-mark: Watermark Removal in Large Language Models**[[paper]](https://openreview.net/attachment?id=5dF4mqVVqK&name=pdf) ![](https://img.shields.io/badge/ICML%202025-orange)
 
 - **Optimizing Adaptive Attacks against Watermarks for Language Models**[[paper]](https://openreview.net/pdf?id=AsODat0dkE) ![](https://img.shields.io/badge/ICML%202025-orange)
   
@@ -352,11 +346,16 @@
   
 - **Revealing Weaknesses in Text Watermarking Through Self-Information Rewrite Attacks**[[paper]](https://openreview.net/attachment?id=fE3kgW7kMp&name=pdf) ![](https://img.shields.io/badge/ICML%202025-orange)
 
+- **Watermark Smoothing Attacks against Language Models** [[paper]](https://aclanthology.org/2025.findings-emnlp.264.pdf) ![](https://img.shields.io/badge/EMNLP%202025%20Findings-orange)
+
 - **The Mark Fades: Adaptive Evolutionary Paraphrase-based Attack against LLM Watermarks** [[paper]]() ![](https://img.shields.io/badge/ACL%202026%20Findings-orange)
 
 - **Rethinking Forgery Attacks on Semantic Watermarks in Black-Box Settings: A Geometric Distortion Perspective**[[paper]]() ![](https://img.shields.io/badge/ICML%202026-orange)
 
 - **Character-Level Perturbations Disrupt LLM Watermarks** [[paper](https://www.ndss-symposium.org/wp-content/uploads/2026-s138-paper.pdf)] ![](https://img.shields.io/badge/NDSS%202026-orange)
+
+- **Linear Ensembles Wash Away Watermarks: On the Fragility of Distributional Perturbations in LLMs**[[paper]](https://arxiv.org/abs/2605.30501) ![](https://img.shields.io/badge/ICML%202026-orange)
+
 
 ## Backdoor Watermark Since 2024
 
