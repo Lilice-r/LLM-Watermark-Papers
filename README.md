@@ -5,6 +5,7 @@
   - [LLM Watermark](#llm-watermark)
     - [Zero-bit](#zero-bit)
     - [Multi-bit](#multi-bit)
+    - [Attack](#attack)
   - [Backdoor Watermark Since 2024](#backdoor-watermark-since-2024)
 
 ## Survey
@@ -120,11 +121,8 @@
 - **Scalable watermarking for identifying large language model outputs** [[paper]](https://www.nature.com/articles/s41586-024-08025-4) ![](https://img.shields.io/badge/Nature%202024-orange) 
 
 #### NAACL'25 (April 2025)
-
-- **$B^4$: A Black-Box Scrubbing Attack on LLM Watermarks**[[paper]](https://aclanthology.org/2025.naacl-long.460/)![](https://img.shields.io/badge/NAACL%202025-orange)
   
 - **WaterPool: A Language Model Watermark Mitigating Trade-Offs among Imperceptibility, Efficacy and Robustness**[[paper]](https://aclanthology.org/2025.naacl-long.209/) ![](https://img.shields.io/badge/NAACL%202025-orange)
-
 
 - **WaterSeeker: Pioneering Efficient Detection of Watermarked Segments in Large Documents** [[paper]](https://aclanthology.org/2025.findings-naacl.156.pdf) ![](https://img.shields.io/badge/NAACL%202025%20Findings-orange) 
 
@@ -173,12 +171,6 @@
 - **Sandcastles in the Storm: Revisiting the (Im)possibility of Strong Watermarking** [[paper]](https://aclanthology.org/2025.acl-long.1436.pdf) ![](https://img.shields.io/badge/ACL%202025-orange) 
 
 #### ICML'25 (July 2025)
-
-- **Optimizing Adaptive Attacks against Watermarks for Language Models**[[paper]](https://openreview.net/pdf?id=AsODat0dkE) ![](https://img.shields.io/badge/ICML%202025-orange)
-  
-- **Discovering Spoofing Attempts on Language Model Watermarks**[[paper]](https://openreview.net/attachment?id=hSCxEZLvxI&name=pdf) ![](https://img.shields.io/badge/ICML%202025-orange)
-  
-- **Revealing Weaknesses in Text Watermarking Through Self-Information Rewrite Attacks**[[paper]](https://openreview.net/attachment?id=fE3kgW7kMp&name=pdf) ![](https://img.shields.io/badge/ICML%202025-orange)
 
 - **Lightweight-Mark: Rethinking Deep Learning-Based Watermarking**[[paper]](https://openreview.net/attachment?id=ag3uveGZCb&name=pdf) ![](https://img.shields.io/badge/ICML%202025-orange)
 
@@ -232,10 +224,6 @@
 
 - **ModelShield: Adaptive and Robust Watermark Against Model Extraction Attack** [[paper]](https://arxiv.org/pdf/2405.02365) ![](https://img.shields.io/badge/TIFS%202025-orange)
 
-#### NDSS'26 (Feb 2026)
-
-- **Character-Level Perturbations Disrupt LLM Watermarks** [[paper](https://www.ndss-symposium.org/wp-content/uploads/2026-s138-paper.pdf)] ![](https://img.shields.io/badge/NDSS%202026-orange)
-
 #### ICLR'26 (April 2026)
 
 - **Distilling the Thought, Watermarking the Answer: A Principle Semantic Guided Watermark for Reasoning Large Language Models** [[paper]](https://openreview.net/attachment?id=T6NVogsXCZ&name=pdf) ![](https://img.shields.io/badge/ICLR%202026-orange)
@@ -281,8 +269,6 @@
 - **Topic-Based Watermarks for Large Language Models** [[paper]](https://arxiv.org/abs/2404.02138) ![](https://img.shields.io/badge/ACL%202026%20Findings-orange)
 
 - **Position: LLM Watermarking Should Align Stakeholders' Incentives for Practical Adoption** [[paper]](https://arxiv.org/abs/2510.18333) ![](https://img.shields.io/badge/ACL%202026%20Findings-orange)
-
-- **The Mark Fades: Adaptive Evolutionary Paraphrase-based Attack against LLM Watermarks** [[paper]]() ![](https://img.shields.io/badge/ACL%202026%20Findings-orange)
   
 - **Measuring Watermarking under Jailbreaking: ASR Inflation and Goal-Compliance Mismatch** [[paper]]() ![](https://img.shields.io/badge/ACL%202026%20Findings-orange)
 
@@ -355,6 +341,22 @@
 - **XMark: Reliable Multi-Bit Watermarking for LLM-Generated Texts** [[paper]](https://arxiv.org/abs/2604.05242) ![](https://img.shields.io/badge/ACL%202026-orange)
 
 - **Block-wise Codeword Embedding for Reliable Multi-bit Text Watermarking**[[paper]](https://arxiv.org/abs/2605.00348) ![](https://img.shields.io/badge/ICML%202026-orange)
+
+### Attack
+
+- **$B^4$: A Black-Box Scrubbing Attack on LLM Watermarks**[[paper]](https://aclanthology.org/2025.naacl-long.460/)![](https://img.shields.io/badge/NAACL%202025-orange)
+
+- **Optimizing Adaptive Attacks against Watermarks for Language Models**[[paper]](https://openreview.net/pdf?id=AsODat0dkE) ![](https://img.shields.io/badge/ICML%202025-orange)
+  
+- **Discovering Spoofing Attempts on Language Model Watermarks**[[paper]](https://openreview.net/attachment?id=hSCxEZLvxI&name=pdf) ![](https://img.shields.io/badge/ICML%202025-orange)
+  
+- **Revealing Weaknesses in Text Watermarking Through Self-Information Rewrite Attacks**[[paper]](https://openreview.net/attachment?id=fE3kgW7kMp&name=pdf) ![](https://img.shields.io/badge/ICML%202025-orange)
+
+- **The Mark Fades: Adaptive Evolutionary Paraphrase-based Attack against LLM Watermarks** [[paper]]() ![](https://img.shields.io/badge/ACL%202026%20Findings-orange)
+
+- **Rethinking Forgery Attacks on Semantic Watermarks in Black-Box Settings: A Geometric Distortion Perspective**[[paper]]() ![](https://img.shields.io/badge/ICML%202026-orange)
+
+- **Character-Level Perturbations Disrupt LLM Watermarks** [[paper](https://www.ndss-symposium.org/wp-content/uploads/2026-s138-paper.pdf)] ![](https://img.shields.io/badge/NDSS%202026-orange)
 
 ## Backdoor Watermark Since 2024
 
