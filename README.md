@@ -287,7 +287,45 @@
 - **Measuring Watermarking under Jailbreaking: ASR Inflation and Goal-Compliance Mismatch** [[paper]]() ![](https://img.shields.io/badge/ACL%202026%20Findings-orange)
 
 - **EntroBench: Evaluating LLM Watermarking Under Multi-Entropy Scenarios and Practical User Operations** [[paper]]() ![](https://img.shields.io/badge/ACL%202026%20Findings-orange)
+
+#### ICML'26 (July 2026)
+
+- **How Good is Post-Hoc Watermarking With Language Model Rephrasing?**[[paper]](https://arxiv.org/abs/2512.16904) ![](https://img.shields.io/badge/ICML%202026-orange)
+
+- **AliMark: Enhancing Robustness of Sentence-Level Watermarks Against Text Paraphrasing**[[paper]](https://arxiv.org/abs/2605.29434) ![](https://img.shields.io/badge/ICML%202026-orange)
+
+- **Watermarking LLM Agent Trajectories**[[paper]](https://arxiv.org/abs/2602.18700) ![](https://img.shields.io/badge/ICML%202026-orange)
  
+- **Selective Disclosure Watermarking for Large Language Models**[[paper]]() ![](https://img.shields.io/badge/ICML%202026-orange)
+
+- **dgMARK: Decoding-Guided Watermarking for Diffusion Language Models**[[paper]](https://arxiv.org/abs/2601.22985) ![](https://img.shields.io/badge/ICML%202026-orange)
+
+- **Catch-22: On the Fundamental Tradeoff Between Detectability and Robustness in LLM Watermarking**[[paper]]() ![](https://img.shields.io/badge/ICML%202026-orange)
+
+- **Echoes within the Reasoning: Stealth and Effective Watermarking via Chain of Thought**[[paper]](https://arxiv.org/abs/2605.28890) ![](https://img.shields.io/badge/ICML%202026-orange)
+
+- **Revisiting Coding-Based Approaches to Overcome the Curse of Dimensionality in Learning-Based Watermarking**[[paper]]() ![](https://img.shields.io/badge/ICML%202026-orange)
+
+- **Stability-Aware Feature Design for Robust Watermark Detection in Machine-Generated Text**[[paper]]() ![](https://img.shields.io/badge/ICML%202026-orange)
+ 
+- **LORD-GoF: A Robust Online Detection Approach for LLM Watermarks in Sparse and Mixed Streams**[[paper]]() ![](https://img.shields.io/badge/ICML%202026-orange)
+
+- **IACW: Intent-Aware Controllable Watermarking for Scalable Authorial Intent Attribution**[[paper]]() ![](https://img.shields.io/badge/ICML%202026-orange)
+
+- **Adaptive Code Watermarking Through Reinforcement Learning**[[paper]]() ![](https://img.shields.io/badge/ICML%202026-orange)
+
+- **Towards Reliable Marking and Verification of AI-Generated Text via Geometry-aware Sentence-level Watermarking**[[paper]]() ![](https://img.shields.io/badge/ICML%202026-orange)
+
+- **Power-Calibrated LLM Watermarking: A Statistical Framework**[[paper]]() ![](https://img.shields.io/badge/ICML%202026-orange)
+
+- **PASA: A Principled Embedding-Space Watermarking Approach for LLM-Generated Text under Semantic-Invariant Attacks**[[paper]](https://arxiv.org/abs/2605.10977) ![](https://img.shields.io/badge/ICML%202026-orange)
+
+- **IPMark: A Sentence-Level Watermark for LLMs with Hierarchical Personalization and Efficient Detection**[[paper]]() ![](https://img.shields.io/badge/ICML%202026-orange)
+ 
+- **Ideal Attribution and Faithful Watermarks for Language Models**[[paper]](https://arxiv.org/abs/2512.07038) ![](https://img.shields.io/badge/ICML%202026-orange)
+
+- **Linear Ensembles Wash Away Watermarks: On the Fragility of Distributional Perturbations in LLMs**[[paper]](https://arxiv.org/abs/2605.30501) ![](https://img.shields.io/badge/ICML%202026-orange)
+
 ### Multi-bit
 
 - **Three Bricks to Consolidate Watermarks for Large Language Models** [[paper]](https://arxiv.org/pdf/2308.00113) ![](https://img.shields.io/badge/WIFS%202023-orange)
@@ -315,6 +353,8 @@
 - **QuantileMark: A Message-Symmetric Multi-bit Watermark for LLMs** [[paper]](https://arxiv.org/abs/2604.13786) ![](https://img.shields.io/badge/ACL%202026-orange)
 
 - **XMark: Reliable Multi-Bit Watermarking for LLM-Generated Texts** [[paper]](https://arxiv.org/abs/2604.05242) ![](https://img.shields.io/badge/ACL%202026-orange)
+
+- **Block-wise Codeword Embedding for Reliable Multi-bit Text Watermarking**[[paper]](https://arxiv.org/abs/2605.00348) ![](https://img.shields.io/badge/ICML%202026-orange)
 
 ## Backdoor Watermark Since 2024
 
