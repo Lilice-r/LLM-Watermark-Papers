@@ -126,7 +126,9 @@
 
 #### ICLR'25 (April 2025)
 
-- **A Watermark for Order-Agnostic Language Models Ward: Provable RAG Dataset Inference via LLM Watermarks** [[paper]](https://openreview.net/pdf?id=Nlm3Xf0W9S) ![](https://img.shields.io/badge/ICLR%202025-orange)
+- **A Watermark for Order-Agnostic Language Models** [[paper]](https://openreview.net/pdf?id=Nlm3Xf0W9S) ![](https://img.shields.io/badge/ICLR%202025-orange)
+
+- **Ward: Provable RAG Dataset Inference via LLM Watermarks** [[paper]](https://openreview.net/pdf?id=kVrwHLAb20) ![](https://img.shields.io/badge/ICLR%202025-orange)
 
 - **Can Watermarked LLMs be Identified by Users via Crafted Prompts?** [[paper]](https://openreview.net/pdf?id=ujpAYpFDEA) ![](https://img.shields.io/badge/ICLR%202025-orange)
 
@@ -236,33 +238,31 @@
 
 #### ACL'26 (July 2026)
 
-- **AgentMark: Utility-Preserving Behavioral Watermarking for Agents** [[paper]](https://arxiv.org/abs/2601.03294) ![](https://img.shields.io/badge/ACL%202026-orange)
+- **AgentMark: Utility-Preserving Behavioral Watermarking for Agents** [[paper]](https://aclanthology.org/2026.acl-long.573.pdf) ![](https://img.shields.io/badge/ACL%202026-orange)
 
-- **A Linguistics-Aware LLM Watermarking via Syntactic Predictability** [[paper]](https://arxiv.org/abs/2510.13829) ![](https://img.shields.io/badge/ACL%202026-orange)
+- **A Linguistics-Aware LLM Watermarking via Syntactic Predictability** [[paper]](https://aclanthology.org/2026.acl-long.2115.pdf) ![](https://img.shields.io/badge/ACL%202026-orange)
 
-- **SWAN: Semantic Watermarking with Abstract Meaning Representation** [[paper]](https://arxiv.org/abs/2605.04305) ![](https://img.shields.io/badge/ACL%202026-orange)
+- **SWAN: Semantic Watermarking with Abstract Meaning Representation** [[paper]](https://aclanthology.org/2026.acl-long.1681.pdf) ![](https://img.shields.io/badge/ACL%202026-orange)
 
-- **SSG: Logit-Balanced Vocabulary Partitioning for LLM Watermarking** [[paper]](https://arxiv.org/abs/2604.22438) ![](https://img.shields.io/badge/ACL%202026-orange)
+- **SSG: Logit-Balanced Vocabulary Partitioning for LLM Watermarking** [[paper]](https://aclanthology.org/2026.acl-long.1702.pdf) ![](https://img.shields.io/badge/ACL%202026-orange)
 
-- **Don’t Corrupt the Fact: A Trustworthy RAG Watermarking Framework based on Dual Factual Shield** [[paper]]() ![](https://img.shields.io/badge/ACL%202026-orange)
+- **Don’t Corrupt the Fact: A Trustworthy RAG Watermarking Framework based on Dual Factual Shield** [[paper]](https://aclanthology.org/2026.acl-long.2075.pdf) ![](https://img.shields.io/badge/ACL%202026-orange)
  
-- **ReasMark: A Robust Watermark for Attributing LLM Reasoning Under Knowledge Distillation Attacks** [[paper]](https://ntu-dps.com/paper%20pdf/REASMARK-%20A%20Robust%20Watermark%20for%20Attributing%20LLM%20Reasoning%20Under%20Knowledge%20Distillation%20Attacks.pdf) ![](https://img.shields.io/badge/ACL%202026-orange)
+- **ReasMark: A Robust Watermark for Attributing LLM Reasoning Under Knowledge Distillation Attacks** [[paper]](https://aclanthology.org/2026.acl-long.2185.pdf) ![](https://img.shields.io/badge/ACL%202026-orange)
 
-- **Rethinking LLM Watermark Detection in Black-Box Settings: A Non-Intrusive Third-Party Framework** [[paper]](https://arxiv.org/abs/2603.14968) ![](https://img.shields.io/badge/ACL%202026%20Findings-orange)
+- **Rethinking LLM Watermark Detection in Black-Box Settings: A Non-Intrusive Third-Party Framework** [[paper]](https://aclanthology.org/2026.findings-acl.990.pdf) ![](https://img.shields.io/badge/ACL%202026%20Findings-orange)
 
-- **DualGuard: Dual-stream Large Language Model Watermarking Defense against Paraphrase and Spoofing Attack** [[paper]](https://arxiv.org/abs/2512.16182) ![](https://img.shields.io/badge/ACL%202026%20Findings-orange)
+- **DualGuard: Dual-stream Large Language Model Watermarking Defense against Paraphrase and Spoofing Attack** [[paper]](https://aclanthology.org/2026.findings-acl.1169.pdf) ![](https://img.shields.io/badge/ACL%202026%20Findings-orange)
 
-- **SLIM: Stealthy Low-Coverage Black-Box Watermarking via Latent-Space Confusion Zones** [[paper]](https://arxiv.org/abs/2601.03242) ![](https://img.shields.io/badge/ACL%202026%20Findings-orange)
+- **Beyond A Fixed Seal: Adaptive Stealing Watermark in Large Language Models** [[paper]](https://aclanthology.org/2026.findings-acl.1036.pdf) ![](https://img.shields.io/badge/ACL%202026%20Findings-orange)
 
-- **Beyond A Fixed Seal: Adaptive Stealing Watermark in Large Language Models** [[paper]](https://arxiv.org/abs/2604.10893) ![](https://img.shields.io/badge/ACL%202026%20Findings-orange)
+- **Topic-Based Watermarks for Large Language Models** [[paper]](https://aclanthology.org/2026.findings-acl.1220.pdf) ![](https://img.shields.io/badge/ACL%202026%20Findings-orange)
 
-- **Topic-Based Watermarks for Large Language Models** [[paper]](https://arxiv.org/abs/2404.02138) ![](https://img.shields.io/badge/ACL%202026%20Findings-orange)
+- **Position: LLM Watermarking Should Align Stakeholders' Incentives for Practical Adoption** [[paper]](https://aclanthology.org/2026.findings-acl.1290.pdf) ![](https://img.shields.io/badge/ACL%202026%20Findings-orange)
 
-- **Position: LLM Watermarking Should Align Stakeholders' Incentives for Practical Adoption** [[paper]](https://arxiv.org/abs/2510.18333) ![](https://img.shields.io/badge/ACL%202026%20Findings-orange)
-  
-- **Measuring Watermarking under Jailbreaking: ASR Inflation and Goal-Compliance Mismatch** [[paper]]() ![](https://img.shields.io/badge/ACL%202026%20Findings-orange)
+- **EntroBench: Evaluating LLM Watermarking Under Multi-Entropy Scenarios and Practical User Operations** [[paper]](https://aclanthology.org/2026.findings-acl.2089.pdf) ![](https://img.shields.io/badge/ACL%202026%20Findings-orange)
 
-- **EntroBench: Evaluating LLM Watermarking Under Multi-Entropy Scenarios and Practical User Operations** [[paper]]() ![](https://img.shields.io/badge/ACL%202026%20Findings-orange)
+- **LR-DWM: Efficient Watermarking for Diffusion Language Models** [[paper]](https://aclanthology.org/2026.findings-acl.2161.pdf) ![](https://img.shields.io/badge/ACL%202026%20Findings-orange)
 
 #### ICML'26 (July 2026)
 
@@ -324,11 +324,19 @@
 
 - **WaterMod: Modular Token-Rank Partitioning for Probability-Balanced LLM Watermarking**[[paper]](https://ojs.aaai.org/index.php/AAAI/article/view/40546/44507) ![](https://img.shields.io/badge/AAAI%202026-orange)
 
-- **QuantileMark: A Message-Symmetric Multi-bit Watermark for LLMs** [[paper]](https://arxiv.org/abs/2604.13786) ![](https://img.shields.io/badge/ACL%202026-orange)
+- **QuantileMark: A Message-Symmetric Multi-bit Watermark for LLMs** [[paper]](https://aclanthology.org/2026.acl-long.308.pdf) ![](https://img.shields.io/badge/ACL%202026-orange)
 
-- **XMark: Reliable Multi-Bit Watermarking for LLM-Generated Texts** [[paper]](https://arxiv.org/abs/2604.05242) ![](https://img.shields.io/badge/ACL%202026-orange)
+- **XMark: Reliable Multi-Bit Watermarking for LLM-Generated Texts** [[paper]](https://aclanthology.org/2026.acl-long.672.pdf) ![](https://img.shields.io/badge/ACL%202026-orange)
 
-- **Block-wise Codeword Embedding for Reliable Multi-bit Text Watermarking**[[paper]](https://arxiv.org/abs/2605.00348) ![](https://img.shields.io/badge/ICML%202026-orange)
+- **You Can Have a Second Chance: Unbiased and Multi-bit Watermarking for Diffusion Language Models with Regret-based Remasking** [[paper]](https://aclanthology.org/2026.acl-long.1297.pdf) ![](https://img.shields.io/badge/ACL%202026-orange)
+
+- **From TDMA to CDMA: A Multi-bit Watermark for Diffusion Language Models** [[paper]](https://aclanthology.org/2026.findings-acl.1066.pdf) ![](https://img.shields.io/badge/ACL%202026-orange)
+
+- **Knowledge-Infused Multi-Bit Watermarking for RAG Knowledge Bases** [[paper]](https://aclanthology.org/2026.acl-long.1298.pdf) ![](https://img.shields.io/badge/ACL%202026%20Findings-orange)
+
+- **Block-wise Codeword Embedding for Reliable Multi-bit Text Watermarking**[[paper]](https://aclanthology.org/2026.findings-acl.1347.pdf) ![](https://img.shields.io/badge/ACL%202026%20Findings-orange)
+
+- **RShield: A User-level Traceable Backdoor Watermark for LLMs in Embedding-as-a-Service** [[paper]](https://aclanthology.org/2026.findings-acl.1169.pdf) ![](https://img.shields.io/badge/ACL%202026%20Findings-orange)
 
 ### Attack
 
@@ -348,7 +356,9 @@
 
 - **Watermark Smoothing Attacks against Language Models** [[paper]](https://aclanthology.org/2025.findings-emnlp.264.pdf) ![](https://img.shields.io/badge/EMNLP%202025%20Findings-orange)
 
-- **The Mark Fades: Adaptive Evolutionary Paraphrase-based Attack against LLM Watermarks** [[paper]]() ![](https://img.shields.io/badge/ACL%202026%20Findings-orange)
+- **The Mark Fades: Adaptive Evolutionary Paraphrase-based Attack against LLM Watermarks** [[paper]](https://aclanthology.org/2026.findings-acl.459.pdf) ![](https://img.shields.io/badge/ACL%202026%20Findings-orange)
+
+- **Measuring Watermarking under Jailbreaking: ASR Inflation and Goal-Compliance Mismatch** [[paper]](https://aclanthology.org/2026.findings-acl.1797.pdf) ![](https://img.shields.io/badge/ACL%202026%20Findings-orange)
 
 - **Rethinking Forgery Attacks on Semantic Watermarks in Black-Box Settings: A Geometric Distortion Perspective**[[paper]]() ![](https://img.shields.io/badge/ICML%202026-orange)
 
@@ -383,9 +393,3 @@ Learning**[[paper]](https://www.ndss-symposium.org/wp-content/uploads/2024-374-p
 - **Explanation as a Watermark: Towards Harmless and Multi-bit Model Ownership Verification via Watermarking Feature Attribution** [[paper]](https://www.ndss-symposium.org/wp-content/uploads/2025-338-paper.pdf) ![](https://img.shields.io/badge/NDSS%202025-orange)
 
 - **RShield: A User-level Traceable Backdoor Watermark for LLMs in Embedding-as-a-Service** [[paper]]() ![](https://img.shields.io/badge/ACL%202026%20Findings-orange)
-
-
-
-
-
-
