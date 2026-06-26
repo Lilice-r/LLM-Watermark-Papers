@@ -15,6 +15,7 @@ from paperlib import (
     group_by_timeline,
     load_papers,
     paper_item_markdown,
+    topic_link,
 )
 
 
@@ -26,6 +27,7 @@ def build_environment() -> Environment:
         keep_trailing_newline=True,
     )
     env.globals["paper_item"] = paper_item_markdown
+    env.globals["topic_link"] = topic_link
     return env
 
 

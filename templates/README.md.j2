@@ -7,7 +7,7 @@ This repository tracks papers related to LLM watermarking. The main list is sort
 ## Topic Pages
 
 {% for topic, label in topics.items() -%}
-- [{{ label }}](topics/{{ topic }}.md)
+- {{ topic_link(topic, prefix="topics/") }}
 {% endfor %}
 
 ## Maintenance

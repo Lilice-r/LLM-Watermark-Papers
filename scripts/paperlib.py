@@ -9,7 +9,6 @@ from urllib.parse import quote
 
 import yaml
 
-
 ROOT = Path(__file__).resolve().parents[1]
 DATA_PATH = ROOT / "data" / "papers.yml"
 README_PATH = ROOT / "README.md"
@@ -22,6 +21,33 @@ TOPICS: dict[str, str] = {
     "multi-bit": "Multi-bit",
     "attack": "Attack",
     "backdoor-watermark": "Backdoor Watermark",
+}
+
+# Colors for topic pages
+"""
+brightgreen
+green
+yellowgreen
+yellow
+orange
+red
+blue
+lightgrey
+grey
+gray
+blueviolet
+success
+important
+critical
+informational
+inactive
+"""
+TOPIC_COLORS: dict[str, str] = {
+    "survey": "brightgreen",
+    "zero-bit": "yellowgreen",
+    "multi-bit": "orange",
+    "attack": "red",
+    "backdoor-watermark": "blueviolet",
 }
 
 TRACKS = {"main", "findings", "journal", "workshop", "survey", "preprint"}
@@ -214,9 +240,27 @@ def badge_markdown(paper: dict[str, Any]) -> str:
     return f"![](https://img.shields.io/badge/{quote(text, safe='')}-orange)"
 
 
+def shields_text(text: str) -> str:
+    return quote(text.replace("-", "--"), safe="")
+
+
+def venue_label(paper: dict[str, Any]) -> str:
+    venue = paper.get("venue", "")
+    year = paper.get("year")
+    text = f"{venue} {year}".strip() if year else venue
+    if paper.get("track") == "findings":
+        text = f"{text} Findings"
+    if paper.get("award"):
+        award = re.sub(r"(?<=[a-z])(?=[A-Z])", " ", str(paper["award"]))
+        text = f"{text} ({award})"
+    return text
+
+
 def topic_link(topic: str, prefix: str = "topics/") -> str:
     label = TOPICS.get(topic, topic)
-    return f"[{label}]({prefix}{topic}.md)"
+    color = TOPIC_COLORS.get(topic, "57606a")
+    badge = f"![{label}](https://img.shields.io/badge/{shields_text(label)}-{color})"
+    return f"[{badge}]({prefix}{topic}.md)"
 
 
 def paper_item_markdown(
@@ -226,12 +270,10 @@ def paper_item_markdown(
     topic_prefix: str = "topics/",
 ) -> str:
     url = paper.get("url") or ""
-    item = f"- **{paper['title']}** [[paper]]({url}) {badge_markdown(paper)}"
+    details = [f"[paper]({url})" if url else "paper: TBD", venue_label(paper)]
     if include_topics:
-        topics = " ".join(topic_link(topic, prefix=topic_prefix) for topic in paper.get("topics", []))
-        if topics:
-            item = f"{item} {topics}"
-    return item
+        details.extend(topic_link(topic, prefix=topic_prefix) for topic in paper.get("topics", []))
+    return f"- **{paper['title']}**  \n  {' | '.join(details)}"
 
 
 def slugify(text: str) -> str:
