@@ -14,8 +14,10 @@ from paperlib import (
     TOPICS_DIR,
     group_by_timeline,
     load_papers,
+    load_venues,
     paper_item_markdown,
     topic_link,
+    venue_index,
 )
 
 
@@ -33,13 +35,14 @@ def build_environment() -> Environment:
 
 def render_all(papers: list[dict[str, Any]] | None = None) -> dict[Path, str]:
     papers = load_papers() if papers is None else papers
+    venues = venue_index(load_venues())
     env = build_environment()
 
     output: dict[Path, str] = {}
     readme_template = env.get_template("README.md.j2")
     output[README_PATH] = readme_template.render(
         topics=TOPICS,
-        timeline=group_by_timeline(papers),
+        timeline=group_by_timeline(papers, venues),
     )
 
     topic_template = env.get_template("topic.md.j2")
@@ -48,7 +51,7 @@ def render_all(papers: list[dict[str, Any]] | None = None) -> dict[Path, str]:
         output[TOPICS_DIR / f"{topic}.md"] = topic_template.render(
             topic=topic,
             label=label,
-            timeline=group_by_timeline(topic_papers),
+            timeline=group_by_timeline(topic_papers, venues),
         )
 
     return output

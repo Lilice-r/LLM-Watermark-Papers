@@ -14,10 +14,10 @@ This repository tracks papers related to LLM watermarking. The main list is sort
 
 ## Maintenance
 
-After manually editing `data/papers.yml`, run:
+After manually editing `data/papers.yml` or adding a new venue-year entry to `data/venues.yml`, run:
 
 ```powershell
-python scripts\pipeline.py
+python scripts\pipeline.py --skip-git
 ```
 
 ## Timeline

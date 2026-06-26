@@ -11,6 +11,7 @@ import yaml
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA_PATH = ROOT / "data" / "papers.yml"
+VENUES_PATH = ROOT / "data" / "venues.yml"
 README_PATH = ROOT / "README.md"
 TOPICS_DIR = ROOT / "topics"
 TEMPLATES_DIR = ROOT / "templates"
@@ -67,47 +68,6 @@ MONTH_NAMES = {
     12: "December",
 }
 
-VENUE_ORDER = {
-    "NDSS": 10,
-    "ICLR": 20,
-    "NAACL": 30,
-    "S&P": 40,
-    "ACL": 50,
-    "ICML": 60,
-    "USENIX": 70,
-    "CCS": 80,
-    "EMNLP": 90,
-    "NeurIPS": 100,
-    "WIFS": 110,
-    "AAAI": 120,
-    "TMLR": 200,
-    "TIFS": 210,
-    "Nature": 220,
-    "PMLR": 230,
-    "ACM Computing Surveys": 240,
-}
-
-DEFAULT_MONTH_BY_VENUE = {
-    "NDSS": 2,
-    "ICLR": 4,
-    "NAACL": 6,
-    "S&P": 5,
-    "ACL": 7,
-    "ICML": 7,
-    "USENIX": 8,
-    "CCS": 10,
-    "EMNLP": 11,
-    "NeurIPS": 12,
-    "WIFS": 12,
-    "AAAI": 1,
-}
-
-MONTH_BY_VENUE_YEAR = {
-    ("ACL", 2024): 8,
-    ("ICLR", 2024): 5,
-    ("NAACL", 2025): 4,
-}
-
 
 def load_papers(path: Path = DATA_PATH) -> list[dict[str, Any]]:
     if not path.exists():
@@ -120,12 +80,37 @@ def load_papers(path: Path = DATA_PATH) -> list[dict[str, Any]]:
     return [normalize_paper(item) for item in data]
 
 
+def load_venues(path: Path = VENUES_PATH) -> list[dict[str, Any]]:
+    if not path.exists():
+        return []
+    data = yaml.safe_load(path.read_text(encoding="utf-8"))
+    if data is None:
+        return []
+    if not isinstance(data, list):
+        raise ValueError(f"{path} must contain a list of venue-year records")
+    return [normalize_venue(item) for item in data]
+
+
 def save_papers(papers: list[dict[str, Any]], path: Path = DATA_PATH) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     normalized = [normalize_paper(paper) for paper in papers]
     path.write_text(
         yaml.safe_dump(
             normalized,
+            sort_keys=False,
+            allow_unicode=True,
+            width=4096,
+        ),
+        encoding="utf-8",
+    )
+
+
+def save_venues(venues: list[dict[str, Any]], path: Path = VENUES_PATH) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    normalized = [normalize_venue(venue) for venue in venues]
+    path.write_text(
+        yaml.safe_dump(
+            sorted(normalized, key=lambda venue: venue_sort_key(venue)),
             sort_keys=False,
             allow_unicode=True,
             width=4096,
@@ -147,14 +132,24 @@ def normalize_paper(paper: dict[str, Any]) -> dict[str, Any]:
     else:
         item["year"] = int(item["year"])
 
-    if item.get("month") in ("", None):
-        item["month"] = None
-    else:
-        item["month"] = int(item["month"])
+    if "month" in item:
+        if item.get("month") in ("", None):
+            item.pop("month", None)
+        else:
+            item["month"] = int(item["month"])
 
     item["award"] = _clean_optional_string(item.get("award"))
     item["badge"] = _clean_optional_string(item.get("badge"))
     item["notes"] = _clean_optional_string(item.get("notes"))
+    return {key: value for key, value in item.items() if value not in (None, "", [])}
+
+
+def normalize_venue(venue: dict[str, Any]) -> dict[str, Any]:
+    item = copy.deepcopy(venue)
+    item["venue"] = str(item.get("venue", "")).strip()
+    item["year"] = int(item["year"]) if item.get("year") not in ("", None) else None
+    item["month"] = int(item["month"]) if item.get("month") not in ("", None) else None
+    item["order"] = int(item.get("order", 500))
     return {key: value for key, value in item.items() if value not in (None, "", [])}
 
 
@@ -165,30 +160,62 @@ def _clean_optional_string(value: Any) -> str | None:
     return text or None
 
 
-def sort_key(paper: dict[str, Any]) -> tuple[Any, ...]:
+def venue_key(venue: str, year: int | None) -> tuple[str, int | None]:
+    return (venue, year)
+
+
+def venue_index(venues: list[dict[str, Any]] | None = None) -> dict[tuple[str, int | None], dict[str, Any]]:
+    return {venue_key(item.get("venue", ""), item.get("year")): item for item in (venues or load_venues())}
+
+
+def venue_for_paper(paper: dict[str, Any], venues: dict[tuple[str, int | None], dict[str, Any]]) -> dict[str, Any] | None:
+    return venues.get(venue_key(paper.get("venue", ""), paper.get("year")))
+
+
+def venue_sort_key(venue: dict[str, Any]) -> tuple[Any, ...]:
+    return (
+        venue.get("year") or 9999,
+        venue.get("month") or 99,
+        venue.get("order", 500),
+        venue.get("venue", "").lower(),
+    )
+
+
+def sort_key(paper: dict[str, Any], venues: dict[tuple[str, int | None], dict[str, Any]]) -> tuple[Any, ...]:
+    venue_meta = venue_for_paper(paper, venues) or {}
     year = paper.get("year") or 9999
-    month = paper.get("month") or default_month(paper.get("venue", ""), paper.get("year")) or 99
+    month = venue_meta.get("month") or 99
+    order = venue_meta.get("order", 500)
     venue = paper.get("venue", "")
     return (
         year,
         month,
-        VENUE_ORDER.get(venue, 500),
+        order,
         venue.lower(),
         paper.get("track") == "findings",
         paper.get("title", "").lower(),
     )
 
 
-def sorted_papers(papers: list[dict[str, Any]]) -> list[dict[str, Any]]:
-    return sorted(papers, key=sort_key)
+def sorted_papers(
+    papers: list[dict[str, Any]],
+    venues: dict[tuple[str, int | None], dict[str, Any]] | None = None,
+) -> list[dict[str, Any]]:
+    venue_lookup = venues or venue_index()
+    return sorted(papers, key=lambda paper: sort_key(paper, venue_lookup))
 
 
-def group_by_timeline(papers: list[dict[str, Any]]) -> list[dict[str, Any]]:
+def group_by_timeline(
+    papers: list[dict[str, Any]],
+    venues: dict[tuple[str, int | None], dict[str, Any]] | None = None,
+) -> list[dict[str, Any]]:
+    venue_lookup = venues or venue_index()
     by_year: dict[Any, dict[tuple[Any, str], list[dict[str, Any]]]] = defaultdict(lambda: defaultdict(list))
-    for paper in sorted_papers(papers):
+    for paper in sorted_papers(papers, venue_lookup):
         year = paper.get("year") or "Unknown Date"
         venue = paper.get("venue") or "Unknown Venue"
-        month = paper.get("month") or default_month(venue, paper.get("year"))
+        venue_meta = venue_for_paper(paper, venue_lookup) or {}
+        month = venue_meta.get("month")
         by_year[year][(month, venue)].append(paper)
 
     years = sorted(by_year, key=lambda value: value if isinstance(value, int) else 9999)
@@ -199,7 +226,7 @@ def group_by_timeline(papers: list[dict[str, Any]]) -> list[dict[str, Any]]:
             by_year[year].items(),
             key=lambda item: (
                 item[0][0] or 99,
-                VENUE_ORDER.get(item[0][1], 500),
+                venue_lookup.get(venue_key(item[0][1], year), {}).get("order", 500),
                 item[0][1].lower(),
             ),
         ):
@@ -207,12 +234,6 @@ def group_by_timeline(papers: list[dict[str, Any]]) -> list[dict[str, Any]]:
             venue_groups.append({"label": label, "papers": group_papers})
         result.append({"year": year, "venues": venue_groups})
     return result
-
-
-def default_month(venue: str, year: int | None = None) -> int | None:
-    if year is not None and (venue, year) in MONTH_BY_VENUE_YEAR:
-        return MONTH_BY_VENUE_YEAR[(venue, year)]
-    return DEFAULT_MONTH_BY_VENUE.get(venue)
 
 
 def venue_group_label(venue: str, year: Any, month: int | None = None) -> str:
@@ -281,9 +302,39 @@ def slugify(text: str) -> str:
     return slug or "paper"
 
 
-def check_papers(papers: list[dict[str, Any]]) -> tuple[list[str], list[str]]:
+def check_venues(venues: list[dict[str, Any]]) -> tuple[list[str], list[str]]:
     errors: list[str] = []
     warnings: list[str] = []
+    seen: set[tuple[str, int | None]] = set()
+
+    for index, venue in enumerate(venues, start=1):
+        where = f"venue record {index}"
+        key = venue_key(venue.get("venue", ""), venue.get("year"))
+        if not key[0]:
+            errors.append(f"{where}: missing venue")
+        if not key[1]:
+            errors.append(f"{where}: missing year for '{key[0]}'")
+        if key in seen:
+            errors.append(f"{where}: duplicate venue-year mapping for {key[0]} {key[1]}")
+        seen.add(key)
+
+        month = venue.get("month")
+        if month is not None and not 1 <= int(month) <= 12:
+            errors.append(f"{where}: month must be between 1 and 12 for {key[0]} {key[1]}")
+
+        if int(venue.get("order", 500)) < 0:
+            errors.append(f"{where}: order must be non-negative for {key[0]} {key[1]}")
+
+    return errors, warnings
+
+
+def check_papers(
+    papers: list[dict[str, Any]],
+    venues: list[dict[str, Any]] | None = None,
+) -> tuple[list[str], list[str]]:
+    errors: list[str] = []
+    warnings: list[str] = []
+    venue_lookup = venue_index(venues)
 
     title_to_papers: dict[str, list[dict[str, Any]]] = defaultdict(list)
     url_to_papers: dict[str, list[dict[str, Any]]] = defaultdict(list)
@@ -305,8 +356,10 @@ def check_papers(papers: list[dict[str, Any]]) -> tuple[list[str], list[str]]:
             errors.append(f"{where}: missing venue for '{title}'")
         if not paper.get("year"):
             warnings.append(f"{where}: missing year for '{title}'")
-        if paper.get("month") and not 1 <= int(paper["month"]) <= 12:
-            errors.append(f"{where}: month must be between 1 and 12 for '{title}'")
+        if "month" in paper:
+            errors.append(f"{where}: move month for '{title}' to data/venues.yml")
+        if paper.get("venue") and paper.get("year") and venue_for_paper(paper, venue_lookup) is None:
+            errors.append(f"{where}: missing venue-year mapping in data/venues.yml for {paper['venue']} {paper['year']}")
         if paper.get("track") not in TRACKS:
             errors.append(f"{where}: unknown track '{paper.get('track')}' for '{title}'")
 
@@ -314,7 +367,7 @@ def check_papers(papers: list[dict[str, Any]]) -> tuple[list[str], list[str]]:
             if topic not in TOPICS:
                 errors.append(f"{where}: unknown topic '{topic}' for '{title}'")
 
-        if re.search(r"鈥|檛|�", title):
+        if re.search(r"\u9225|\u6a9b|\ufffd", title):
             warnings.append(f"{where}: title may contain mojibake: '{title}'")
 
         url = paper.get("url") or ""

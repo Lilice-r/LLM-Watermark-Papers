@@ -34,7 +34,7 @@ def main() -> int:
     python = sys.executable
     steps = [
         (
-            "Validate data/papers.yml",
+            "Validate data files",
             [python, str(SCRIPTS / "check_format.py"), "--skip-generated"],
             True,
         ),

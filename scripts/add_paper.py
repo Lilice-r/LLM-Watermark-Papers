@@ -4,7 +4,19 @@ import argparse
 from typing import Any
 
 from generate_readme import write_all
-from paperlib import TOPICS, TRACKS, check_papers, load_papers, normalize_paper, save_papers
+from paperlib import (
+    TOPICS,
+    TRACKS,
+    check_papers,
+    check_venues,
+    load_papers,
+    load_venues,
+    normalize_paper,
+    normalize_venue,
+    save_papers,
+    save_venues,
+    venue_key,
+)
 
 
 def prompt_if_missing(value: Any, label: str, *, required: bool = True) -> Any:
@@ -27,12 +39,15 @@ def parse_topics(values: list[str] | None) -> list[str]:
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Add one paper to data/papers.yml and regenerate markdown pages.")
+    parser = argparse.ArgumentParser(
+        description="Add one paper, create a venue-year mapping when needed, and regenerate markdown pages."
+    )
     parser.add_argument("--title")
     parser.add_argument("--url")
     parser.add_argument("--venue")
     parser.add_argument("--year", type=int)
-    parser.add_argument("--month", type=int)
+    parser.add_argument("--venue-month", type=int, help="Month for a new venue/year mapping.")
+    parser.add_argument("--venue-order", type=int, help="Sort order for a new venue/year mapping.")
     parser.add_argument("--track", default="main", choices=sorted(TRACKS))
     parser.add_argument("--topics", nargs="*", help=f"Space- or comma-separated topics: {', '.join(TOPICS)}")
     parser.add_argument("--award")
@@ -44,10 +59,18 @@ def main() -> int:
     title = prompt_if_missing(args.title, "Title")
     venue = prompt_if_missing(args.venue, "Venue")
     year = args.year or int(prompt_if_missing(None, "Year"))
-    month = args.month
-    if month is None:
-        month_text = prompt_if_missing(None, "Month number", required=False)
-        month = int(month_text) if month_text else None
+    venues = load_venues()
+    venue_lookup = {venue_key(item["venue"], item["year"]): item for item in venues}
+    candidate_venues = list(venues)
+    if venue_key(venue, year) not in venue_lookup:
+        month = args.venue_month
+        if month is None:
+            month = int(prompt_if_missing(None, f"Month number for {venue} {year}"))
+        order = args.venue_order
+        if order is None:
+            previous_orders = [item["order"] for item in venues if item.get("venue") == venue and "order" in item]
+            order = previous_orders[0] if previous_orders else 500
+        candidate_venues.append(normalize_venue({"venue": venue, "year": year, "month": month, "order": order}))
 
     topics = parse_topics(args.topics)
     if not topics:
@@ -68,7 +91,6 @@ def main() -> int:
             "url": prompt_if_missing(args.url, "Paper URL", required=False),
             "venue": venue,
             "year": year,
-            "month": month,
             "track": args.track,
             "topics": topics,
             "award": args.award,
@@ -89,7 +111,10 @@ def main() -> int:
                 return 1
 
     candidate = papers + [paper]
-    errors, warnings = check_papers(candidate)
+    venue_errors, venue_warnings = check_venues(candidate_venues)
+    paper_errors, paper_warnings = check_papers(candidate, candidate_venues)
+    errors = venue_errors + paper_errors
+    warnings = venue_warnings + paper_warnings
     for warning in warnings:
         print(f"warning: {warning}")
     if errors:
@@ -97,6 +122,7 @@ def main() -> int:
             print(f"error: {error}")
         return 1
 
+    save_venues(candidate_venues)
     save_papers(candidate)
     if not args.no_generate:
         write_all()

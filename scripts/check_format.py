@@ -4,7 +4,7 @@ import argparse
 import re
 
 from generate_readme import render_all
-from paperlib import DATA_PATH, ROOT, check_papers, load_papers
+from paperlib import DATA_PATH, ROOT, VENUES_PATH, check_papers, check_venues, load_papers, load_venues
 
 
 EMPTY_PAPER_LINK = re.compile(r"\[\[paper\]\]\(\)")
@@ -29,19 +29,26 @@ def check_generated_files() -> tuple[list[str], list[str]]:
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Check paper data and generated markdown files.")
+    parser = argparse.ArgumentParser(description="Check paper and venue data plus generated markdown files.")
     parser.add_argument(
         "--skip-generated",
         action="store_true",
-        help="Only validate data/papers.yml, without checking generated markdown files.",
+        help="Only validate data files, without checking generated markdown files.",
     )
     args = parser.parse_args()
 
     if not DATA_PATH.exists():
         print(f"error: missing {DATA_PATH.relative_to(ROOT)}")
         return 1
+    if not VENUES_PATH.exists():
+        print(f"error: missing {VENUES_PATH.relative_to(ROOT)}")
+        return 1
 
-    errors, warnings = check_papers(load_papers())
+    venues = load_venues()
+    venue_errors, venue_warnings = check_venues(venues)
+    paper_errors, paper_warnings = check_papers(load_papers(), venues)
+    errors = venue_errors + paper_errors
+    warnings = venue_warnings + paper_warnings
     if not args.skip_generated:
         generated_errors, generated_warnings = check_generated_files()
         errors.extend(generated_errors)
