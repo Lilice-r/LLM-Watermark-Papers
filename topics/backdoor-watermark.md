@@ -60,5 +60,5 @@
 ### ACL 2026 (July)
 
 - **RShield: A User-level Traceable Backdoor Watermark for LLMs in Embedding-as-a-Service**  
-  paper: TBD | ACL 2026 Findings
+  [paper](https://aclanthology.org/2026.findings-acl.1347.pdf) | ACL 2026 Findings
 

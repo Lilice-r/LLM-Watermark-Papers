@@ -66,10 +66,11 @@
   [paper](https://aclanthology.org/2026.acl-long.672.pdf) | ACL 2026
 - **You Can Have a Second Chance: Unbiased and Multi-bit Watermarking for Diffusion Language Models with Regret-based Remasking**  
   [paper](https://aclanthology.org/2026.acl-long.1297.pdf) | ACL 2026
-- **Block-wise Codeword Embedding for Reliable Multi-bit Text Watermarking**  
-  [paper](https://aclanthology.org/2026.findings-acl.1347.pdf) | ACL 2026 Findings
 - **From TDMA to CDMA: A Multi-bit Watermark for Diffusion Language Models**  
   [paper](https://aclanthology.org/2026.findings-acl.1066.pdf) | ACL 2026 Findings
-- **RShield: A User-level Traceable Backdoor Watermark for LLMs in Embedding-as-a-Service**  
-  paper: TBD | ACL 2026 Findings
+
+### ICML 2026 (July)
+
+- **Block-wise Codeword Embedding for Reliable Multi-bit Text Watermarking**  
+  paper: TBD | ICML 2026
 

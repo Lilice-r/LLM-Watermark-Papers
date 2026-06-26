@@ -381,8 +381,6 @@ python scripts\pipeline.py --skip-git
   [paper](https://aclanthology.org/2026.acl-long.1297.pdf) | ACL 2026 | [![Multi-bit](https://img.shields.io/badge/Multi--bit-orange)](topics/multi-bit.md)
 - **Beyond A Fixed Seal: Adaptive Stealing Watermark in Large Language Models**  
   [paper](https://aclanthology.org/2026.findings-acl.1036.pdf) | ACL 2026 Findings | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
-- **Block-wise Codeword Embedding for Reliable Multi-bit Text Watermarking**  
-  [paper](https://aclanthology.org/2026.findings-acl.1347.pdf) | ACL 2026 Findings | [![Multi-bit](https://img.shields.io/badge/Multi--bit-orange)](topics/multi-bit.md)
 - **DualGuard: Dual-stream Large Language Model Watermarking Defense against Paraphrase and Spoofing Attack**  
   [paper](https://aclanthology.org/2026.findings-acl.1169.pdf) | ACL 2026 Findings | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
 - **EntroBench: Evaluating LLM Watermarking Under Multi-Entropy Scenarios and Practical User Operations**  
@@ -398,7 +396,7 @@ python scripts\pipeline.py --skip-git
 - **Rethinking LLM Watermark Detection in Black-Box Settings: A Non-Intrusive Third-Party Framework**  
   [paper](https://aclanthology.org/2026.findings-acl.990.pdf) | ACL 2026 Findings | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
 - **RShield: A User-level Traceable Backdoor Watermark for LLMs in Embedding-as-a-Service**  
-  paper: TBD | ACL 2026 Findings | [![Backdoor Watermark](https://img.shields.io/badge/Backdoor%20Watermark-blueviolet)](topics/backdoor-watermark.md) | [![Multi-bit](https://img.shields.io/badge/Multi--bit-orange)](topics/multi-bit.md)
+  [paper](https://aclanthology.org/2026.findings-acl.1347.pdf) | ACL 2026 Findings | [![Backdoor Watermark](https://img.shields.io/badge/Backdoor%20Watermark-blueviolet)](topics/backdoor-watermark.md)
 - **The Mark Fades: Adaptive Evolutionary Paraphrase-based Attack against LLM Watermarks**  
   [paper](https://aclanthology.org/2026.findings-acl.459.pdf) | ACL 2026 Findings | [![Attack](https://img.shields.io/badge/Attack-red)](topics/attack.md)
 - **Topic-Based Watermarks for Large Language Models**  
@@ -410,6 +408,8 @@ python scripts\pipeline.py --skip-git
   paper: TBD | ICML 2026 | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
 - **AliMark: Enhancing Robustness of Sentence-Level Watermarks Against Text Paraphrasing**  
   [paper](https://arxiv.org/abs/2605.29434) | ICML 2026 | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
+- **Block-wise Codeword Embedding for Reliable Multi-bit Text Watermarking**  
+  paper: TBD | ICML 2026 | [![Multi-bit](https://img.shields.io/badge/Multi--bit-orange)](topics/multi-bit.md)
 - **Catch-22: On the Fundamental Tradeoff Between Detectability and Robustness in LLM Watermarking**  
   paper: TBD | ICML 2026 | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
 - **dgMARK: Decoding-Guided Watermarking for Diffusion Language Models**  

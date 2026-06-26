@@ -915,20 +915,18 @@
   topics:
   - multi-bit
 - title: Block-wise Codeword Embedding for Reliable Multi-bit Text Watermarking
+  venue: ICML
+  year: 2026
+  track: main
+  topics:
+  - multi-bit
+- title: 'RShield: A User-level Traceable Backdoor Watermark for LLMs in Embedding-as-a-Service'
   url: https://aclanthology.org/2026.findings-acl.1347.pdf
   venue: ACL
   year: 2026
   track: findings
   topics:
-  - multi-bit
-- title: 'RShield: A User-level Traceable Backdoor Watermark for LLMs in Embedding-as-a-Service'
-  venue: ACL
-  year: 2026
-  track: findings
-  topics:
   - backdoor-watermark
-  - multi-bit
-  notes: Original README had both an empty URL and a URL duplicated from another paper.
 - title: Watermark Stealing in Large Language Models
   url: https://arxiv.org/pdf/2402.19361
   venue: ICML
