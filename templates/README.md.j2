@@ -1,0 +1,34 @@
+# LLM Watermark Papers
+
+This repository tracks papers related to LLM watermarking. The main list is sorted by venue or journal time. Topic-specific views are generated from the same data source.
+
+> Note: We believe that KGW is the starting point of LLM Watermark, so we only collect watermarking work after KGW.
+
+## Topic Pages
+
+{% for topic, label in topics.items() -%}
+- [{{ label }}](topics/{{ topic }}.md)
+{% endfor %}
+
+## Maintenance
+
+After manually editing `data/papers.yml`, run:
+
+```powershell
+python scripts\pipeline.py
+```
+
+## Timeline
+
+{% for year_group in timeline -%}
+### {{ year_group.year }}
+
+{% for venue_group in year_group.venues -%}
+#### {{ venue_group.label }}
+
+{% for paper in venue_group.papers -%}
+{{ paper_item(paper, include_topics=True, topic_prefix="topics/") }}
+{% endfor %}
+
+{% endfor -%}
+{% endfor -%}

@@ -1,0 +1,20 @@
+# {{ label }} Papers
+
+[Back to README](../README.md)
+
+{% if timeline -%}
+{% for year_group in timeline -%}
+## {{ year_group.year }}
+
+{% for venue_group in year_group.venues -%}
+### {{ venue_group.label }}
+
+{% for paper in venue_group.papers -%}
+{{ paper_item(paper, include_topics=False) }}
+{% endfor %}
+
+{% endfor -%}
+{% endfor -%}
+{% else -%}
+No papers yet.
+{% endif -%}
