@@ -415,7 +415,7 @@ python scripts\pipeline.py --skip-git
 - **dgMARK: Decoding-Guided Watermarking for Diffusion Language Models**  
   [paper](https://arxiv.org/abs/2601.22985) | ICML 2026 | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
 - **Echoes within the Reasoning: Stealth and Effective Watermarking via Chain of Thought**  
-  [paper](https://arxiv.org/abs/2605.28890) | ICML 2026 | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
+  [paper](https://arxiv.org/abs/2605.28890) | ICML 2026 | [![Backdoor Watermark](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
 - **How Good is Post-Hoc Watermarking With Language Model Rephrasing?**  
   [paper](https://arxiv.org/abs/2512.16904) | ICML 2026 | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
 - **IACW: Intent-Aware Controllable Watermarking for Scalable Authorial Intent Attribution**  
