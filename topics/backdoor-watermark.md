@@ -62,3 +62,8 @@
 - **RShield: A User-level Traceable Backdoor Watermark for LLMs in Embedding-as-a-Service**  
   [paper](https://aclanthology.org/2026.findings-acl.1347.pdf) | ACL 2026 Findings
 
+### ICML 2026 (July)
+
+- **Echoes within the Reasoning: Stealth and Effective Watermarking via Chain of Thought**  
+  [paper](https://arxiv.org/abs/2605.28890) | ICML 2026
+

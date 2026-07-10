@@ -741,7 +741,7 @@
   year: 2026
   track: main
   topics:
-  - zero-bit
+  - backdoor-watermark
 - title: Stability-Aware Feature Design for Robust Watermark Detection in Machine-Generated Text
   url: https://openreview.net/pdf?id=u1OeOCErbj
   venue: ICML

@@ -275,8 +275,6 @@
   [paper](https://openreview.net/pdf?id=097IlaUfQY) | ICML 2026
 - **dgMARK: Decoding-Guided Watermarking for Diffusion Language Models**  
   [paper](https://arxiv.org/abs/2601.22985) | ICML 2026
-- **Echoes within the Reasoning: Stealth and Effective Watermarking via Chain of Thought**  
-  [paper](https://arxiv.org/abs/2605.28890) | ICML 2026
 - **How Good is Post-Hoc Watermarking With Language Model Rephrasing?**  
   [paper](https://arxiv.org/abs/2512.16904) | ICML 2026
 - **IACW: Intent-Aware Controllable Watermarking for Scalable Authorial Intent Attribution**  
