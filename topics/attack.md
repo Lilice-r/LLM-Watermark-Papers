@@ -46,6 +46,8 @@
 
 ### ACL 2026 (July)
 
+- **Beyond A Fixed Seal: Adaptive Stealing Watermark in Large Language Models**  
+  [paper](https://aclanthology.org/2026.findings-acl.1036.pdf) | ACL 2026 Findings
 - **Measuring Watermarking under Jailbreaking: ASR Inflation and Goal-Compliance Mismatch**  
   [paper](https://aclanthology.org/2026.findings-acl.1797.pdf) | ACL 2026 Findings
 - **The Mark Fades: Adaptive Evolutionary Paraphrase-based Attack against LLM Watermarks**  
@@ -56,5 +58,5 @@
 - **Linear Ensembles Wash Away Watermarks: On the Fragility of Distributional Perturbations in LLMs**  
   [paper](https://arxiv.org/abs/2605.30501) | ICML 2026
 - **Rethinking Forgery Attacks on Semantic Watermarks in Black-Box Settings: A Geometric Distortion Perspective**  
-  paper: TBD | ICML 2026
+  [paper](https://arxiv.org/pdf/2606.29807) | ICML 2026
 

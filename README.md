@@ -365,8 +365,8 @@ python scripts\pipeline.py --skip-git
   [paper](https://aclanthology.org/2026.acl-long.573.pdf) | ACL 2026 | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
 - **Don’t Corrupt the Fact: A Trustworthy RAG Watermarking Framework based on Dual Factual Shield**  
   [paper](https://aclanthology.org/2026.acl-long.2075.pdf) | ACL 2026 | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
-- **Knowledge-Infused Multi-Bit Watermarking for RAG Knowledge Bases**  
-  [paper](https://aclanthology.org/2026.acl-long.1298.pdf) | ACL 2026 | [![Multi-bit](https://img.shields.io/badge/Multi--bit-orange)](topics/multi-bit.md)
+- **From TDMA to CDMA: A Multi-bit Watermark for Diffusion Language Models**  
+  [paper](https://aclanthology.org/2026.acl-long.1737.pdf) | ACL 2026 | [![Multi-bit](https://img.shields.io/badge/Multi--bit-orange)](topics/multi-bit.md)
 - **QuantileMark: A Message-Symmetric Multi-bit Watermark for LLMs**  
   [paper](https://aclanthology.org/2026.acl-long.308.pdf) | ACL 2026 | [![Multi-bit](https://img.shields.io/badge/Multi--bit-orange)](topics/multi-bit.md)
 - **ReasMark: A Robust Watermark for Attributing LLM Reasoning Under Knowledge Distillation Attacks**  
@@ -380,12 +380,12 @@ python scripts\pipeline.py --skip-git
 - **You Can Have a Second Chance: Unbiased and Multi-bit Watermarking for Diffusion Language Models with Regret-based Remasking**  
   [paper](https://aclanthology.org/2026.acl-long.1297.pdf) | ACL 2026 | [![Multi-bit](https://img.shields.io/badge/Multi--bit-orange)](topics/multi-bit.md)
 - **Beyond A Fixed Seal: Adaptive Stealing Watermark in Large Language Models**  
-  [paper](https://aclanthology.org/2026.findings-acl.1036.pdf) | ACL 2026 Findings | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
+  [paper](https://aclanthology.org/2026.findings-acl.1036.pdf) | ACL 2026 Findings | [![Attack](https://img.shields.io/badge/Attack-red)](topics/attack.md)
 - **DualGuard: Dual-stream Large Language Model Watermarking Defense against Paraphrase and Spoofing Attack**  
   [paper](https://aclanthology.org/2026.findings-acl.1169.pdf) | ACL 2026 Findings | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
 - **EntroBench: Evaluating LLM Watermarking Under Multi-Entropy Scenarios and Practical User Operations**  
   [paper](https://aclanthology.org/2026.findings-acl.2089.pdf) | ACL 2026 Findings | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
-- **From TDMA to CDMA: A Multi-bit Watermark for Diffusion Language Models**  
+- **Knowledge-Infused Multi-Bit Watermarking for RAG Knowledge Bases**  
   [paper](https://aclanthology.org/2026.findings-acl.1066.pdf) | ACL 2026 Findings | [![Multi-bit](https://img.shields.io/badge/Multi--bit-orange)](topics/multi-bit.md)
 - **LR-DWM: Efficient Watermarking for Diffusion Language Models**  
   [paper](https://aclanthology.org/2026.findings-acl.2161.pdf) | ACL 2026 Findings | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
@@ -405,43 +405,41 @@ python scripts\pipeline.py --skip-git
 #### ICML 2026 (July)
 
 - **Adaptive Code Watermarking Through Reinforcement Learning**  
-  paper: TBD | ICML 2026 | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
+  [paper](https://openreview.net/pdf?id=4xjq3iR4aK) | ICML 2026 | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
 - **AliMark: Enhancing Robustness of Sentence-Level Watermarks Against Text Paraphrasing**  
   [paper](https://arxiv.org/abs/2605.29434) | ICML 2026 | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
 - **Block-wise Codeword Embedding for Reliable Multi-bit Text Watermarking**  
-  paper: TBD | ICML 2026 | [![Multi-bit](https://img.shields.io/badge/Multi--bit-orange)](topics/multi-bit.md)
+  [paper](https://openreview.net/pdf?id=Ym1zKxtv8V) | ICML 2026 | [![Multi-bit](https://img.shields.io/badge/Multi--bit-orange)](topics/multi-bit.md)
 - **Catch-22: On the Fundamental Tradeoff Between Detectability and Robustness in LLM Watermarking**  
-  paper: TBD | ICML 2026 | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
+  [paper](https://openreview.net/pdf?id=097IlaUfQY) | ICML 2026 | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
 - **dgMARK: Decoding-Guided Watermarking for Diffusion Language Models**  
   [paper](https://arxiv.org/abs/2601.22985) | ICML 2026 | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
 - **Echoes within the Reasoning: Stealth and Effective Watermarking via Chain of Thought**  
-  [paper](https://arxiv.org/abs/2605.28890) | ICML 2026 | [![Backdoor Watermark](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
+  [paper](https://arxiv.org/abs/2605.28890) | ICML 2026 | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
 - **How Good is Post-Hoc Watermarking With Language Model Rephrasing?**  
   [paper](https://arxiv.org/abs/2512.16904) | ICML 2026 | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
 - **IACW: Intent-Aware Controllable Watermarking for Scalable Authorial Intent Attribution**  
-  paper: TBD | ICML 2026 | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
+  [paper](https://openreview.net/pdf?id=AMI4RvJaS0) | ICML 2026 | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
 - **Ideal Attribution and Faithful Watermarks for Language Models**  
   [paper](https://arxiv.org/abs/2512.07038) | ICML 2026 | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
 - **IPMark: A Sentence-Level Watermark for LLMs with Hierarchical Personalization and Efficient Detection**  
-  paper: TBD | ICML 2026 | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
+  [paper](https://openreview.net/pdf?id=JjILY9i6Wi) | ICML 2026 | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
 - **Linear Ensembles Wash Away Watermarks: On the Fragility of Distributional Perturbations in LLMs**  
   [paper](https://arxiv.org/abs/2605.30501) | ICML 2026 | [![Attack](https://img.shields.io/badge/Attack-red)](topics/attack.md)
 - **LORD-GoF: A Robust Online Detection Approach for LLM Watermarks in Sparse and Mixed Streams**  
-  paper: TBD | ICML 2026 | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
+  [paper](https://openreview.net/pdf?id=ovjx7lFuKu) | ICML 2026 | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
 - **PASA: A Principled Embedding-Space Watermarking Approach for LLM-Generated Text under Semantic-Invariant Attacks**  
   [paper](https://arxiv.org/abs/2605.10977) | ICML 2026 | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
 - **Power-Calibrated LLM Watermarking: A Statistical Framework**  
-  paper: TBD | ICML 2026 | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
+  [paper](https://openreview.net/pdf?id=UGbAjDMxnk) | ICML 2026 | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
 - **Rethinking Forgery Attacks on Semantic Watermarks in Black-Box Settings: A Geometric Distortion Perspective**  
-  paper: TBD | ICML 2026 | [![Attack](https://img.shields.io/badge/Attack-red)](topics/attack.md)
-- **Revisiting Coding-Based Approaches to Overcome the Curse of Dimensionality in Learning-Based Watermarking**  
-  paper: TBD | ICML 2026 | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
+  [paper](https://arxiv.org/pdf/2606.29807) | ICML 2026 | [![Attack](https://img.shields.io/badge/Attack-red)](topics/attack.md)
 - **Selective Disclosure Watermarking for Large Language Models**  
-  paper: TBD | ICML 2026 | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
+  [paper](https://openreview.net/pdf?id=Oi1AISOxzt) | ICML 2026 | [![Multi-bit](https://img.shields.io/badge/Multi--bit-orange)](topics/multi-bit.md)
 - **Stability-Aware Feature Design for Robust Watermark Detection in Machine-Generated Text**  
-  paper: TBD | ICML 2026 | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
+  [paper](https://openreview.net/pdf?id=u1OeOCErbj) | ICML 2026 | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
 - **Towards Reliable Marking and Verification of AI-Generated Text via Geometry-aware Sentence-level Watermarking**  
-  paper: TBD | ICML 2026 | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
+  [paper](https://openreview.net/pdf?id=r0sWQkr3Jx) | ICML 2026 | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
 - **Watermarking LLM Agent Trajectories**  
   [paper](https://arxiv.org/abs/2602.18700) | ICML 2026 | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
 

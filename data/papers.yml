@@ -664,7 +664,7 @@
   year: 2026
   track: findings
   topics:
-  - zero-bit
+  - attack
 - title: Topic-Based Watermarks for Large Language Models
   url: https://aclanthology.org/2026.findings-acl.1220.pdf
   venue: ACL
@@ -715,11 +715,12 @@
   topics:
   - zero-bit
 - title: Selective Disclosure Watermarking for Large Language Models
+  url: https://openreview.net/pdf?id=Oi1AISOxzt
   venue: ICML
   year: 2026
   track: main
   topics:
-  - zero-bit
+  - multi-bit
 - title: 'dgMARK: Decoding-Guided Watermarking for Diffusion Language Models'
   url: https://arxiv.org/abs/2601.22985
   venue: ICML
@@ -728,6 +729,7 @@
   topics:
   - zero-bit
 - title: 'Catch-22: On the Fundamental Tradeoff Between Detectability and Robustness in LLM Watermarking'
+  url: https://openreview.net/pdf?id=097IlaUfQY
   venue: ICML
   year: 2026
   track: main
@@ -740,43 +742,43 @@
   track: main
   topics:
   - zero-bit
-- title: Revisiting Coding-Based Approaches to Overcome the Curse of Dimensionality in Learning-Based Watermarking
-  venue: ICML
-  year: 2026
-  track: main
-  topics:
-  - zero-bit
 - title: Stability-Aware Feature Design for Robust Watermark Detection in Machine-Generated Text
+  url: https://openreview.net/pdf?id=u1OeOCErbj
   venue: ICML
   year: 2026
   track: main
   topics:
   - zero-bit
 - title: 'LORD-GoF: A Robust Online Detection Approach for LLM Watermarks in Sparse and Mixed Streams'
+  url: https://openreview.net/pdf?id=ovjx7lFuKu
   venue: ICML
   year: 2026
   track: main
   topics:
   - zero-bit
 - title: 'IACW: Intent-Aware Controllable Watermarking for Scalable Authorial Intent Attribution'
+  url: https://openreview.net/pdf?id=AMI4RvJaS0
   venue: ICML
   year: 2026
   track: main
   topics:
   - zero-bit
 - title: Adaptive Code Watermarking Through Reinforcement Learning
+  url: https://openreview.net/pdf?id=4xjq3iR4aK
   venue: ICML
   year: 2026
   track: main
   topics:
   - zero-bit
 - title: Towards Reliable Marking and Verification of AI-Generated Text via Geometry-aware Sentence-level Watermarking
+  url: https://openreview.net/pdf?id=r0sWQkr3Jx
   venue: ICML
   year: 2026
   track: main
   topics:
   - zero-bit
 - title: 'Power-Calibrated LLM Watermarking: A Statistical Framework'
+  url: https://openreview.net/pdf?id=UGbAjDMxnk
   venue: ICML
   year: 2026
   track: main
@@ -790,6 +792,7 @@
   topics:
   - zero-bit
 - title: 'IPMark: A Sentence-Level Watermark for LLMs with Hierarchical Personalization and Efficient Detection'
+  url: https://openreview.net/pdf?id=JjILY9i6Wi
   venue: ICML
   year: 2026
   track: main
@@ -901,20 +904,21 @@
   topics:
   - multi-bit
 - title: 'From TDMA to CDMA: A Multi-bit Watermark for Diffusion Language Models'
+  url: https://aclanthology.org/2026.acl-long.1737.pdf
+  venue: ACL
+  year: 2026
+  track: main
+  topics:
+  - multi-bit
+- title: Knowledge-Infused Multi-Bit Watermarking for RAG Knowledge Bases
   url: https://aclanthology.org/2026.findings-acl.1066.pdf
   venue: ACL
   year: 2026
   track: findings
   topics:
   - multi-bit
-- title: Knowledge-Infused Multi-Bit Watermarking for RAG Knowledge Bases
-  url: https://aclanthology.org/2026.acl-long.1298.pdf
-  venue: ACL
-  year: 2026
-  track: main
-  topics:
-  - multi-bit
 - title: Block-wise Codeword Embedding for Reliable Multi-bit Text Watermarking
+  url: https://openreview.net/pdf?id=Ym1zKxtv8V
   venue: ICML
   year: 2026
   track: main
@@ -998,6 +1002,7 @@
   topics:
   - attack
 - title: 'Rethinking Forgery Attacks on Semantic Watermarks in Black-Box Settings: A Geometric Distortion Perspective'
+  url: https://arxiv.org/pdf/2606.29807
   venue: ICML
   year: 2026
   track: main

@@ -58,19 +58,21 @@
 
 ### ACL 2026 (July)
 
-- **Knowledge-Infused Multi-Bit Watermarking for RAG Knowledge Bases**  
-  [paper](https://aclanthology.org/2026.acl-long.1298.pdf) | ACL 2026
+- **From TDMA to CDMA: A Multi-bit Watermark for Diffusion Language Models**  
+  [paper](https://aclanthology.org/2026.acl-long.1737.pdf) | ACL 2026
 - **QuantileMark: A Message-Symmetric Multi-bit Watermark for LLMs**  
   [paper](https://aclanthology.org/2026.acl-long.308.pdf) | ACL 2026
 - **XMark: Reliable Multi-Bit Watermarking for LLM-Generated Texts**  
   [paper](https://aclanthology.org/2026.acl-long.672.pdf) | ACL 2026
 - **You Can Have a Second Chance: Unbiased and Multi-bit Watermarking for Diffusion Language Models with Regret-based Remasking**  
   [paper](https://aclanthology.org/2026.acl-long.1297.pdf) | ACL 2026
-- **From TDMA to CDMA: A Multi-bit Watermark for Diffusion Language Models**  
+- **Knowledge-Infused Multi-Bit Watermarking for RAG Knowledge Bases**  
   [paper](https://aclanthology.org/2026.findings-acl.1066.pdf) | ACL 2026 Findings
 
 ### ICML 2026 (July)
 
 - **Block-wise Codeword Embedding for Reliable Multi-bit Text Watermarking**  
-  paper: TBD | ICML 2026
+  [paper](https://openreview.net/pdf?id=Ym1zKxtv8V) | ICML 2026
+- **Selective Disclosure Watermarking for Large Language Models**  
+  [paper](https://openreview.net/pdf?id=Oi1AISOxzt) | ICML 2026
 

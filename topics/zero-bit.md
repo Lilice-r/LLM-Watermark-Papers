@@ -252,8 +252,6 @@
   [paper](https://aclanthology.org/2026.acl-long.1702.pdf) | ACL 2026
 - **SWAN: Semantic Watermarking with Abstract Meaning Representation**  
   [paper](https://aclanthology.org/2026.acl-long.1681.pdf) | ACL 2026
-- **Beyond A Fixed Seal: Adaptive Stealing Watermark in Large Language Models**  
-  [paper](https://aclanthology.org/2026.findings-acl.1036.pdf) | ACL 2026 Findings
 - **DualGuard: Dual-stream Large Language Model Watermarking Defense against Paraphrase and Spoofing Attack**  
   [paper](https://aclanthology.org/2026.findings-acl.1169.pdf) | ACL 2026 Findings
 - **EntroBench: Evaluating LLM Watermarking Under Multi-Entropy Scenarios and Practical User Operations**  
@@ -270,11 +268,11 @@
 ### ICML 2026 (July)
 
 - **Adaptive Code Watermarking Through Reinforcement Learning**  
-  paper: TBD | ICML 2026
+  [paper](https://openreview.net/pdf?id=4xjq3iR4aK) | ICML 2026
 - **AliMark: Enhancing Robustness of Sentence-Level Watermarks Against Text Paraphrasing**  
   [paper](https://arxiv.org/abs/2605.29434) | ICML 2026
 - **Catch-22: On the Fundamental Tradeoff Between Detectability and Robustness in LLM Watermarking**  
-  paper: TBD | ICML 2026
+  [paper](https://openreview.net/pdf?id=097IlaUfQY) | ICML 2026
 - **dgMARK: Decoding-Guided Watermarking for Diffusion Language Models**  
   [paper](https://arxiv.org/abs/2601.22985) | ICML 2026
 - **Echoes within the Reasoning: Stealth and Effective Watermarking via Chain of Thought**  
@@ -282,25 +280,21 @@
 - **How Good is Post-Hoc Watermarking With Language Model Rephrasing?**  
   [paper](https://arxiv.org/abs/2512.16904) | ICML 2026
 - **IACW: Intent-Aware Controllable Watermarking for Scalable Authorial Intent Attribution**  
-  paper: TBD | ICML 2026
+  [paper](https://openreview.net/pdf?id=AMI4RvJaS0) | ICML 2026
 - **Ideal Attribution and Faithful Watermarks for Language Models**  
   [paper](https://arxiv.org/abs/2512.07038) | ICML 2026
 - **IPMark: A Sentence-Level Watermark for LLMs with Hierarchical Personalization and Efficient Detection**  
-  paper: TBD | ICML 2026
+  [paper](https://openreview.net/pdf?id=JjILY9i6Wi) | ICML 2026
 - **LORD-GoF: A Robust Online Detection Approach for LLM Watermarks in Sparse and Mixed Streams**  
-  paper: TBD | ICML 2026
+  [paper](https://openreview.net/pdf?id=ovjx7lFuKu) | ICML 2026
 - **PASA: A Principled Embedding-Space Watermarking Approach for LLM-Generated Text under Semantic-Invariant Attacks**  
   [paper](https://arxiv.org/abs/2605.10977) | ICML 2026
 - **Power-Calibrated LLM Watermarking: A Statistical Framework**  
-  paper: TBD | ICML 2026
-- **Revisiting Coding-Based Approaches to Overcome the Curse of Dimensionality in Learning-Based Watermarking**  
-  paper: TBD | ICML 2026
-- **Selective Disclosure Watermarking for Large Language Models**  
-  paper: TBD | ICML 2026
+  [paper](https://openreview.net/pdf?id=UGbAjDMxnk) | ICML 2026
 - **Stability-Aware Feature Design for Robust Watermark Detection in Machine-Generated Text**  
-  paper: TBD | ICML 2026
+  [paper](https://openreview.net/pdf?id=u1OeOCErbj) | ICML 2026
 - **Towards Reliable Marking and Verification of AI-Generated Text via Geometry-aware Sentence-level Watermarking**  
-  paper: TBD | ICML 2026
+  [paper](https://openreview.net/pdf?id=r0sWQkr3Jx) | ICML 2026
 - **Watermarking LLM Agent Trajectories**  
   [paper](https://arxiv.org/abs/2602.18700) | ICML 2026
 
