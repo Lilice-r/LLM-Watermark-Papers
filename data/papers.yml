@@ -1,4 +1,4 @@
-- title: A Survey of Text Watermarking in the Era of Large Language Models
+- title: 'A Survey of Text Watermarking in the Era of Large Language Models'
   url: https://dl.acm.org/doi/pdf/10.1145/3691626
   venue: ACM Computing Surveys
   year: 2024
@@ -13,7 +13,7 @@
   track: main
   topics:
   - survey
-- title: A Watermark for Large Language Models
+- title: 'A Watermark for Large Language Models'
   url: https://arxiv.org/pdf/2301.10226
   venue: ICML
   year: 2023
@@ -21,42 +21,42 @@
   topics:
   - zero-bit
   award: OutstandingPaper
-- title: A Semantic Invariant Robust Watermark for Large Language Models
+- title: 'A Semantic Invariant Robust Watermark for Large Language Models'
   url: https://openreview.net/pdf?id=6p8lpe4MNf
   venue: ICLR
   year: 2024
   track: main
   topics:
   - zero-bit
-- title: Unbiased Watermark for Large Language Models
+- title: 'Unbiased Watermark for Large Language Models'
   url: https://openreview.net/pdf?id=uWVC5FVidc
   venue: ICLR
   year: 2024
   track: main
   topics:
   - zero-bit
-- title: Provable Robust Watermarking for AI-Generated Text
+- title: 'Provable Robust Watermarking for AI-Generated Text'
   url: https://openreview.net/pdf?id=SsmT8aO45L
   venue: ICLR
   year: 2024
   track: main
   topics:
   - zero-bit
-- title: On the Reliability of Watermarks for Large Language Models
+- title: 'On the Reliability of Watermarks for Large Language Models'
   url: https://openreview.net/pdf?id=DEJIDCmWOz
   venue: ICLR
   year: 2024
   track: main
   topics:
   - zero-bit
-- title: On the Learnability of Watermarks for Language Models
+- title: 'On the Learnability of Watermarks for Language Models'
   url: https://openreview.net/pdf?id=9k0krNzvlV
   venue: ICLR
   year: 2024
   track: main
   topics:
   - zero-bit
-- title: An Unforgeable Publicly Verifiable Watermark for Large Language Models
+- title: 'An Unforgeable Publicly Verifiable Watermark for Large Language Models'
   url: https://openreview.net/pdf?id=gMLQwKDY3N
   venue: ICLR
   year: 2024
@@ -70,7 +70,7 @@
   track: main
   topics:
   - zero-bit
-- title: A Robust Semantics-based Watermark for Large Language Model against Paraphrasing
+- title: 'A Robust Semantics-based Watermark for Large Language Model against Paraphrasing'
   url: https://arxiv.org/pdf/2311.08721.pdf
   venue: NAACL
   year: 2024
@@ -84,14 +84,14 @@
   track: findings
   topics:
   - zero-bit
-- title: Optimizing Watermarks for Large Language Models
+- title: 'Optimizing Watermarks for Large Language Models'
   url: https://arxiv.org/pdf/2312.17295
   venue: ICML
   year: 2024
   track: main
   topics:
   - zero-bit
-- title: Adaptive Text Watermark for Large Language Models
+- title: 'Adaptive Text Watermark for Large Language Models'
   url: https://arxiv.org/pdf/2401.13927.pdf
   venue: ICML
   year: 2024
@@ -105,14 +105,14 @@
   track: main
   topics:
   - zero-bit
-- title: Token-Specific Watermarking with Enhanced Detectability and Semantic Coherence for Large Language Models
+- title: 'Token-Specific Watermarking with Enhanced Detectability and Semantic Coherence for Large Language Models'
   url: https://arxiv.org/pdf/2402.18059.pdf
   venue: ICML
   year: 2024
   track: main
   topics:
   - zero-bit
-- title: A Resilient and Accessible Distribution-Preserving Watermark for Large Language Models
+- title: 'A Resilient and Accessible Distribution-Preserving Watermark for Large Language Models'
   url: https://arxiv.org/pdf/2310.07710.pdf
   venue: ICML
   year: 2024
@@ -126,14 +126,14 @@
   track: main
   topics:
   - zero-bit
-- title: Can Watermarks Survive Translation? On the Cross-lingual Consistency of Text Watermark for Large Language Models
+- title: 'Can Watermarks Survive Translation? On the Cross-lingual Consistency of Text Watermark for Large Language Models'
   url: https://aclanthology.org/2024.acl-long.226.pdf
   venue: ACL
   year: 2024
   track: main
   topics:
   - zero-bit
-- title: Who Wrote this Code? Watermarking for Code Generation
+- title: 'Who Wrote this Code? Watermarking for Code Generation'
   url: https://aclanthology.org/2024.acl-long.268.pdf
   venue: ACL
   year: 2024
@@ -154,7 +154,7 @@
   track: main
   topics:
   - zero-bit
-- title: An Entropy-based Text Watermarking Detection Method
+- title: 'An Entropy-based Text Watermarking Detection Method'
   url: https://aclanthology.org/2024.acl-long.630.pdf
   venue: ACL
   year: 2024
@@ -189,14 +189,14 @@
   track: main
   topics:
   - zero-bit
-- title: Revisiting the Robustness of Watermarking to Paraphrasing Attacks
+- title: 'Revisiting the Robustness of Watermarking to Paraphrasing Attacks'
   url: https://aclanthology.org/2024.emnlp-main.1005.pdf
   venue: EMNLP
   year: 2024
   track: main
   topics:
   - zero-bit
-- title: Context-aware Watermark with Semantic Balanced Green-red Lists for Large Language Models
+- title: 'Context-aware Watermark with Semantic Balanced Green-red Lists for Large Language Models'
   url: https://aclanthology.org/2024.emnlp-main.1260/
   venue: EMNLP
   year: 2024
@@ -210,7 +210,7 @@
   track: findings
   topics:
   - zero-bit
-- title: Downstream Trade-offs of a Family of Text Watermarks
+- title: 'Downstream Trade-offs of a Family of Text Watermarks'
   url: https://aclanthology.org/2024.findings-emnlp.821.pdf
   venue: EMNLP
   year: 2024
@@ -224,14 +224,14 @@
   track: main
   topics:
   - zero-bit
-- title: Inevitable Trade-off between Watermark Strength and Speculative Sampling Efficiency for Language Models
+- title: 'Inevitable Trade-off between Watermark Strength and Speculative Sampling Efficiency for Language Models'
   url: https://openreview.net/pdf?id=6YKMBUiIsG
   venue: NeurIPS
   year: 2024
   track: main
   topics:
   - zero-bit
-- title: Watermarking Makes Language Models Radioactive
+- title: 'Watermarking Makes Language Models Radioactive'
   url: https://arxiv.org/pdf/2402.14904.pdf
   venue: NeurIPS
   year: 2024
@@ -245,21 +245,21 @@
   track: main
   topics:
   - zero-bit
-- title: Undetectable Watermarks for Language Models
+- title: 'Undetectable Watermarks for Language Models'
   url: https://proceedings.mlr.press/v247/christ24a/christ24a.pdf
   venue: PMLR
   year: 2024
   track: main
   topics:
   - zero-bit
-- title: Robust Distortion-free Watermarks for Language Models
+- title: 'Robust Distortion-free Watermarks for Language Models'
   url: https://openreview.net/pdf?id=FpaCL1MO2C
   venue: TMLR
   year: 2024
   track: journal
   topics:
   - zero-bit
-- title: Scalable watermarking for identifying large language model outputs
+- title: 'Scalable watermarking for identifying large language model outputs'
   url: https://www.nature.com/articles/s41586-024-08025-4
   venue: Nature
   year: 2024
@@ -294,7 +294,7 @@
   track: findings
   topics:
   - zero-bit
-- title: A Watermark for Order-Agnostic Language Models
+- title: 'A Watermark for Order-Agnostic Language Models'
   url: https://openreview.net/pdf?id=Nlm3Xf0W9S
   venue: ICLR
   year: 2025
@@ -308,14 +308,14 @@
   track: main
   topics:
   - zero-bit
-- title: Can Watermarked LLMs be Identified by Users via Crafted Prompts?
+- title: 'Can Watermarked LLMs be Identified by Users via Crafted Prompts?'
   url: https://openreview.net/pdf?id=ujpAYpFDEA
   venue: ICLR
   year: 2025
   track: main
   topics:
   - zero-bit
-- title: Can Watermarks be Used to Detect LLM IP Infringement For Free?
+- title: 'Can Watermarks be Used to Detect LLM IP Infringement For Free?'
   url: https://openreview.net/pdf?id=KRMSH1GxUK
   venue: ICLR
   year: 2025
@@ -329,21 +329,21 @@
   track: main
   topics:
   - zero-bit
-- title: Black-Box Detection of Language Model Watermarks
+- title: 'Black-Box Detection of Language Model Watermarks'
   url: https://arxiv.org/pdf/2405.20777
   venue: ICLR
   year: 2025
   track: main
   topics:
   - zero-bit
-- title: Watermarking Language Models for Many Adaptive Users
+- title: 'Watermarking Language Models for Many Adaptive Users'
   url: https://arxiv.org/pdf/2405.11109
   venue: S&P
   year: 2025
   track: main
   topics:
   - zero-bit
-- title: Ensemble Watermarks for Large Language Models
+- title: 'Ensemble Watermarks for Large Language Models'
   url: https://arxiv.org/pdf/2411.19563
   venue: ACL
   year: 2025
@@ -357,7 +357,7 @@
   track: main
   topics:
   - zero-bit
-- title: Efficiently Identifying Watermarked Segments in Mixed-Source Texts
+- title: 'Efficiently Identifying Watermarked Segments in Mixed-Source Texts'
   url: https://aclanthology.org/2025.acl-long.316.pdf
   venue: ACL
   year: 2025
@@ -378,14 +378,14 @@
   track: main
   topics:
   - zero-bit
-- title: Can LLM Watermarks Robustly Prevent Unauthorized Knowledge Distillation?
+- title: 'Can LLM Watermarks Robustly Prevent Unauthorized Knowledge Distillation?'
   url: https://aclanthology.org/2025.acl-long.648.pdf
   venue: ACL
   year: 2025
   track: main
   topics:
   - zero-bit
-- title: Improved Unbiased Watermark for Large Language Models
+- title: 'Improved Unbiased Watermark for Large Language Models'
   url: https://aclanthology.org/2025.acl-long.1005.pdf
   venue: ACL
   year: 2025
@@ -413,7 +413,7 @@
   track: main
   topics:
   - zero-bit
-- title: An End-to-End Model For Logits Based Large Language Models Watermarking
+- title: 'An End-to-End Model For Logits Based Large Language Models Watermarking'
   url: https://openreview.net/attachment?id=9sNiCqi2RD&name=pdf
   venue: ICML
   year: 2025
@@ -434,7 +434,7 @@
   track: main
   topics:
   - zero-bit
-- title: Addressing Tokenization Inconsistency in Steganography and Watermarking Based on Large Language Models
+- title: 'Addressing Tokenization Inconsistency in Steganography and Watermarking Based on Large Language Models'
   url: https://aclanthology.org/2025.emnlp-main.361.pdf
   venue: EMNLP
   year: 2025
@@ -455,14 +455,14 @@
   track: main
   topics:
   - zero-bit
-- title: Watermarking with Low-Entropy POS-Guided Token Partitioning and Z-Score-Driven Dynamic Bias for Large Language Models
+- title: 'Watermarking with Low-Entropy POS-Guided Token Partitioning and Z-Score-Driven Dynamic Bias for Large Language Models'
   url: https://aclanthology.org/2025.findings-emnlp.260.pdf
   venue: EMNLP
   year: 2025
   track: findings
   topics:
   - zero-bit
-- title: Evaluating the Robustness and Accuracy of Text Watermarking Under Real-World Cross-Lingual Manipulations
+- title: 'Evaluating the Robustness and Accuracy of Text Watermarking Under Real-World Cross-Lingual Manipulations'
   url: https://aclanthology.org/2025.findings-emnlp.390.pdf
   venue: EMNLP
   year: 2025
@@ -504,7 +504,7 @@
   track: main
   topics:
   - zero-bit
-- title: Practical and Effective Code Watermarking for Large Language Models
+- title: 'Practical and Effective Code Watermarking for Large Language Models'
   url: https://openreview.net/pdf?id=RpE4HeuX69
   venue: NeurIPS
   year: 2025
@@ -518,14 +518,14 @@
   track: main
   topics:
   - zero-bit
-- title: Enhancing LLM Watermark Resilience Against Both Scrubbing and Spoofing Attacks
+- title: 'Enhancing LLM Watermark Resilience Against Both Scrubbing and Spoofing Attacks'
   url: https://openreview.net/pdf?id=RbdLnwEEjk
   venue: NeurIPS
   year: 2025
   track: main
   topics:
   - zero-bit
-- title: On the Empirical Power of Goodness-of-Fit Tests in Watermark Detection
+- title: 'On the Empirical Power of Goodness-of-Fit Tests in Watermark Detection'
   url: https://openreview.net/pdf?id=YES7VDXPV8
   venue: NeurIPS
   year: 2025
@@ -546,28 +546,28 @@
   track: main
   topics:
   - zero-bit
-- title: In-Context Watermarks for Large Language Models
+- title: 'In-Context Watermarks for Large Language Models'
   url: https://openreview.net/attachment?id=fD9YRHazW3&name=pdf
   venue: ICLR
   year: 2026
   track: main
   topics:
   - zero-bit
-- title: Break the Trade-off Between Watermark Strength and Speculative Sampling Efficiency for Language Models
+- title: 'Break the Trade-off Between Watermark Strength and Speculative Sampling Efficiency for Language Models'
   url: https://openreview.net/attachment?id=HA8vzzT6Ax&name=pdf
   venue: ICLR
   year: 2026
   track: main
   topics:
   - zero-bit
-- title: An Ensemble Framework for Unbiased Language Model Watermarking
+- title: 'An Ensemble Framework for Unbiased Language Model Watermarking'
   url: https://openreview.net/attachment?id=iZ7i2y1YxO&name=pdf
   venue: ICLR
   year: 2026
   track: main
   topics:
   - zero-bit
-- title: Analyzing and Evaluating Unbiased Language Model Watermark
+- title: 'Analyzing and Evaluating Unbiased Language Model Watermark'
   url: https://openreview.net/attachment?id=6T4LR1oRwA&name=pdf
   venue: ICLR
   year: 2026
@@ -581,21 +581,21 @@
   track: main
   topics:
   - zero-bit
-- title: Watermarking Diffusion Language Models
+- title: 'Watermarking Diffusion Language Models'
   url: https://openreview.net/attachment?id=3aBWTYGcaT&name=pdf
   venue: ICLR
   year: 2026
   track: main
   topics:
   - zero-bit
-- title: LLM Fingerprinting via Semantically Conditioned Watermarks
+- title: 'LLM Fingerprinting via Semantically Conditioned Watermarks'
   url: https://openreview.net/attachment?id=t38nZqqi3Z&name=pdf
   venue: ICLR
   year: 2026
   track: main
   topics:
   - zero-bit
-- title: Every Language Model Has a Forgery-Resistant Signature
+- title: 'Every Language Model Has a Forgery-Resistant Signature'
   url: https://openreview.net/attachment?id=vLFqOoMBol&name=pdf
   venue: ICLR
   year: 2026
@@ -609,7 +609,7 @@
   track: main
   topics:
   - zero-bit
-- title: A Linguistics-Aware LLM Watermarking via Syntactic Predictability
+- title: 'A Linguistics-Aware LLM Watermarking via Syntactic Predictability'
   url: https://aclanthology.org/2026.acl-long.2115.pdf
   venue: ACL
   year: 2026
@@ -665,7 +665,7 @@
   track: findings
   topics:
   - attack
-- title: Topic-Based Watermarks for Large Language Models
+- title: 'Topic-Based Watermarks for Large Language Models'
   url: https://aclanthology.org/2026.findings-acl.1220.pdf
   venue: ACL
   year: 2026
@@ -693,7 +693,7 @@
   track: findings
   topics:
   - zero-bit
-- title: How Good is Post-Hoc Watermarking With Language Model Rephrasing?
+- title: 'How Good is Post-Hoc Watermarking With Language Model Rephrasing?'
   url: https://arxiv.org/abs/2512.16904
   venue: ICML
   year: 2026
@@ -707,14 +707,14 @@
   track: main
   topics:
   - zero-bit
-- title: Watermarking LLM Agent Trajectories
+- title: 'Watermarking LLM Agent Trajectories'
   url: https://arxiv.org/abs/2602.18700
   venue: ICML
   year: 2026
   track: main
   topics:
   - zero-bit
-- title: Selective Disclosure Watermarking for Large Language Models
+- title: 'Selective Disclosure Watermarking for Large Language Models'
   url: https://openreview.net/pdf?id=Oi1AISOxzt
   venue: ICML
   year: 2026
@@ -742,7 +742,7 @@
   track: main
   topics:
   - backdoor-watermark
-- title: Stability-Aware Feature Design for Robust Watermark Detection in Machine-Generated Text
+- title: 'Stability-Aware Feature Design for Robust Watermark Detection in Machine-Generated Text'
   url: https://openreview.net/pdf?id=u1OeOCErbj
   venue: ICML
   year: 2026
@@ -763,14 +763,14 @@
   track: main
   topics:
   - zero-bit
-- title: Adaptive Code Watermarking Through Reinforcement Learning
+- title: 'Adaptive Code Watermarking Through Reinforcement Learning'
   url: https://openreview.net/pdf?id=4xjq3iR4aK
   venue: ICML
   year: 2026
   track: main
   topics:
   - zero-bit
-- title: Towards Reliable Marking and Verification of AI-Generated Text via Geometry-aware Sentence-level Watermarking
+- title: 'Towards Reliable Marking and Verification of AI-Generated Text via Geometry-aware Sentence-level Watermarking'
   url: https://openreview.net/pdf?id=r0sWQkr3Jx
   venue: ICML
   year: 2026
@@ -798,21 +798,21 @@
   track: main
   topics:
   - zero-bit
-- title: Ideal Attribution and Faithful Watermarks for Language Models
+- title: 'Ideal Attribution and Faithful Watermarks for Language Models'
   url: https://arxiv.org/abs/2512.07038
   venue: ICML
   year: 2026
   track: main
   topics:
   - zero-bit
-- title: Three Bricks to Consolidate Watermarks for Large Language Models
+- title: 'Three Bricks to Consolidate Watermarks for Large Language Models'
   url: https://arxiv.org/pdf/2308.00113
   venue: WIFS
   year: 2023
   track: main
   topics:
   - multi-bit
-- title: Towards Codable Watermarking for Injecting Multi-Bits Information to LLMs
+- title: 'Towards Codable Watermarking for Injecting Multi-Bits Information to LLMs'
   url: https://openreview.net/pdf?id=JYu5Flqm9D
   venue: ICLR
   year: 2024
@@ -847,14 +847,14 @@
   track: main
   topics:
   - multi-bit
-- title: Provably Robust Multi-bit Watermarking for AI-generated Text
+- title: 'Provably Robust Multi-bit Watermarking for AI-generated Text'
   url: https://arxiv.org/pdf/2401.16820.pdf
   venue: USENIX
   year: 2025
   track: main
   topics:
   - multi-bit
-- title: Robust Multi-bit Text Watermark with LLM-based Paraphrasers
+- title: 'Robust Multi-bit Text Watermark with LLM-based Paraphrasers'
   url: https://openreview.net/attachment?id=DVjkling5x&name=pdf
   venue: ICML
   year: 2025
@@ -910,14 +910,14 @@
   track: main
   topics:
   - multi-bit
-- title: Knowledge-Infused Multi-Bit Watermarking for RAG Knowledge Bases
+- title: 'Knowledge-Infused Multi-Bit Watermarking for RAG Knowledge Bases'
   url: https://aclanthology.org/2026.findings-acl.1066.pdf
   venue: ACL
   year: 2026
   track: findings
   topics:
   - multi-bit
-- title: Block-wise Codeword Embedding for Reliable Multi-bit Text Watermarking
+- title: 'Block-wise Codeword Embedding for Reliable Multi-bit Text Watermarking'
   url: https://openreview.net/pdf?id=Ym1zKxtv8V
   venue: ICML
   year: 2026
@@ -931,14 +931,14 @@
   track: findings
   topics:
   - backdoor-watermark
-- title: Watermark Stealing in Large Language Models
+- title: 'Watermark Stealing in Large Language Models'
   url: https://arxiv.org/pdf/2402.19361
   venue: ICML
   year: 2024
   track: main
   topics:
   - attack
-- title: Bypassing LLM Watermarks with Color-Aware Substitutions
+- title: 'Bypassing LLM Watermarks with Color-Aware Substitutions'
   url: https://aclanthology.org/2024.acl-long.464.pdf
   venue: ACL
   year: 2024
@@ -959,28 +959,28 @@
   track: main
   topics:
   - attack
-- title: Optimizing Adaptive Attacks against Watermarks for Language Models
+- title: 'Optimizing Adaptive Attacks against Watermarks for Language Models'
   url: https://openreview.net/pdf?id=AsODat0dkE
   venue: ICML
   year: 2025
   track: main
   topics:
   - attack
-- title: Discovering Spoofing Attempts on Language Model Watermarks
+- title: 'Discovering Spoofing Attempts on Language Model Watermarks'
   url: https://openreview.net/attachment?id=hSCxEZLvxI&name=pdf
   venue: ICML
   year: 2025
   track: main
   topics:
   - attack
-- title: Revealing Weaknesses in Text Watermarking Through Self-Information Rewrite Attacks
+- title: 'Revealing Weaknesses in Text Watermarking Through Self-Information Rewrite Attacks'
   url: https://openreview.net/attachment?id=fE3kgW7kMp&name=pdf
   venue: ICML
   year: 2025
   track: main
   topics:
   - attack
-- title: Watermark Smoothing Attacks against Language Models
+- title: 'Watermark Smoothing Attacks against Language Models'
   url: https://aclanthology.org/2025.findings-emnlp.264.pdf
   venue: EMNLP
   year: 2025
@@ -1008,7 +1008,7 @@
   track: main
   topics:
   - attack
-- title: Character-Level Perturbations Disrupt LLM Watermarks
+- title: 'Character-Level Perturbations Disrupt LLM Watermarks'
   url: https://www.ndss-symposium.org/wp-content/uploads/2026-s138-paper.pdf
   venue: NDSS
   year: 2026
@@ -1029,7 +1029,7 @@
   track: main
   topics:
   - backdoor-watermark
-- title: Towards Faithful XAI Evaluation via Generalization-Limited Backdoor Watermark
+- title: 'Towards Faithful XAI Evaluation via Generalization-Limited Backdoor Watermark'
   url: https://openreview.net/pdf?id=cObFETcoeW
   venue: ICLR
   year: 2024
@@ -1099,3 +1099,17 @@
   track: main
   topics:
   - backdoor-watermark
+- title: 'PathMark: Protecting Intellectual Property of Mixture-of-expert LLMs via Path Watermarks'
+  url: https://arxiv.org/abs/2607.03688
+  venue: CCS
+  year: 2026
+  track: main
+  topics:
+  - backdoor-watermark
+- title: 'PURA: Provably Unbiased and Robust Multi-Bit Watermarking for AI-Generated Text Attribution'
+  url: https://arxiv.org/abs/2608.22218
+  venue: CCS
+  year: 2026
+  track: main
+  topics:
+  - multi-bit

@@ -67,3 +67,8 @@
 - **Echoes within the Reasoning: Stealth and Effective Watermarking via Chain of Thought**  
   [paper](https://arxiv.org/abs/2605.28890) | ICML 2026
 
+### CCS 2026 (October)
+
+- **PathMark: Protecting Intellectual Property of Mixture-of-expert LLMs via Path Watermarks**  
+  [paper](https://arxiv.org/abs/2607.03688) | CCS 2026
+

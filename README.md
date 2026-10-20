@@ -443,3 +443,10 @@ python scripts\pipeline.py --skip-git
 - **Watermarking LLM Agent Trajectories**  
   [paper](https://arxiv.org/abs/2602.18700) | ICML 2026 | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
 
+#### CCS 2026 (October)
+
+- **PathMark: Protecting Intellectual Property of Mixture-of-expert LLMs via Path Watermarks**  
+  [paper](https://arxiv.org/abs/2607.03688) | CCS 2026 | [![Backdoor Watermark](https://img.shields.io/badge/Backdoor%20Watermark-blueviolet)](topics/backdoor-watermark.md)
+- **PURA: Provably Unbiased and Robust Multi-Bit Watermarking for AI-Generated Text Attribution**  
+  [paper](https://arxiv.org/abs/2608.22218) | CCS 2026 | [![Multi-bit](https://img.shields.io/badge/Multi--bit-orange)](topics/multi-bit.md)
+

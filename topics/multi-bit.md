@@ -76,3 +76,8 @@
 - **Selective Disclosure Watermarking for Large Language Models**  
   [paper](https://openreview.net/pdf?id=Oi1AISOxzt) | ICML 2026
 
+### CCS 2026 (October)
+
+- **PURA: Provably Unbiased and Robust Multi-Bit Watermarking for AI-Generated Text Attribution**  
+  [paper](https://arxiv.org/abs/2608.22218) | CCS 2026
+
