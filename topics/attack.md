@@ -65,3 +65,14 @@
 - **Cryptanalysis of LDPC-Based Pseudorandom Error-Correcting Codes**  
   [paper](https://www.usenix.org/conference/usenixsecurity26/presentation/wang-tianrui) | USENIX 2026
 
+### EMNLP 2026 (November)
+
+- **Implicit Unwatermarking in Pseudo-Reference Reranking for LLM Watermarking**  
+  paper: TBD | EMNLP 2026
+- **The Provenance Horizon: Short Regulated Text Resists Reliable Watermarking Under Editing**  
+  paper: TBD | EMNLP 2026
+- **Detecting Post-generation Edits to Watermarked LLM Outputs via Error-Correcting Codes**  
+  paper: TBD | EMNLP 2026 Findings
+- **Is Multilingual LLM Watermarking Truly Multilingual? Scaling Robustness to 100+ Languages via Back-Translation**  
+  paper: TBD | EMNLP 2026 Findings
+

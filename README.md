@@ -464,3 +464,40 @@ python scripts\pipeline.py --skip-git
 - **PURA: Provably Unbiased and Robust Multi-Bit Watermarking for AI-Generated Text Attribution**  
   [paper](https://arxiv.org/abs/2608.22218) | CCS 2026 | [![Multi-bit](https://img.shields.io/badge/Multi--bit-orange)](topics/multi-bit.md)
 
+#### EMNLP 2026 (November)
+
+- **CAD-Mark: Context-Aware Distributional Watermarking for Robust LLM-Generated Text Detection**  
+  paper: TBD | EMNLP 2026 | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
+- **CATMark: A Context-Aware Thresholding Framework for Robust Cross-Task Watermarking in Large Language Models**  
+  paper: TBD | EMNLP 2026 | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
+- **Evaluating LLM Watermarking for Clinical EHR: Detectability, Style Shifts, and Helpfulness**  
+  paper: TBD | EMNLP 2026 | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
+- **Flip, Don’t Shuffle: Watermarking LLMs at the Speed of Inference**  
+  paper: TBD | EMNLP 2026 | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
+- **Implicit Unwatermarking in Pseudo-Reference Reranking for LLM Watermarking**  
+  paper: TBD | EMNLP 2026 | [![Attack](https://img.shields.io/badge/Attack-red)](topics/attack.md)
+- **Linguistics-Aware Non-Distortionary LLM Watermarking**  
+  paper: TBD | EMNLP 2026 | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
+- **More Haste, Less Speed: Weaker Single-Layer Watermark Improves Distortion-Free Watermark Ensembles**  
+  paper: TBD | EMNLP 2026 | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
+- **Semantic Self-Guided Watermarking with Enhanced Text Quality for Large Language Models**  
+  paper: TBD | EMNLP 2026 | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
+- **The Provenance Horizon: Short Regulated Text Resists Reliable Watermarking Under Editing**  
+  paper: TBD | EMNLP 2026 | [![Attack](https://img.shields.io/badge/Attack-red)](topics/attack.md)
+- **Detecting Post-generation Edits to Watermarked LLM Outputs via Error-Correcting Codes**  
+  paper: TBD | EMNLP 2026 Findings | [![Attack](https://img.shields.io/badge/Attack-red)](topics/attack.md)
+- **Disappearing Ink: Obfuscation Breaks N-gram Code Watermarks in Theory and Practice**  
+  paper: TBD | EMNLP 2026 Findings | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
+- **HSPMark: Desynchronization-Resilient Multi-Bit LLM Watermarking via Semantic Anchoring**  
+  paper: TBD | EMNLP 2026 Findings | [![Multi-bit](https://img.shields.io/badge/Multi--bit-orange)](topics/multi-bit.md)
+- **Is Multilingual LLM Watermarking Truly Multilingual? Scaling Robustness to 100+ Languages via Back-Translation**  
+  paper: TBD | EMNLP 2026 Findings | [![Attack](https://img.shields.io/badge/Attack-red)](topics/attack.md)
+- **MEMMARK: State-Evolution Attribution Watermarking for Agent Long-Term Memory Systems**  
+  paper: TBD | EMNLP 2026 Findings | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
+- **Revisiting Segmentation in Multi-bit LLM Watermarking**  
+  paper: TBD | EMNLP 2026 Findings | [![Multi-bit](https://img.shields.io/badge/Multi--bit-orange)](topics/multi-bit.md)
+- **Robust Text Watermarking for Large Language Models via Dual Semantic Embeddings**  
+  paper: TBD | EMNLP 2026 Findings | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
+- **SAC-Copula: Quality-Preserving Watermarking for Diffusion Language Models via Smooth Correlated Gumbel Fields**  
+  paper: TBD | EMNLP 2026 Findings | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
+

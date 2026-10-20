@@ -306,3 +306,28 @@
 - **PVMark: Enabling Public Verifiability for LLM Watermarking Schemes**  
   [paper](https://www.usenix.org/conference/usenixsecurity26/presentation/duan) | USENIX 2026
 
+### EMNLP 2026 (November)
+
+- **CAD-Mark: Context-Aware Distributional Watermarking for Robust LLM-Generated Text Detection**  
+  paper: TBD | EMNLP 2026
+- **CATMark: A Context-Aware Thresholding Framework for Robust Cross-Task Watermarking in Large Language Models**  
+  paper: TBD | EMNLP 2026
+- **Evaluating LLM Watermarking for Clinical EHR: Detectability, Style Shifts, and Helpfulness**  
+  paper: TBD | EMNLP 2026
+- **Flip, Don’t Shuffle: Watermarking LLMs at the Speed of Inference**  
+  paper: TBD | EMNLP 2026
+- **Linguistics-Aware Non-Distortionary LLM Watermarking**  
+  paper: TBD | EMNLP 2026
+- **More Haste, Less Speed: Weaker Single-Layer Watermark Improves Distortion-Free Watermark Ensembles**  
+  paper: TBD | EMNLP 2026
+- **Semantic Self-Guided Watermarking with Enhanced Text Quality for Large Language Models**  
+  paper: TBD | EMNLP 2026
+- **Disappearing Ink: Obfuscation Breaks N-gram Code Watermarks in Theory and Practice**  
+  paper: TBD | EMNLP 2026 Findings
+- **MEMMARK: State-Evolution Attribution Watermarking for Agent Long-Term Memory Systems**  
+  paper: TBD | EMNLP 2026 Findings
+- **Robust Text Watermarking for Large Language Models via Dual Semantic Embeddings**  
+  paper: TBD | EMNLP 2026 Findings
+- **SAC-Copula: Quality-Preserving Watermarking for Diffusion Language Models via Smooth Correlated Gumbel Fields**  
+  paper: TBD | EMNLP 2026 Findings
+

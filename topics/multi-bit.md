@@ -86,3 +86,10 @@
 - **PURA: Provably Unbiased and Robust Multi-Bit Watermarking for AI-Generated Text Attribution**  
   [paper](https://arxiv.org/abs/2608.22218) | CCS 2026
 
+### EMNLP 2026 (November)
+
+- **HSPMark: Desynchronization-Resilient Multi-Bit LLM Watermarking via Semantic Anchoring**  
+  paper: TBD | EMNLP 2026 Findings
+- **Revisiting Segmentation in Multi-bit LLM Watermarking**  
+  paper: TBD | EMNLP 2026 Findings
+

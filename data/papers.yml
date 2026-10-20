@@ -1141,3 +1141,105 @@
   track: main
   topics:
   - zero-bit
+- title: 'Semantic Self-Guided Watermarking with Enhanced Text Quality for Large Language Models'
+  venue: EMNLP
+  year: 2026
+  track: main
+  topics:
+  - zero-bit
+- title: 'CATMark: A Context-Aware Thresholding Framework for Robust Cross-Task Watermarking in Large Language Models'
+  venue: EMNLP
+  year: 2026
+  track: main
+  topics:
+  - zero-bit
+- title: 'CAD-Mark: Context-Aware Distributional Watermarking for Robust LLM-Generated Text Detection'
+  venue: EMNLP
+  year: 2026
+  track: main
+  topics:
+  - zero-bit
+- title: 'More Haste, Less Speed: Weaker Single-Layer Watermark Improves Distortion-Free Watermark Ensembles'
+  venue: EMNLP
+  year: 2026
+  track: main
+  topics:
+  - zero-bit
+- title: 'Linguistics-Aware Non-Distortionary LLM Watermarking'
+  venue: EMNLP
+  year: 2026
+  track: main
+  topics:
+  - zero-bit
+- title: 'The Provenance Horizon: Short Regulated Text Resists Reliable Watermarking Under Editing'
+  venue: EMNLP
+  year: 2026
+  track: main
+  topics:
+  - attack
+- title: 'Flip, Don’t Shuffle: Watermarking LLMs at the Speed of Inference'
+  venue: EMNLP
+  year: 2026
+  track: main
+  topics:
+  - zero-bit
+- title: 'Implicit Unwatermarking in Pseudo-Reference Reranking for LLM Watermarking'
+  venue: EMNLP
+  year: 2026
+  track: main
+  topics:
+  - attack
+- title: 'Evaluating LLM Watermarking for Clinical EHR: Detectability, Style Shifts, and Helpfulness'
+  venue: EMNLP
+  year: 2026
+  track: main
+  topics:
+  - zero-bit
+- title: 'Revisiting Segmentation in Multi-bit LLM Watermarking'
+  venue: EMNLP
+  year: 2026
+  track: findings
+  topics:
+  - multi-bit
+- title: 'Robust Text Watermarking for Large Language Models via Dual Semantic Embeddings'
+  venue: EMNLP
+  year: 2026
+  track: findings
+  topics:
+  - zero-bit
+- title: 'SAC-Copula: Quality-Preserving Watermarking for Diffusion Language Models via Smooth Correlated Gumbel Fields'
+  venue: EMNLP
+  year: 2026
+  track: findings
+  topics:
+  - zero-bit
+- title: 'HSPMark: Desynchronization-Resilient Multi-Bit LLM Watermarking via Semantic Anchoring'
+  venue: EMNLP
+  year: 2026
+  track: findings
+  topics:
+  - multi-bit
+- title: 'Is Multilingual LLM Watermarking Truly Multilingual? Scaling Robustness to 100+ Languages via Back-Translation'
+  venue: EMNLP
+  year: 2026
+  track: findings
+  topics:
+  - attack
+- title: 'Detecting Post-generation Edits to Watermarked LLM Outputs via Error-Correcting Codes'
+  venue: EMNLP
+  year: 2026
+  track: findings
+  topics:
+  - attack
+- title: 'Disappearing Ink: Obfuscation Breaks N-gram Code Watermarks in Theory and Practice'
+  venue: EMNLP
+  year: 2026
+  track: findings
+  topics:
+  - zero-bit
+- title: 'MEMMARK: State-Evolution Attribution Watermarking for Agent Long-Term Memory Systems'
+  venue: EMNLP
+  year: 2026
+  track: findings
+  topics:
+  - zero-bit
