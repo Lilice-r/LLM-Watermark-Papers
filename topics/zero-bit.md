@@ -296,3 +296,8 @@
 - **Watermarking LLM Agent Trajectories**  
   [paper](https://arxiv.org/abs/2602.18700) | ICML 2026
 
+### USENIX 2026 (August)
+
+- **PVMark: Enabling Public Verifiability for LLM Watermarking Schemes**  
+  [paper](https://www.usenix.org/conference/usenixsecurity26/presentation/duan) | USENIX 2026
+

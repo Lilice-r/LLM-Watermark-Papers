@@ -60,3 +60,8 @@
 - **Rethinking Forgery Attacks on Semantic Watermarks in Black-Box Settings: A Geometric Distortion Perspective**  
   [paper](https://arxiv.org/pdf/2606.29807) | ICML 2026
 
+### USENIX 2026 (August)
+
+- **Cryptanalysis of LDPC-Based Pseudorandom Error-Correcting Codes**  
+  [paper](https://www.usenix.org/conference/usenixsecurity26/presentation/wang-tianrui) | USENIX 2026
+

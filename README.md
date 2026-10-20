@@ -443,6 +443,15 @@ python scripts\pipeline.py --skip-git
 - **Watermarking LLM Agent Trajectories**  
   [paper](https://arxiv.org/abs/2602.18700) | ICML 2026 | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
 
+#### USENIX 2026 (August)
+
+- **A Distortion-minimization Watermarking Framework for Large Language Models: Larger Capacity, Stronger Robustness and Higher Quality**  
+  [paper](https://www.usenix.org/conference/usenixsecurity26/presentation/zhai) | USENIX 2026 | [![Multi-bit](https://img.shields.io/badge/Multi--bit-orange)](topics/multi-bit.md)
+- **Cryptanalysis of LDPC-Based Pseudorandom Error-Correcting Codes**  
+  [paper](https://www.usenix.org/conference/usenixsecurity26/presentation/wang-tianrui) | USENIX 2026 | [![Attack](https://img.shields.io/badge/Attack-red)](topics/attack.md)
+- **PVMark: Enabling Public Verifiability for LLM Watermarking Schemes**  
+  [paper](https://www.usenix.org/conference/usenixsecurity26/presentation/duan) | USENIX 2026 | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
+
 #### CCS 2026 (October)
 
 - **PathMark: Protecting Intellectual Property of Mixture-of-expert LLMs via Path Watermarks**  

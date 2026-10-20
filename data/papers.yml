@@ -1113,3 +1113,24 @@
   track: main
   topics:
   - multi-bit
+- title: 'A Distortion-minimization Watermarking Framework for Large Language Models: Larger Capacity, Stronger Robustness and Higher Quality'
+  url: https://www.usenix.org/conference/usenixsecurity26/presentation/zhai
+  venue: USENIX
+  year: 2026
+  track: main
+  topics:
+  - multi-bit
+- title: 'PVMark: Enabling Public Verifiability for LLM Watermarking Schemes'
+  url: https://www.usenix.org/conference/usenixsecurity26/presentation/duan
+  venue: USENIX
+  year: 2026
+  track: main
+  topics:
+  - zero-bit
+- title: 'Cryptanalysis of LDPC-Based Pseudorandom Error-Correcting Codes'
+  url: https://www.usenix.org/conference/usenixsecurity26/presentation/wang-tianrui
+  venue: USENIX
+  year: 2026
+  track: main
+  topics:
+  - attack

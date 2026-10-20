@@ -76,6 +76,11 @@
 - **Selective Disclosure Watermarking for Large Language Models**  
   [paper](https://openreview.net/pdf?id=Oi1AISOxzt) | ICML 2026
 
+### USENIX 2026 (August)
+
+- **A Distortion-minimization Watermarking Framework for Large Language Models: Larger Capacity, Stronger Robustness and Higher Quality**  
+  [paper](https://www.usenix.org/conference/usenixsecurity26/presentation/zhai) | USENIX 2026
+
 ### CCS 2026 (October)
 
 - **PURA: Provably Unbiased and Robust Multi-Bit Watermarking for AI-Generated Text Attribution**  
