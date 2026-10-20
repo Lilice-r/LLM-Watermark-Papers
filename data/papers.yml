@@ -402,13 +402,6 @@
   topics:
   - attack
   - evaluation
-- title: 'Lightweight-Mark: Rethinking Deep Learning-Based Watermarking'
-  url: https://openreview.net/attachment?id=ag3uveGZCb&name=pdf
-  venue: ICML
-  year: 2025
-  track: main
-  topics:
-  - zero-bit
 - title: 'GaussMark: A Practical Approach for Structural Watermarking of Language Models'
   url: https://openreview.net/attachment?id=YG3DbpAQBf&name=pdf
   venue: ICML

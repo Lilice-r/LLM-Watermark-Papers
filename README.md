@@ -261,8 +261,6 @@ python scripts\pipeline.py --skip-git
   [paper](https://openreview.net/attachment?id=hSCxEZLvxI&name=pdf) | ICML 2025 | [![Attack](https://img.shields.io/badge/Attack-red)](topics/attack.md)
 - **GaussMark: A Practical Approach for Structural Watermarking of Language Models**  
   [paper](https://openreview.net/attachment?id=YG3DbpAQBf&name=pdf) | ICML 2025 | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
-- **Lightweight-Mark: Rethinking Deep Learning-Based Watermarking**  
-  [paper](https://openreview.net/attachment?id=ag3uveGZCb&name=pdf) | ICML 2025 | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
 - **Optimizing Adaptive Attacks against Watermarks for Language Models**  
   [paper](https://openreview.net/pdf?id=AsODat0dkE) | ICML 2025 | [![Attack](https://img.shields.io/badge/Attack-red)](topics/attack.md)
 - **Revealing Weaknesses in Text Watermarking Through Self-Information Rewrite Attacks**  

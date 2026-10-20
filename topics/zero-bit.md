@@ -150,8 +150,6 @@
   [paper](https://openreview.net/attachment?id=9sNiCqi2RD&name=pdf) | ICML 2025
 - **GaussMark: A Practical Approach for Structural Watermarking of Language Models**  
   [paper](https://openreview.net/attachment?id=YG3DbpAQBf&name=pdf) | ICML 2025
-- **Lightweight-Mark: Rethinking Deep Learning-Based Watermarking**  
-  [paper](https://openreview.net/attachment?id=ag3uveGZCb&name=pdf) | ICML 2025
 
 ### CCS 2025 (October)
 
