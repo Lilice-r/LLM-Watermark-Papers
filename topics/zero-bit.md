@@ -238,6 +238,11 @@
 - **Watermarking Diffusion Language Models**  
   [paper](https://openreview.net/attachment?id=3aBWTYGcaT&name=pdf) | ICLR 2026
 
+### S&P 2026 (May)
+
+- **PromptCOS: Towards Content-only System Prompt Copyright Auditing for LLMs**  
+  [paper](https://arxiv.org/abs/2509.03117) | S&P 2026
+
 ### ACL 2026 (July)
 
 - **A Linguistics-Aware LLM Watermarking via Syntactic Predictability**  

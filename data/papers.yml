@@ -1134,3 +1134,10 @@
   track: main
   topics:
   - attack
+- title: 'PromptCOS: Towards Content-only System Prompt Copyright Auditing for LLMs'
+  url: https://arxiv.org/abs/2509.03117
+  venue: S&P
+  year: 2026
+  track: main
+  topics:
+  - zero-bit

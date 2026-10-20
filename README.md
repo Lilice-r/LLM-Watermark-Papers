@@ -357,6 +357,11 @@ python scripts\pipeline.py --skip-git
 - **Watermarking Diffusion Language Models**  
   [paper](https://openreview.net/attachment?id=3aBWTYGcaT&name=pdf) | ICLR 2026 | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
 
+#### S&P 2026 (May)
+
+- **PromptCOS: Towards Content-only System Prompt Copyright Auditing for LLMs**  
+  [paper](https://arxiv.org/abs/2509.03117) | S&P 2026 | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
+
 #### ACL 2026 (July)
 
 - **A Linguistics-Aware LLM Watermarking via Syntactic Predictability**  
