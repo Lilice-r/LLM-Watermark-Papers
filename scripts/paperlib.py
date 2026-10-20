@@ -22,6 +22,7 @@ TOPICS: dict[str, str] = {
     "multi-bit": "Multi-bit",
     "attack": "Attack",
     "backdoor-watermark": "Backdoor Watermark",
+    "evaluation": "Evaluation",
 }
 
 # Colors for topic pages
@@ -49,6 +50,7 @@ TOPIC_COLORS: dict[str, str] = {
     "multi-bit": "orange",
     "attack": "red",
     "backdoor-watermark": "blueviolet",
+    "evaluation": "lightgrey",
 }
 
 TRACKS = {"main", "findings", "journal", "workshop", "survey", "preprint"}

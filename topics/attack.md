@@ -8,11 +8,25 @@
 
 - **Watermark Stealing in Large Language Models**  
   [paper](https://arxiv.org/pdf/2402.19361) | ICML 2024
+- **Watermarks in the Sand: Impossibility of Strong Watermarking for Language Models**  
+  [paper](https://arxiv.org/pdf/2311.04378) | ICML 2024
 
 ### ACL 2024 (August)
 
 - **Bypassing LLM Watermarks with Color-Aware Substitutions**  
   [paper](https://aclanthology.org/2024.acl-long.464.pdf) | ACL 2024
+- **Can Watermarks Survive Translation? On the Cross-lingual Consistency of Text Watermark for Large Language Models**  
+  [paper](https://aclanthology.org/2024.acl-long.226.pdf) | ACL 2024
+
+### EMNLP 2024 (November)
+
+- **Revisiting the Robustness of Watermarking to Paraphrasing Attacks**  
+  [paper](https://aclanthology.org/2024.emnlp-main.1005.pdf) | EMNLP 2024
+
+### NeurIPS 2024 (December)
+
+- **No Free Lunch in LLM Watermarking: Trade-offs in Watermarking Design Choices**  
+  [paper](https://openreview.net/pdf?id=rIOl7KbSkv) | NeurIPS 2024
 
 ## 2025
 
@@ -20,6 +34,11 @@
 
 - **$B^4$: A Black-Box Scrubbing Attack on LLM Watermarks**  
   [paper](https://aclanthology.org/2025.naacl-long.460/) | NAACL 2025
+
+### ACL 2025 (July)
+
+- **Sandcastles in the Storm: Revisiting the (Im)possibility of Strong Watermarking**  
+  [paper](https://aclanthology.org/2025.acl-long.1436.pdf) | ACL 2025
 
 ### ICML 2025 (July)
 

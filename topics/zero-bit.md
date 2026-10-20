@@ -32,8 +32,6 @@
   [paper](https://arxiv.org/pdf/2310.03991.pdf) | NAACL 2024
 - **A Robust Semantics-based Watermark for Large Language Model against Paraphrasing**  
   [paper](https://arxiv.org/pdf/2311.08721.pdf) | NAACL 2024 Findings
-- **WaterJudge: Quality-Detection Trade-off when Watermarking Large Language Models**  
-  [paper](https://arxiv.org/pdf/2403.19548) | NAACL 2024 Findings
 
 ### ICML 2024 (July)
 
@@ -45,8 +43,6 @@
   [paper](https://arxiv.org/pdf/2312.17295) | ICML 2024
 - **Token-Specific Watermarking with Enhanced Detectability and Semantic Coherence for Large Language Models**  
   [paper](https://arxiv.org/pdf/2402.18059.pdf) | ICML 2024
-- **Watermarks in the Sand: Impossibility of Strong Watermarking for Language Models**  
-  [paper](https://arxiv.org/pdf/2311.04378) | ICML 2024
 
 ### ACL 2024 (August)
 
@@ -56,8 +52,6 @@
   [paper](https://aclanthology.org/2024.acl-long.226.pdf) | ACL 2024
 - **GumbelSoft: Diversified Language Model Watermarking via the GumbelMax-trick**  
   [paper](https://arxiv.org/pdf/2402.12948.pdf) | ACL 2024
-- **WaterBench: Towards Holistic Evaluation of Watermarks for Large Language Models**  
-  [paper](https://arxiv.org/pdf/2311.07138.pdf) | ACL 2024
 - **WatME: Towards Lossless Watermarking Through Lexical Redundancy**  
   [paper](https://aclanthology.org/2024.acl-long.496.pdf) | ACL 2024
 - **Who Wrote this Code? Watermarking for Code Generation**  
@@ -75,10 +69,6 @@
   [paper](https://aclanthology.org/2024.emnlp-main.1260/) | EMNLP 2024
 - **PostMark: A Robust Blackbox Watermark for Large Language Models**  
   [paper](https://arxiv.org/pdf/2406.14517) | EMNLP 2024
-- **Revisiting the Robustness of Watermarking to Paraphrasing Attacks**  
-  [paper](https://aclanthology.org/2024.emnlp-main.1005.pdf) | EMNLP 2024
-- **Downstream Trade-offs of a Family of Text Watermarks**  
-  [paper](https://aclanthology.org/2024.findings-emnlp.821.pdf) | EMNLP 2024 Findings
 - **GuardEmb: Dynamic Watermark for Safeguarding Large Language Model Embedding Service Against Model Stealing Attack**  
   [paper](https://aclanthology.org/2024.findings-emnlp.441.pdf) | EMNLP 2024 Findings
 
@@ -86,8 +76,6 @@
 
 - **Inevitable Trade-off between Watermark Strength and Speculative Sampling Efficiency for Language Models**  
   [paper](https://openreview.net/pdf?id=6YKMBUiIsG) | NeurIPS 2024
-- **No Free Lunch in LLM Watermarking: Trade-offs in Watermarking Design Choices**  
-  [paper](https://openreview.net/pdf?id=rIOl7KbSkv) | NeurIPS 2024
 - **Watermarking Makes Language Models Radioactive**  
   [paper](https://arxiv.org/pdf/2402.14904.pdf) | NeurIPS 2024
 - **WaterMax: breaking the LLM watermark detectability-robustness-quality trade-off**  
@@ -129,8 +117,6 @@
 
 - **WaterPool: A Language Model Watermark Mitigating Trade-Offs among Imperceptibility, Efficacy and Robustness**  
   [paper](https://aclanthology.org/2025.naacl-long.209/) | NAACL 2025
-- **From Intentions to Techniques: A Comprehensive Taxonomy and Challenges in Text Watermarking for Large Language Models**  
-  [paper](https://aclanthology.org/2025.findings-naacl.343.pdf) | NAACL 2025 Findings
 - **Lost in Overlap: Exploring Logit-based Watermark Collision in LLMs**  
   [paper](https://arxiv.org/pdf/2403.10020) | NAACL 2025 Findings
 - **WaterSeeker: Pioneering Efficient Detection of Watermarked Segments in Large Documents**  
@@ -155,8 +141,6 @@
   [paper](https://aclanthology.org/2025.acl-long.1005.pdf) | ACL 2025
 - **MorphMark: Flexible Adaptive Watermarking for Large Language Models**  
   [paper](https://aclanthology.org/2025.acl-long.240.pdf) | ACL 2025
-- **Sandcastles in the Storm: Revisiting the (Im)possibility of Strong Watermarking**  
-  [paper](https://aclanthology.org/2025.acl-long.1436.pdf) | ACL 2025
 - **Watermarking Large Language Models: An Unbiased and Low-risk Method**  
   [paper](https://aclanthology.org/2025.acl-long.391.pdf) | ACL 2025
 
@@ -186,10 +170,6 @@
   [paper](https://aclanthology.org/2025.emnlp-main.1567.pdf) | EMNLP 2025
 - **Evaluating the Robustness and Accuracy of Text Watermarking Under Real-World Cross-Lingual Manipulations**  
   [paper](https://aclanthology.org/2025.findings-emnlp.390.pdf) | EMNLP 2025 Findings
-- **Factuality Beyond Coherence: Evaluating LLM Watermarking Methods for Medical Texts**  
-  [paper](https://aclanthology.org/2025.findings-emnlp.818.pdf) | EMNLP 2025 Findings
-- **Watermark under Fire: A Robustness Evaluation of LLM Watermarking**  
-  [paper](https://aclanthology.org/2025.findings-emnlp.1148.pdf) | EMNLP 2025 Findings
 - **Watermarking with Low-Entropy POS-Guided Token Partitioning and Z-Score-Driven Dynamic Bias for Large Language Models**  
   [paper](https://aclanthology.org/2025.findings-emnlp.260.pdf) | EMNLP 2025 Findings
 
@@ -311,8 +291,6 @@
 - **CAD-Mark: Context-Aware Distributional Watermarking for Robust LLM-Generated Text Detection**  
   paper: TBD | EMNLP 2026
 - **CATMark: A Context-Aware Thresholding Framework for Robust Cross-Task Watermarking in Large Language Models**  
-  paper: TBD | EMNLP 2026
-- **Evaluating LLM Watermarking for Clinical EHR: Detectability, Style Shifts, and Helpfulness**  
   paper: TBD | EMNLP 2026
 - **Flip, Don’t Shuffle: Watermarking LLMs at the Speed of Inference**  
   paper: TBD | EMNLP 2026

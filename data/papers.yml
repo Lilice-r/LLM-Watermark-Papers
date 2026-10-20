@@ -83,7 +83,7 @@
   year: 2024
   track: findings
   topics:
-  - zero-bit
+  - evaluation
 - title: 'Optimizing Watermarks for Large Language Models'
   url: https://arxiv.org/pdf/2312.17295
   venue: ICML
@@ -104,7 +104,7 @@
   year: 2024
   track: main
   topics:
-  - zero-bit
+  - attack
 - title: 'Token-Specific Watermarking with Enhanced Detectability and Semantic Coherence for Large Language Models'
   url: https://arxiv.org/pdf/2402.18059.pdf
   venue: ICML
@@ -125,7 +125,7 @@
   year: 2024
   track: main
   topics:
-  - zero-bit
+  - evaluation
 - title: 'Can Watermarks Survive Translation? On the Cross-lingual Consistency of Text Watermark for Large Language Models'
   url: https://aclanthology.org/2024.acl-long.226.pdf
   venue: ACL
@@ -133,6 +133,7 @@
   track: main
   topics:
   - zero-bit
+  - attack
 - title: 'Who Wrote this Code? Watermarking for Code Generation'
   url: https://aclanthology.org/2024.acl-long.268.pdf
   venue: ACL
@@ -195,7 +196,7 @@
   year: 2024
   track: main
   topics:
-  - zero-bit
+  - attack
 - title: 'Context-aware Watermark with Semantic Balanced Green-red Lists for Large Language Models'
   url: https://aclanthology.org/2024.emnlp-main.1260/
   venue: EMNLP
@@ -216,14 +217,15 @@
   year: 2024
   track: findings
   topics:
-  - zero-bit
+  - evaluation
 - title: 'No Free Lunch in LLM Watermarking: Trade-offs in Watermarking Design Choices'
   url: https://openreview.net/pdf?id=rIOl7KbSkv
   venue: NeurIPS
   year: 2024
   track: main
   topics:
-  - zero-bit
+  - attack
+  - evaluation
 - title: 'Inevitable Trade-off between Watermark Strength and Speculative Sampling Efficiency for Language Models'
   url: https://openreview.net/pdf?id=6YKMBUiIsG
   venue: NeurIPS
@@ -286,7 +288,7 @@
   year: 2025
   track: findings
   topics:
-  - zero-bit
+  - survey
 - title: 'Lost in Overlap: Exploring Logit-based Watermark Collision in LLMs'
   url: https://arxiv.org/pdf/2403.10020
   venue: NAACL
@@ -398,7 +400,8 @@
   year: 2025
   track: main
   topics:
-  - zero-bit
+  - attack
+  - evaluation
 - title: 'Lightweight-Mark: Rethinking Deep Learning-Based Watermarking'
   url: https://openreview.net/attachment?id=ag3uveGZCb&name=pdf
   venue: ICML
@@ -469,20 +472,21 @@
   track: findings
   topics:
   - zero-bit
+  - evaluation
 - title: 'Factuality Beyond Coherence: Evaluating LLM Watermarking Methods for Medical Texts'
   url: https://aclanthology.org/2025.findings-emnlp.818.pdf
   venue: EMNLP
   year: 2025
   track: findings
   topics:
-  - zero-bit
+  - evaluation
 - title: 'Watermark under Fire: A Robustness Evaluation of LLM Watermarking'
   url: https://aclanthology.org/2025.findings-emnlp.1148.pdf
   venue: EMNLP
   year: 2025
   track: findings
   topics:
-  - zero-bit
+  - evaluation
 - title: 'Learning to Watermark: A Selective Watermarking Framework for Large Language Models via Multi-Objective Optimization'
   url: https://openreview.net/pdf?id=nJq5z21eUk
   venue: NeurIPS
@@ -532,6 +536,7 @@
   track: main
   topics:
   - zero-bit
+  - evaluation
 - title: 'ModelShield: Adaptive and Robust Watermark Against Model Extraction Attack'
   url: https://arxiv.org/pdf/2405.02365
   venue: TIFS
@@ -574,6 +579,7 @@
   track: main
   topics:
   - zero-bit
+  - evaluation
 - title: 'PMark: Towards Robust and Distortion-free Semantic-level Watermarking with Channel Constraints'
   url: https://openreview.net/attachment?id=EhDgP69DJG&name=pdf
   venue: ICLR
@@ -686,6 +692,7 @@
   track: findings
   topics:
   - zero-bit
+  - evaluation
 - title: 'LR-DWM: Efficient Watermarking for Diffusion Language Models'
   url: https://aclanthology.org/2026.findings-acl.2161.pdf
   venue: ACL
@@ -1001,6 +1008,7 @@
   track: findings
   topics:
   - attack
+  - evaluation
 - title: 'Rethinking Forgery Attacks on Semantic Watermarks in Black-Box Settings: A Geometric Distortion Perspective'
   url: https://arxiv.org/pdf/2606.29807
   venue: ICML
@@ -1194,7 +1202,7 @@
   year: 2026
   track: main
   topics:
-  - zero-bit
+  - evaluation
 - title: 'Revisiting Segmentation in Multi-bit LLM Watermarking'
   venue: EMNLP
   year: 2026
@@ -1237,6 +1245,7 @@
   track: findings
   topics:
   - zero-bit
+  - evaluation
 - title: 'MEMMARK: State-Evolution Attribution Watermarking for Agent Long-Term Memory Systems'
   venue: EMNLP
   year: 2026

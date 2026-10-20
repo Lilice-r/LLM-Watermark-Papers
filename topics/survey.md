@@ -11,6 +11,11 @@
 
 ## 2025
 
+### NAACL 2025 (April)
+
+- **From Intentions to Techniques: A Comprehensive Taxonomy and Challenges in Text Watermarking for Large Language Models**  
+  [paper](https://aclanthology.org/2025.findings-naacl.343.pdf) | NAACL 2025 Findings
+
 ### S&P 2025 (May)
 
 - **SoK: Watermarking for AI-Generated Content**  
