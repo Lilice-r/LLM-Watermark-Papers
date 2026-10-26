@@ -66,3 +66,8 @@
 - **Disappearing Ink: Obfuscation Breaks N-gram Code Watermarks in Theory and Practice**  
   paper: TBD | EMNLP 2026 Findings
 
+### NeurIPS 2026 (December)
+
+- **Auditing Cross-Lingual Fairness in Language Model Watermarking**  
+  paper: TBD | NeurIPS 2026
+

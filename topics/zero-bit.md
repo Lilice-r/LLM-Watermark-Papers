@@ -307,3 +307,30 @@
 - **SAC-Copula: Quality-Preserving Watermarking for Diffusion Language Models via Smooth Correlated Gumbel Fields**  
   paper: TBD | EMNLP 2026 Findings
 
+### NeurIPS 2026 (December)
+
+- **A Retained-Signal Interface for LLM Watermark Robustness under Paraphrase**  
+  paper: TBD | NeurIPS 2026
+- **Invisible Ink, Visible Lies: How Production Watermarking Causes LLMs to Hallucinate**  
+  paper: TBD | NeurIPS 2026
+- **Learning to Follow In-Context Watermark Instructions via Self-Distillation**  
+  paper: TBD | NeurIPS 2026
+- **Making Open-Source Text LLM Watermarks Durable Against Merging**  
+  paper: TBD | NeurIPS 2026
+- **MarkTune: Improving the Quality-Detectability Trade-off in Model-Embedded LLM Watermarking**  
+  paper: TBD | NeurIPS 2026
+- **PRO: Enabling Precise and Robust Text Watermark for Open-Source LLMs**  
+  paper: TBD | NeurIPS 2026
+- **SCTI: Self-Calibrated Trident Identification of Black-Box LLM Watermarks**  
+  paper: TBD | NeurIPS 2026
+- **Sequential Behavioral Watermarking for LLM Agents**  
+  paper: TBD | NeurIPS 2026
+- **Towards Anytime-Valid Statistical Watermarking**  
+  paper: TBD | NeurIPS 2026
+- **Watermarking Game-Playing Agents in Perfect-Information Extensive-Form Games**  
+  paper: TBD | NeurIPS 2026
+- **Watermarking Should Be Treated as a Monitoring Primitive**  
+  paper: TBD | NeurIPS 2026
+- **Watermarking Without Standards Is Not AI Governance**  
+  paper: TBD | NeurIPS 2026
+

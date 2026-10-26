@@ -500,3 +500,44 @@ python scripts\pipeline.py --skip-git
 - **SAC-Copula: Quality-Preserving Watermarking for Diffusion Language Models via Smooth Correlated Gumbel Fields**  
   paper: TBD | EMNLP 2026 Findings | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
 
+#### NeurIPS 2026 (December)
+
+- **A Retained-Signal Interface for LLM Watermark Robustness under Paraphrase**  
+  paper: TBD | NeurIPS 2026 | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
+- **ArcMark: Distortion-Free Multi-Byte LLM Watermark via Optimal Transport**  
+  paper: TBD | NeurIPS 2026 | [![Multi-bit](https://img.shields.io/badge/Multi--bit-orange)](topics/multi-bit.md)
+- **Auditing Cross-Lingual Fairness in Language Model Watermarking**  
+  paper: TBD | NeurIPS 2026 | [![Evaluation](https://img.shields.io/badge/Evaluation-lightgrey)](topics/evaluation.md)
+- **Every Bit, Everywhere, All At Once: A Binomial Multibit LLM Watermark**  
+  paper: TBD | NeurIPS 2026 | [![Multi-bit](https://img.shields.io/badge/Multi--bit-orange)](topics/multi-bit.md)
+- **Invisible Ink, Visible Lies: How Production Watermarking Causes LLMs to Hallucinate**  
+  paper: TBD | NeurIPS 2026 | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
+- **Learning to Follow In-Context Watermark Instructions via Self-Distillation**  
+  paper: TBD | NeurIPS 2026 | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
+- **Majority Bit-Aware Watermarking for Large Language Models**  
+  paper: TBD | NeurIPS 2026 | [![Multi-bit](https://img.shields.io/badge/Multi--bit-orange)](topics/multi-bit.md)
+- **Making Open-Source Text LLM Watermarks Durable Against Merging**  
+  paper: TBD | NeurIPS 2026 | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
+- **MarkTune: Improving the Quality-Detectability Trade-off in Model-Embedded LLM Watermarking**  
+  paper: TBD | NeurIPS 2026 | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
+- **MC²Mark: Distortion-Free Multi-Bit Watermarking for Long Messages**  
+  paper: TBD | NeurIPS 2026 | [![Multi-bit](https://img.shields.io/badge/Multi--bit-orange)](topics/multi-bit.md)
+- **Multi-bit LLM Watermarking with Certified Semantic Distortion**  
+  paper: TBD | NeurIPS 2026 | [![Multi-bit](https://img.shields.io/badge/Multi--bit-orange)](topics/multi-bit.md)
+- **PRO: Enabling Precise and Robust Text Watermark for Open-Source LLMs**  
+  paper: TBD | NeurIPS 2026 | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
+- **SCTI: Self-Calibrated Trident Identification of Black-Box LLM Watermarks**  
+  paper: TBD | NeurIPS 2026 | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
+- **Sequential Behavioral Watermarking for LLM Agents**  
+  paper: TBD | NeurIPS 2026 | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
+- **TextSeal: A Localized LLM Watermark for Provenance & Distillation Protection**  
+  paper: TBD | NeurIPS 2026 | [![Multi-bit](https://img.shields.io/badge/Multi--bit-orange)](topics/multi-bit.md)
+- **Towards Anytime-Valid Statistical Watermarking**  
+  paper: TBD | NeurIPS 2026 | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
+- **Watermarking Game-Playing Agents in Perfect-Information Extensive-Form Games**  
+  paper: TBD | NeurIPS 2026 | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
+- **Watermarking Should Be Treated as a Monitoring Primitive**  
+  paper: TBD | NeurIPS 2026 | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
+- **Watermarking Without Standards Is Not AI Governance**  
+  paper: TBD | NeurIPS 2026 | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
+

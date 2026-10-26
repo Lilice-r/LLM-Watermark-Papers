@@ -1245,3 +1245,117 @@
   track: findings
   topics:
   - zero-bit
+- title: 'ArcMark: Distortion-Free Multi-Byte LLM Watermark via Optimal Transport'
+  venue: NeurIPS
+  year: 2026
+  track: main
+  topics:
+  - multi-bit
+- title: 'MC²Mark: Distortion-Free Multi-Bit Watermarking for Long Messages'
+  venue: NeurIPS
+  year: 2026
+  track: main
+  topics:
+  - multi-bit
+- title: 'Every Bit, Everywhere, All At Once: A Binomial Multibit LLM Watermark'
+  venue: NeurIPS
+  year: 2026
+  track: main
+  topics:
+  - multi-bit
+- title: 'Majority Bit-Aware Watermarking for Large Language Models'
+  venue: NeurIPS
+  year: 2026
+  track: main
+  topics:
+  - multi-bit
+- title: 'Multi-bit LLM Watermarking with Certified Semantic Distortion'
+  venue: NeurIPS
+  year: 2026
+  track: main
+  topics:
+  - multi-bit
+- title: 'TextSeal: A Localized LLM Watermark for Provenance & Distillation Protection'
+  venue: NeurIPS
+  year: 2026
+  track: main
+  topics:
+  - multi-bit
+- title: 'MarkTune: Improving the Quality-Detectability Trade-off in Model-Embedded LLM Watermarking'
+  venue: NeurIPS
+  year: 2026
+  track: main
+  topics:
+  - zero-bit
+- title: 'PRO: Enabling Precise and Robust Text Watermark for Open-Source LLMs'
+  venue: NeurIPS
+  year: 2026
+  track: main
+  topics:
+  - zero-bit
+- title: 'Making Open-Source Text LLM Watermarks Durable Against Merging'
+  venue: NeurIPS
+  year: 2026
+  track: main
+  topics:
+  - zero-bit
+- title: 'Learning to Follow In-Context Watermark Instructions via Self-Distillation'
+  venue: NeurIPS
+  year: 2026
+  track: main
+  topics:
+  - zero-bit
+- title: 'Towards Anytime-Valid Statistical Watermarking'
+  venue: NeurIPS
+  year: 2026
+  track: main
+  topics:
+  - zero-bit
+- title: 'A Retained-Signal Interface for LLM Watermark Robustness under Paraphrase'
+  venue: NeurIPS
+  year: 2026
+  track: main
+  topics:
+  - zero-bit
+- title: 'SCTI: Self-Calibrated Trident Identification of Black-Box LLM Watermarks'
+  venue: NeurIPS
+  year: 2026
+  track: main
+  topics:
+  - zero-bit
+- title: 'Auditing Cross-Lingual Fairness in Language Model Watermarking'
+  venue: NeurIPS
+  year: 2026
+  track: main
+  topics:
+  - evaluation
+- title: 'Invisible Ink, Visible Lies: How Production Watermarking Causes LLMs to Hallucinate'
+  venue: NeurIPS
+  year: 2026
+  track: main
+  topics:
+  - zero-bit
+- title: 'Sequential Behavioral Watermarking for LLM Agents'
+  venue: NeurIPS
+  year: 2026
+  track: main
+  topics:
+  - zero-bit
+- title: 'Watermarking Game-Playing Agents in Perfect-Information Extensive-Form Games'
+  venue: NeurIPS
+  year: 2026
+  track: main
+  topics:
+  - zero-bit
+- title: 'Watermarking Should Be Treated as a Monitoring Primitive'
+  venue: NeurIPS
+  year: 2026
+  track: main
+  topics:
+  - zero-bit
+- title: 'Watermarking Without Standards Is Not AI Governance'
+  venue: NeurIPS
+  year: 2026
+  track: main
+  topics:
+  - zero-bit

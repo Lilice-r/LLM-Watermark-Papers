@@ -93,3 +93,18 @@
 - **Revisiting Segmentation in Multi-bit LLM Watermarking**  
   paper: TBD | EMNLP 2026 Findings
 
+### NeurIPS 2026 (December)
+
+- **ArcMark: Distortion-Free Multi-Byte LLM Watermark via Optimal Transport**  
+  paper: TBD | NeurIPS 2026
+- **Every Bit, Everywhere, All At Once: A Binomial Multibit LLM Watermark**  
+  paper: TBD | NeurIPS 2026
+- **Majority Bit-Aware Watermarking for Large Language Models**  
+  paper: TBD | NeurIPS 2026
+- **MC²Mark: Distortion-Free Multi-Bit Watermarking for Long Messages**  
+  paper: TBD | NeurIPS 2026
+- **Multi-bit LLM Watermarking with Certified Semantic Distortion**  
+  paper: TBD | NeurIPS 2026
+- **TextSeal: A Localized LLM Watermark for Provenance & Distillation Protection**  
+  paper: TBD | NeurIPS 2026
+

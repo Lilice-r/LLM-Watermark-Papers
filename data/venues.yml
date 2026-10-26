@@ -140,3 +140,7 @@
   year: 2026
   month: 11
   order: 90
+- venue: NeurIPS
+  year: 2026
+  month: 12
+  order: 100
