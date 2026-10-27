@@ -87,11 +87,11 @@
 ### EMNLP 2026 (November)
 
 - **Implicit Unwatermarking in Pseudo-Reference Reranking for LLM Watermarking**  
-  paper: TBD | EMNLP 2026
+  [paper](https://aclanthology.org/2026.emnlp-main.2206/) | EMNLP 2026
 - **The Provenance Horizon: Short Regulated Text Resists Reliable Watermarking Under Editing**  
-  paper: TBD | EMNLP 2026
+  [paper](https://aclanthology.org/2026.emnlp-main.1813/) | EMNLP 2026
 - **Detecting Post-generation Edits to Watermarked LLM Outputs via Error-Correcting Codes**  
-  paper: TBD | EMNLP 2026 Findings
+  [paper](https://aclanthology.org/2026.findings-emnlp.2142/) | EMNLP 2026 Findings
 - **Is Multilingual LLM Watermarking Truly Multilingual? Scaling Robustness to 100+ Languages via Back-Translation**  
-  paper: TBD | EMNLP 2026 Findings
+  [paper](https://aclanthology.org/2026.findings-emnlp.1115/) | EMNLP 2026 Findings
 

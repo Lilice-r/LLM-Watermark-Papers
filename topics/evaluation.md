@@ -62,9 +62,9 @@
 ### EMNLP 2026 (November)
 
 - **Evaluating LLM Watermarking for Clinical EHR: Detectability, Style Shifts, and Helpfulness**  
-  paper: TBD | EMNLP 2026
+  [paper](https://aclanthology.org/2026.emnlp-main.2579/) | EMNLP 2026
 - **Disappearing Ink: Obfuscation Breaks N-gram Code Watermarks in Theory and Practice**  
-  paper: TBD | EMNLP 2026 Findings
+  [paper](https://aclanthology.org/2026.findings-emnlp.1372/) | EMNLP 2026 Findings
 
 ### NeurIPS 2026 (December)
 

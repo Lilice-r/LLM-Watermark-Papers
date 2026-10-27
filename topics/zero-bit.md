@@ -260,8 +260,6 @@
   [paper](https://arxiv.org/abs/2601.22985) | ICML 2026
 - **How Good is Post-Hoc Watermarking With Language Model Rephrasing?**  
   [paper](https://arxiv.org/abs/2512.16904) | ICML 2026
-- **IACW: Intent-Aware Controllable Watermarking for Scalable Authorial Intent Attribution**  
-  [paper](https://openreview.net/pdf?id=AMI4RvJaS0) | ICML 2026
 - **Ideal Attribution and Faithful Watermarks for Language Models**  
   [paper](https://arxiv.org/abs/2512.07038) | ICML 2026
 - **IPMark: A Sentence-Level Watermark for LLMs with Hierarchical Personalization and Efficient Detection**  
@@ -287,25 +285,25 @@
 ### EMNLP 2026 (November)
 
 - **CAD-Mark: Context-Aware Distributional Watermarking for Robust LLM-Generated Text Detection**  
-  paper: TBD | EMNLP 2026
+  [paper](https://aclanthology.org/2026.emnlp-main.544/) | EMNLP 2026
 - **CATMark: A Context-Aware Thresholding Framework for Robust Cross-Task Watermarking in Large Language Models**  
-  paper: TBD | EMNLP 2026
+  [paper](https://aclanthology.org/2026.emnlp-main.375/) | EMNLP 2026
 - **Flip, Don’t Shuffle: Watermarking LLMs at the Speed of Inference**  
-  paper: TBD | EMNLP 2026
+  [paper](https://aclanthology.org/2026.emnlp-main.2124/) | EMNLP 2026
 - **Linguistics-Aware Non-Distortionary LLM Watermarking**  
-  paper: TBD | EMNLP 2026
+  [paper](https://aclanthology.org/2026.emnlp-main.1203/) | EMNLP 2026
 - **More Haste, Less Speed: Weaker Single-Layer Watermark Improves Distortion-Free Watermark Ensembles**  
-  paper: TBD | EMNLP 2026
+  [paper](https://aclanthology.org/2026.emnlp-main.789/) | EMNLP 2026
 - **Semantic Self-Guided Watermarking with Enhanced Text Quality for Large Language Models**  
-  paper: TBD | EMNLP 2026
+  [paper](https://aclanthology.org/2026.emnlp-main.252/) | EMNLP 2026
 - **Disappearing Ink: Obfuscation Breaks N-gram Code Watermarks in Theory and Practice**  
-  paper: TBD | EMNLP 2026 Findings
+  [paper](https://aclanthology.org/2026.findings-emnlp.1372/) | EMNLP 2026 Findings
 - **MEMMARK: State-Evolution Attribution Watermarking for Agent Long-Term Memory Systems**  
-  paper: TBD | EMNLP 2026 Findings
+  [paper](https://aclanthology.org/2026.findings-emnlp.395/) | EMNLP 2026 Findings
 - **Robust Text Watermarking for Large Language Models via Dual Semantic Embeddings**  
-  paper: TBD | EMNLP 2026 Findings
+  [paper](https://aclanthology.org/2026.findings-emnlp.959/) | EMNLP 2026 Findings
 - **SAC-Copula: Quality-Preserving Watermarking for Diffusion Language Models via Smooth Correlated Gumbel Fields**  
-  paper: TBD | EMNLP 2026 Findings
+  [paper](https://aclanthology.org/2026.findings-emnlp.993/) | EMNLP 2026 Findings
 
 ### NeurIPS 2026 (December)
 

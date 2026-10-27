@@ -73,6 +73,8 @@
 
 - **Block-wise Codeword Embedding for Reliable Multi-bit Text Watermarking**  
   [paper](https://openreview.net/pdf?id=Ym1zKxtv8V) | ICML 2026
+- **IACW: Intent-Aware Controllable Watermarking for Scalable Authorial Intent Attribution**  
+  [paper](https://openreview.net/pdf?id=AMI4RvJaS0) | ICML 2026
 - **Selective Disclosure Watermarking for Large Language Models**  
   [paper](https://openreview.net/pdf?id=Oi1AISOxzt) | ICML 2026
 
@@ -89,9 +91,9 @@
 ### EMNLP 2026 (November)
 
 - **HSPMark: Desynchronization-Resilient Multi-Bit LLM Watermarking via Semantic Anchoring**  
-  paper: TBD | EMNLP 2026 Findings
+  [paper](https://aclanthology.org/2026.findings-emnlp.1099/) | EMNLP 2026 Findings
 - **Revisiting Segmentation in Multi-bit LLM Watermarking**  
-  paper: TBD | EMNLP 2026 Findings
+  [paper](https://aclanthology.org/2026.findings-emnlp.364/) | EMNLP 2026 Findings
 
 ### NeurIPS 2026 (December)
 

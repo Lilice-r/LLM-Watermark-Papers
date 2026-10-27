@@ -762,7 +762,7 @@
   year: 2026
   track: main
   topics:
-  - zero-bit
+  - multi-bit
 - title: 'Adaptive Code Watermarking Through Reinforcement Learning'
   url: https://openreview.net/pdf?id=4xjq3iR4aK
   venue: ICML
@@ -1143,96 +1143,112 @@
   topics:
   - zero-bit
 - title: 'Semantic Self-Guided Watermarking with Enhanced Text Quality for Large Language Models'
+  url: https://aclanthology.org/2026.emnlp-main.252/
   venue: EMNLP
   year: 2026
   track: main
   topics:
   - zero-bit
 - title: 'CATMark: A Context-Aware Thresholding Framework for Robust Cross-Task Watermarking in Large Language Models'
+  url: https://aclanthology.org/2026.emnlp-main.375/
   venue: EMNLP
   year: 2026
   track: main
   topics:
   - zero-bit
 - title: 'CAD-Mark: Context-Aware Distributional Watermarking for Robust LLM-Generated Text Detection'
+  url: https://aclanthology.org/2026.emnlp-main.544/
   venue: EMNLP
   year: 2026
   track: main
   topics:
   - zero-bit
 - title: 'More Haste, Less Speed: Weaker Single-Layer Watermark Improves Distortion-Free Watermark Ensembles'
+  url: https://aclanthology.org/2026.emnlp-main.789/
   venue: EMNLP
   year: 2026
   track: main
   topics:
   - zero-bit
 - title: 'Linguistics-Aware Non-Distortionary LLM Watermarking'
+  url: https://aclanthology.org/2026.emnlp-main.1203/
   venue: EMNLP
   year: 2026
   track: main
   topics:
   - zero-bit
 - title: 'The Provenance Horizon: Short Regulated Text Resists Reliable Watermarking Under Editing'
+  url: https://aclanthology.org/2026.emnlp-main.1813/
   venue: EMNLP
   year: 2026
   track: main
   topics:
   - attack
 - title: 'Flip, Don’t Shuffle: Watermarking LLMs at the Speed of Inference'
+  url: https://aclanthology.org/2026.emnlp-main.2124/
   venue: EMNLP
   year: 2026
   track: main
   topics:
   - zero-bit
 - title: 'Implicit Unwatermarking in Pseudo-Reference Reranking for LLM Watermarking'
+  url: https://aclanthology.org/2026.emnlp-main.2206/
   venue: EMNLP
   year: 2026
   track: main
   topics:
   - attack
 - title: 'Evaluating LLM Watermarking for Clinical EHR: Detectability, Style Shifts, and Helpfulness'
+  url: https://aclanthology.org/2026.emnlp-main.2579/
   venue: EMNLP
   year: 2026
   track: main
   topics:
   - evaluation
 - title: 'Revisiting Segmentation in Multi-bit LLM Watermarking'
+  url: https://aclanthology.org/2026.findings-emnlp.364/
   venue: EMNLP
   year: 2026
   track: findings
   topics:
   - multi-bit
 - title: 'Robust Text Watermarking for Large Language Models via Dual Semantic Embeddings'
+  url: https://aclanthology.org/2026.findings-emnlp.959/
   venue: EMNLP
   year: 2026
   track: findings
   topics:
   - zero-bit
 - title: 'SAC-Copula: Quality-Preserving Watermarking for Diffusion Language Models via Smooth Correlated Gumbel Fields'
+  url: https://aclanthology.org/2026.findings-emnlp.993/
   venue: EMNLP
   year: 2026
   track: findings
   topics:
   - zero-bit
 - title: 'HSPMark: Desynchronization-Resilient Multi-Bit LLM Watermarking via Semantic Anchoring'
+  url: https://aclanthology.org/2026.findings-emnlp.1099/
   venue: EMNLP
   year: 2026
   track: findings
   topics:
   - multi-bit
 - title: 'Is Multilingual LLM Watermarking Truly Multilingual? Scaling Robustness to 100+ Languages via Back-Translation'
+  url: https://aclanthology.org/2026.findings-emnlp.1115/
   venue: EMNLP
   year: 2026
   track: findings
   topics:
   - attack
 - title: 'Detecting Post-generation Edits to Watermarked LLM Outputs via Error-Correcting Codes'
+  url: https://aclanthology.org/2026.findings-emnlp.2142/
   venue: EMNLP
   year: 2026
   track: findings
   topics:
   - attack
 - title: 'Disappearing Ink: Obfuscation Breaks N-gram Code Watermarks in Theory and Practice'
+  url: https://aclanthology.org/2026.findings-emnlp.1372/
   venue: EMNLP
   year: 2026
   track: findings
@@ -1240,6 +1256,7 @@
   - zero-bit
   - evaluation
 - title: 'MEMMARK: State-Evolution Attribution Watermarking for Agent Long-Term Memory Systems'
+  url: https://aclanthology.org/2026.findings-emnlp.395/
   venue: EMNLP
   year: 2026
   track: findings
