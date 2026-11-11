@@ -79,6 +79,11 @@ python scripts\pipeline.py --skip-git
 - **WaterJudge: Quality-Detection Trade-off when Watermarking Large Language Models**  
   [paper](https://arxiv.org/pdf/2403.19548) | NAACL 2024 Findings | [![Evaluation](https://img.shields.io/badge/Evaluation-lightgrey)](topics/evaluation.md)
 
+#### COLT 2024 (June)
+
+- **Undetectable Watermarks for Language Models**  
+  [paper](https://proceedings.mlr.press/v247/christ24a.html) | COLT 2024 | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
+
 #### ICML 2024 (July)
 
 - **A Resilient and Accessible Distribution-Preserving Watermark for Large Language Models**  
@@ -181,11 +186,6 @@ python scripts\pipeline.py --skip-git
 
 - **Scalable watermarking for identifying large language model outputs**  
   [paper](https://www.nature.com/articles/s41586-024-08025-4) | Nature 2024 | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
-
-#### PMLR 2024
-
-- **Undetectable Watermarks for Language Models**  
-  [paper](https://proceedings.mlr.press/v247/christ24a/christ24a.pdf) | PMLR 2024 | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
 
 #### ACM Computing Surveys 2024
 

@@ -248,8 +248,8 @@
   topics:
   - zero-bit
 - title: 'Undetectable Watermarks for Language Models'
-  url: https://proceedings.mlr.press/v247/christ24a/christ24a.pdf
-  venue: PMLR
+  url: https://proceedings.mlr.press/v247/christ24a.html
+  venue: COLT
   year: 2024
   track: main
   topics:
