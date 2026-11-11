@@ -101,6 +101,9 @@
   year: 2025
   month: 12
   order: 100
+- venue: TMLR
+  year: 2025
+  order: 200
 - venue: TIFS
   year: 2025
   order: 210
@@ -144,3 +147,6 @@
   year: 2026
   month: 12
   order: 100
+- venue: TMLR
+  year: 2026
+  order: 200

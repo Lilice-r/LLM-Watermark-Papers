@@ -83,6 +83,8 @@
 
 ### TMLR 2024
 
+- **Generative Models are Self-Watermarked: Declaring Model Authentication through Re-Generation**  
+  [paper](https://openreview.net/pdf?id=LUHmWDydue) | TMLR 2024
 - **Robust Distortion-free Watermarks for Language Models**  
   [paper](https://openreview.net/pdf?id=FpaCL1MO2C) | TMLR 2024
 
@@ -183,10 +185,13 @@
   [paper](https://openreview.net/pdf?id=YES7VDXPV8) | NeurIPS 2025
 - **Practical and Effective Code Watermarking for Large Language Models**  
   [paper](https://openreview.net/pdf?id=RpE4HeuX69) | NeurIPS 2025
-- **SAEMARK: Steering Personalized Multilingual LLMWatermarks with Sparse Autoencoders**  
-  [paper](https://openreview.net/pdf?id=tXnyVPNOfa) | NeurIPS 2025
 - **Theoretically Grounded Framework for LLM Watermarking: A Distribution-Adaptive Approach**  
   [paper](https://openreview.net/pdf?id=CMmKcHFDKL) | NeurIPS 2025
+
+### TMLR 2025
+
+- **Necessary and Sufficient Watermark for Large Language Models**  
+  [paper](https://openreview.net/pdf?id=FcyHZ6Q4k0) | TMLR 2025
 
 ### TIFS 2025
 
@@ -331,4 +336,15 @@
   paper: TBD | NeurIPS 2026
 - **Watermarking Without Standards Is Not AI Governance**  
   paper: TBD | NeurIPS 2026
+
+### TMLR 2026
+
+- **A Watermark for Black-Box Language Models**  
+  [paper](https://openreview.net/pdf?id=6gcHcgGmLo) | TMLR 2026
+- **Improving Detection of Watermarked Language Models**  
+  [paper](https://openreview.net/pdf?id=6nmztBgngB) | TMLR 2026
+- **Provably Robust Watermarks for Open-Source Language Models**  
+  [paper](https://openreview.net/pdf?id=xRd8lA6DmI) | TMLR 2026
+- **Watermarking Language Models with Error Correcting Codes**  
+  [paper](https://openreview.net/pdf?id=H6oBZxNQk2) | TMLR 2026
 

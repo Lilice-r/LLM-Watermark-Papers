@@ -261,6 +261,20 @@
   track: journal
   topics:
   - zero-bit
+- title: 'Generative Models are Self-Watermarked: Declaring Model Authentication through Re-Generation'
+  url: https://openreview.net/pdf?id=LUHmWDydue
+  venue: TMLR
+  year: 2024
+  track: main
+  topics:
+  - zero-bit
+- title: 'New Evaluation Metrics Capture Quality Degradation due to LLM Watermarking'
+  url: https://openreview.net/pdf?id=PuhF0hyDq1
+  venue: TMLR
+  year: 2024
+  track: main
+  topics:
+  - evaluation
 - title: 'Scalable watermarking for identifying large language model outputs'
   url: https://www.nature.com/articles/s41586-024-08025-4
   venue: Nature
@@ -500,7 +514,7 @@
   year: 2025
   track: main
   topics:
-  - zero-bit
+  - multi-bit
 - title: 'Practical and Effective Code Watermarking for Large Language Models'
   url: https://openreview.net/pdf?id=RpE4HeuX69
   venue: NeurIPS
@@ -987,6 +1001,13 @@
   track: findings
   topics:
   - attack
+- title: 'Necessary and Sufficient Watermark for Large Language Models'
+  url: https://openreview.net/pdf?id=FcyHZ6Q4k0
+  venue: TMLR
+  year: 2025
+  track: main
+  topics:
+  - zero-bit
 - title: 'The Mark Fades: Adaptive Evolutionary Paraphrase-based Attack against LLM Watermarks'
   url: https://aclanthology.org/2026.findings-acl.459.pdf
   venue: ACL
@@ -1372,6 +1393,41 @@
   - zero-bit
 - title: 'Watermarking Without Standards Is Not AI Governance'
   venue: NeurIPS
+  year: 2026
+  track: main
+  topics:
+  - zero-bit
+- title: 'Provably Robust Watermarks for Open-Source Language Models'
+  url: https://openreview.net/pdf?id=xRd8lA6DmI
+  venue: TMLR
+  year: 2026
+  track: main
+  topics:
+  - zero-bit
+- title: 'Watermarking Language Models with Error Correcting Codes'
+  url: https://openreview.net/pdf?id=H6oBZxNQk2
+  venue: TMLR
+  year: 2026
+  track: main
+  topics:
+  - zero-bit
+- title: 'A Watermark for Black-Box Language Models'
+  url: https://openreview.net/pdf?id=6gcHcgGmLo
+  venue: TMLR
+  year: 2026
+  track: main
+  topics:
+  - zero-bit
+- title: 'Watermarking Degrades Alignment in Language Models: Analysis and Mitigation'
+  url: https://openreview.net/pdf?id=w2ATKQcfWx
+  venue: TMLR
+  year: 2026
+  track: main
+  topics:
+  - evaluation
+- title: 'Improving Detection of Watermarked Language Models'
+  url: https://openreview.net/pdf?id=6nmztBgngB
+  venue: TMLR
   year: 2026
   track: main
   topics:

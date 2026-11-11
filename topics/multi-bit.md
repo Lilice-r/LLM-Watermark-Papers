@@ -49,6 +49,11 @@
 - **Provably Robust Multi-bit Watermarking for AI-generated Text**  
   [paper](https://arxiv.org/pdf/2401.16820.pdf) | USENIX 2025
 
+### NeurIPS 2025 (December)
+
+- **SAEMARK: Steering Personalized Multilingual LLMWatermarks with Sparse Autoencoders**  
+  [paper](https://openreview.net/pdf?id=tXnyVPNOfa) | NeurIPS 2025
+
 ## 2026
 
 ### AAAI 2026 (January)

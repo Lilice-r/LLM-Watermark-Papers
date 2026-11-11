@@ -24,6 +24,11 @@
 - **No Free Lunch in LLM Watermarking: Trade-offs in Watermarking Design Choices**  
   [paper](https://openreview.net/pdf?id=rIOl7KbSkv) | NeurIPS 2024
 
+### TMLR 2024
+
+- **New Evaluation Metrics Capture Quality Degradation due to LLM Watermarking**  
+  [paper](https://openreview.net/pdf?id=PuhF0hyDq1) | TMLR 2024
+
 ## 2025
 
 ### ACL 2025 (July)
@@ -70,4 +75,9 @@
 
 - **Auditing Cross-Lingual Fairness in Language Model Watermarking**  
   paper: TBD | NeurIPS 2026
+
+### TMLR 2026
+
+- **Watermarking Degrades Alignment in Language Models: Analysis and Mitigation**  
+  [paper](https://openreview.net/pdf?id=w2ATKQcfWx) | TMLR 2026
 
