@@ -1,17 +1,17 @@
-# Zero-bit Papers
+# Zero-bit Papers (125 papers)
 
 [Back to README](../README.md)
 
-## 2023
+## 2023 (1 paper)
 
-### ICML 2023 (July)
+### ICML 2023 (1)
 
 - **A Watermark for Large Language Models**  
   [paper](https://arxiv.org/pdf/2301.10226) | ICML 2023 (Outstanding Paper)
 
-## 2024
+## 2024 (30 papers)
 
-### ICLR 2024 (May)
+### ICLR 2024 (6)
 
 - **A Semantic Invariant Robust Watermark for Large Language Models**  
   [paper](https://openreview.net/pdf?id=6p8lpe4MNf) | ICLR 2024
@@ -26,19 +26,19 @@
 - **Unbiased Watermark for Large Language Models**  
   [paper](https://openreview.net/pdf?id=uWVC5FVidc) | ICLR 2024
 
-### NAACL 2024 (June)
+### NAACL 2024 (2)
 
 - **SemStamp: A Semantic Watermark with Paraphrastic Robustness for Text Generation**  
   [paper](https://arxiv.org/pdf/2310.03991.pdf) | NAACL 2024
 - **A Robust Semantics-based Watermark for Large Language Model against Paraphrasing**  
   [paper](https://arxiv.org/pdf/2311.08721.pdf) | NAACL 2024 Findings
 
-### COLT 2024 (June)
+### COLT 2024 (1)
 
 - **Undetectable Watermarks for Language Models**  
   [paper](https://proceedings.mlr.press/v247/christ24a.html) | COLT 2024
 
-### ICML 2024 (July)
+### ICML 2024 (4)
 
 - **A Resilient and Accessible Distribution-Preserving Watermark for Large Language Models**  
   [paper](https://arxiv.org/pdf/2310.07710.pdf) | ICML 2024
@@ -49,7 +49,7 @@
 - **Token-Specific Watermarking with Enhanced Detectability and Semantic Coherence for Large Language Models**  
   [paper](https://arxiv.org/pdf/2402.18059.pdf) | ICML 2024
 
-### ACL 2024 (August)
+### ACL 2024 (8)
 
 - **An Entropy-based Text Watermarking Detection Method**  
   [paper](https://aclanthology.org/2024.acl-long.630.pdf) | ACL 2024
@@ -68,7 +68,7 @@
 - **Subtle Signatures, Strong Shields: Advancing Robust and Imperceptible Watermarking in Large Language Models**  
   [paper](https://aclanthology.org/2024.findings-acl.327.pdf) | ACL 2024 Findings
 
-### EMNLP 2024 (November)
+### EMNLP 2024 (3)
 
 - **Context-aware Watermark with Semantic Balanced Green-red Lists for Large Language Models**  
   [paper](https://aclanthology.org/2024.emnlp-main.1260/) | EMNLP 2024
@@ -77,7 +77,7 @@
 - **GuardEmb: Dynamic Watermark for Safeguarding Large Language Model Embedding Service Against Model Stealing Attack**  
   [paper](https://aclanthology.org/2024.findings-emnlp.441.pdf) | EMNLP 2024 Findings
 
-### NeurIPS 2024 (December)
+### NeurIPS 2024 (3)
 
 - **Inevitable Trade-off between Watermark Strength and Speculative Sampling Efficiency for Language Models**  
   [paper](https://openreview.net/pdf?id=6YKMBUiIsG) | NeurIPS 2024
@@ -86,21 +86,21 @@
 - **WaterMax: breaking the LLM watermark detectability-robustness-quality trade-off**  
   [paper](https://arxiv.org/pdf/2403.04808) | NeurIPS 2024
 
-### TMLR 2024
+### TMLR 2024 (2)
 
 - **Generative Models are Self-Watermarked: Declaring Model Authentication through Re-Generation**  
   [paper](https://openreview.net/pdf?id=LUHmWDydue) | TMLR 2024
 - **Robust Distortion-free Watermarks for Language Models**  
   [paper](https://openreview.net/pdf?id=FpaCL1MO2C) | TMLR 2024
 
-### Nature 2024
+### Nature 2024 (1)
 
 - **Scalable watermarking for identifying large language model outputs**  
   [paper](https://www.nature.com/articles/s41586-024-08025-4) | Nature 2024
 
-## 2025
+## 2025 (33 papers)
 
-### ICLR 2025 (April)
+### ICLR 2025 (6)
 
 - **A Watermark for Order-Agnostic Language Models**  
   [paper](https://openreview.net/pdf?id=Nlm3Xf0W9S) | ICLR 2025
@@ -115,7 +115,7 @@
 - **Ward: Provable RAG Dataset Inference via LLM Watermarks**  
   [paper](https://openreview.net/pdf?id=kVrwHLAb20) | ICLR 2025
 
-### NAACL 2025 (April)
+### NAACL 2025 (3)
 
 - **WaterPool: A Language Model Watermark Mitigating Trade-Offs among Imperceptibility, Efficacy and Robustness**  
   [paper](https://aclanthology.org/2025.naacl-long.209/) | NAACL 2025
@@ -124,7 +124,7 @@
 - **WaterSeeker: Pioneering Efficient Detection of Watermarked Segments in Large Documents**  
   [paper](https://aclanthology.org/2025.findings-naacl.156.pdf) | NAACL 2025 Findings
 
-### ACL 2025 (July)
+### ACL 2025 (7)
 
 - **Can LLM Watermarks Robustly Prevent Unauthorized Knowledge Distillation?**  
   [paper](https://aclanthology.org/2025.acl-long.648.pdf) | ACL 2025
@@ -141,19 +141,19 @@
 - **Watermarking Large Language Models: An Unbiased and Low-risk Method**  
   [paper](https://aclanthology.org/2025.acl-long.391.pdf) | ACL 2025
 
-### ICML 2025 (July)
+### ICML 2025 (2)
 
 - **An End-to-End Model For Logits Based Large Language Models Watermarking**  
   [paper](https://openreview.net/attachment?id=9sNiCqi2RD&name=pdf) | ICML 2025
 - **GaussMark: A Practical Approach for Structural Watermarking of Language Models**  
   [paper](https://openreview.net/attachment?id=YG3DbpAQBf&name=pdf) | ICML 2025
 
-### CCS 2025 (October)
+### CCS 2025 (1)
 
 - **RAG-WM: An Efficient Black-Box Watermarking Approach for Retrieval-Augmented Generation of Large Language Models**  
   [paper](https://arxiv.org/pdf/2501.05249) | CCS 2025
 
-### EMNLP 2025 (November)
+### EMNLP 2025 (6)
 
 - **Addressing Tokenization Inconsistency in Steganography and Watermarking Based on Large Language Models**  
   [paper](https://aclanthology.org/2025.emnlp-main.361.pdf) | EMNLP 2025
@@ -168,7 +168,7 @@
 - **Watermarking with Low-Entropy POS-Guided Token Partitioning and Z-Score-Driven Dynamic Bias for Large Language Models**  
   [paper](https://aclanthology.org/2025.findings-emnlp.260.pdf) | EMNLP 2025 Findings
 
-### NeurIPS 2025 (December)
+### NeurIPS 2025 (6)
 
 - **Enhancing LLM Watermark Resilience Against Both Scrubbing and Spoofing Attacks**  
   [paper](https://openreview.net/pdf?id=RbdLnwEEjk) | NeurIPS 2025
@@ -183,19 +183,19 @@
 - **Theoretically Grounded Framework for LLM Watermarking: A Distribution-Adaptive Approach**  
   [paper](https://openreview.net/pdf?id=CMmKcHFDKL) | NeurIPS 2025
 
-### TMLR 2025
+### TMLR 2025 (1)
 
 - **Necessary and Sufficient Watermark for Large Language Models**  
   [paper](https://openreview.net/pdf?id=FcyHZ6Q4k0) | TMLR 2025
 
-### TIFS 2025
+### TIFS 2025 (1)
 
 - **ModelShield: Adaptive and Robust Watermark Against Model Extraction Attack**  
   [paper](https://arxiv.org/pdf/2405.02365) | TIFS 2025
 
-## 2026
+## 2026 (61 papers)
 
-### ICLR 2026 (April)
+### ICLR 2026 (9)
 
 - **An Ensemble Framework for Unbiased Language Model Watermarking**  
   [paper](https://openreview.net/attachment?id=iZ7i2y1YxO&name=pdf) | ICLR 2026
@@ -216,12 +216,12 @@
 - **Watermarking Diffusion Language Models**  
   [paper](https://openreview.net/attachment?id=3aBWTYGcaT&name=pdf) | ICLR 2026
 
-### S&P 2026 (May)
+### S&P 2026 (1)
 
 - **PromptCOS: Towards Content-only System Prompt Copyright Auditing for LLMs**  
   [paper](https://arxiv.org/abs/2509.03117) | S&P 2026
 
-### ACL 2026 (July)
+### ACL 2026 (12)
 
 - **A Linguistics-Aware LLM Watermarking via Syntactic Predictability**  
   [paper](https://aclanthology.org/2026.acl-long.2115.pdf) | ACL 2026
@@ -248,7 +248,7 @@
 - **Topic-Based Watermarks for Large Language Models**  
   [paper](https://aclanthology.org/2026.findings-acl.1220.pdf) | ACL 2026 Findings
 
-### ICML 2026 (July)
+### ICML 2026 (12)
 
 - **Adaptive Code Watermarking Through Reinforcement Learning**  
   [paper](https://openreview.net/pdf?id=4xjq3iR4aK) | ICML 2026
@@ -275,12 +275,12 @@
 - **Watermarking LLM Agent Trajectories**  
   [paper](https://arxiv.org/abs/2602.18700) | ICML 2026
 
-### USENIX 2026 (August)
+### USENIX 2026 (1)
 
 - **PVMark: Enabling Public Verifiability for LLM Watermarking Schemes**  
   [paper](https://www.usenix.org/conference/usenixsecurity26/presentation/duan) | USENIX 2026
 
-### EMNLP 2026 (November)
+### EMNLP 2026 (10)
 
 - **CAD-Mark: Context-Aware Distributional Watermarking for Robust LLM-Generated Text Detection**  
   [paper](https://aclanthology.org/2026.emnlp-main.544/) | EMNLP 2026
@@ -303,7 +303,7 @@
 - **SAC-Copula: Quality-Preserving Watermarking for Diffusion Language Models via Smooth Correlated Gumbel Fields**  
   [paper](https://aclanthology.org/2026.findings-emnlp.993/) | EMNLP 2026 Findings
 
-### NeurIPS 2026 (December)
+### NeurIPS 2026 (12)
 
 - **A Retained-Signal Interface for LLM Watermark Robustness under Paraphrase**  
   paper: TBD | NeurIPS 2026
@@ -330,7 +330,7 @@
 - **Watermarking Without Standards Is Not AI Governance**  
   paper: TBD | NeurIPS 2026
 
-### TMLR 2026
+### TMLR 2026 (4)
 
 - **A Watermark for Black-Box Language Models**  
   [paper](https://openreview.net/pdf?id=6gcHcgGmLo) | TMLR 2026

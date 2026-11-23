@@ -21,6 +21,10 @@ from paperlib import (
 )
 
 
+def format_paper_count(count: int) -> str:
+    return f"{count} paper" if count == 1 else f"{count} papers"
+
+
 def build_environment() -> Environment:
     env = Environment(
         loader=FileSystemLoader(str(TEMPLATES_DIR)),
@@ -30,6 +34,7 @@ def build_environment() -> Environment:
     )
     env.globals["paper_item"] = paper_item_markdown
     env.globals["topic_link"] = topic_link
+    env.filters["paper_count"] = format_paper_count
     return env
 
 
@@ -42,6 +47,7 @@ def render_all(papers: list[dict[str, Any]] | None = None) -> dict[Path, str]:
     readme_template = env.get_template("README.md.j2")
     output[README_PATH] = readme_template.render(
         topics=TOPICS,
+        total=len(papers),
         timeline=group_by_timeline(papers, venues),
     )
 
@@ -51,6 +57,7 @@ def render_all(papers: list[dict[str, Any]] | None = None) -> dict[Path, str]:
         output[TOPICS_DIR / f"{topic}.md"] = topic_template.render(
             topic=topic,
             label=label,
+            total=len(topic_papers),
             timeline=group_by_timeline(topic_papers, venues),
         )
 

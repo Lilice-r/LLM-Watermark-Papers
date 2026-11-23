@@ -1,4 +1,4 @@
-# LLM Watermark Papers
+# LLM Watermark Papers (206 papers)
 
 This repository tracks papers related to LLM watermarking. The main list is sorted by venue or journal time. Topic-specific views are generated from the same data source.
 
@@ -21,28 +21,28 @@ After manually editing `data/papers.yml` or adding a new venue-year entry to `da
 python scripts\pipeline.py --skip-git
 ```
 
-## Timeline
+## Timeline (206 papers)
 
-### 2023
+### 2023 (2 papers)
 
-#### ICML 2023 (July)
+#### ICML 2023 (1)
 
 - **A Watermark for Large Language Models**  
   [paper](https://arxiv.org/pdf/2301.10226) | ICML 2023 (Outstanding Paper) | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
 
-#### WIFS 2023 (December)
+#### WIFS 2023 (1)
 
 - **Three Bricks to Consolidate Watermarks for Large Language Models**  
   [paper](https://arxiv.org/pdf/2308.00113) | WIFS 2023 | [![Multi-bit](https://img.shields.io/badge/Multi--bit-orange)](topics/multi-bit.md)
 
-### 2024
+### 2024 (55 papers)
 
-#### NDSS 2024 (February)
+#### NDSS 2024 (1)
 
 - **SSL-WM: A Black-Box Watermarking Approach for Encoders Pre-trained by Self-Supervised Learning**  
   [paper](https://www.ndss-symposium.org/wp-content/uploads/2024-374-paper.pdf) | NDSS 2024 | [![Backdoor Watermark](https://img.shields.io/badge/Backdoor%20Watermark-blueviolet)](topics/backdoor-watermark.md)
 
-#### ICLR 2024 (May)
+#### ICLR 2024 (8)
 
 - **A Semantic Invariant Robust Watermark for Large Language Models**  
   [paper](https://openreview.net/pdf?id=6p8lpe4MNf) | ICLR 2024 | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
@@ -61,14 +61,14 @@ python scripts\pipeline.py --skip-git
 - **Unbiased Watermark for Large Language Models**  
   [paper](https://openreview.net/pdf?id=uWVC5FVidc) | ICLR 2024 | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
 
-#### S&P 2024 (May)
+#### S&P 2024 (2)
 
 - **MEA-Defender: A Robust Watermark against Model Extraction Attack**  
   [paper](https://arxiv.org/pdf/2401.15239) | S&P 2024 | [![Backdoor Watermark](https://img.shields.io/badge/Backdoor%20Watermark-blueviolet)](topics/backdoor-watermark.md)
 - **PromptCARE: Prompt Copyright Protection by Watermark Injection and Verification**  
   [paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10646612) | S&P 2024 | [![Backdoor Watermark](https://img.shields.io/badge/Backdoor%20Watermark-blueviolet)](topics/backdoor-watermark.md)
 
-#### NAACL 2024 (June)
+#### NAACL 2024 (4)
 
 - **Advancing Beyond Identification: Multi-bit Watermark for Large Language Models**  
   [paper](https://arxiv.org/pdf/2308.00221) | NAACL 2024 | [![Multi-bit](https://img.shields.io/badge/Multi--bit-orange)](topics/multi-bit.md)
@@ -79,12 +79,12 @@ python scripts\pipeline.py --skip-git
 - **WaterJudge: Quality-Detection Trade-off when Watermarking Large Language Models**  
   [paper](https://arxiv.org/pdf/2403.19548) | NAACL 2024 Findings | [![Evaluation](https://img.shields.io/badge/Evaluation-lightgrey)](topics/evaluation.md)
 
-#### COLT 2024 (June)
+#### COLT 2024 (1)
 
 - **Undetectable Watermarks for Language Models**  
   [paper](https://proceedings.mlr.press/v247/christ24a.html) | COLT 2024 | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
 
-#### ICML 2024 (July)
+#### ICML 2024 (6)
 
 - **A Resilient and Accessible Distribution-Preserving Watermark for Large Language Models**  
   [paper](https://arxiv.org/pdf/2310.07710.pdf) | ICML 2024 | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
@@ -99,7 +99,7 @@ python scripts\pipeline.py --skip-git
 - **Watermarks in the Sand: Impossibility of Strong Watermarking for Language Models**  
   [paper](https://arxiv.org/pdf/2311.04378) | ICML 2024 | [![Attack](https://img.shields.io/badge/Attack-red)](topics/attack.md)
 
-#### ACL 2024 (August)
+#### ACL 2024 (11)
 
 - **An Entropy-based Text Watermarking Detection Method**  
   [paper](https://aclanthology.org/2024.acl-long.630.pdf) | ACL 2024 | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
@@ -124,21 +124,21 @@ python scripts\pipeline.py --skip-git
 - **Subtle Signatures, Strong Shields: Advancing Robust and Imperceptible Watermarking in Large Language Models**  
   [paper](https://aclanthology.org/2024.findings-acl.327.pdf) | ACL 2024 Findings | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
 
-#### USENIX 2024 (August)
+#### USENIX 2024 (2)
 
 - **DeepEclipse: How to Break White-Box DNN-Watermarking Schemes**  
   [paper](https://www.usenix.org/system/files/usenixsecurity24-pegoraro.pdf) | USENIX 2024 | [![Backdoor Watermark](https://img.shields.io/badge/Backdoor%20Watermark-blueviolet)](topics/backdoor-watermark.md)
 - **REMARK-LLM: A Robust and Efficient Watermarking Framework for Generative Large Language Models**  
   [paper](https://arxiv.org/pdf/2310.12362.pdf) | USENIX 2024 | [![Multi-bit](https://img.shields.io/badge/Multi--bit-orange)](topics/multi-bit.md)
 
-#### CCS 2024 (October)
+#### CCS 2024 (2)
 
 - **Neural Dehydration: Effective Erasure of Black-box Watermarks from DNNs with Limited Data**  
   [paper](https://arxiv.org/pdf/2309.03466) | CCS 2024 | [![Backdoor Watermark](https://img.shields.io/badge/Backdoor%20Watermark-blueviolet)](topics/backdoor-watermark.md)
 - **TabularMark: Watermarking Tabular Datasets for Machine Learning**  
   [paper](https://arxiv.org/pdf/2406.14841) | CCS 2024 | [![Backdoor Watermark](https://img.shields.io/badge/Backdoor%20Watermark-blueviolet)](topics/backdoor-watermark.md)
 
-#### EMNLP 2024 (November)
+#### EMNLP 2024 (7)
 
 - **Context-aware Watermark with Semantic Balanced Green-red Lists for Large Language Models**  
   [paper](https://aclanthology.org/2024.emnlp-main.1260/) | EMNLP 2024 | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
@@ -155,7 +155,7 @@ python scripts\pipeline.py --skip-git
 - **GuardEmb: Dynamic Watermark for Safeguarding Large Language Model Embedding Service Against Model Stealing Attack**  
   [paper](https://aclanthology.org/2024.findings-emnlp.441.pdf) | EMNLP 2024 Findings | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
 
-#### NeurIPS 2024 (December)
+#### NeurIPS 2024 (5)
 
 - **Inevitable Trade-off between Watermark Strength and Speculative Sampling Efficiency for Language Models**  
   [paper](https://openreview.net/pdf?id=6YKMBUiIsG) | NeurIPS 2024 | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
@@ -168,7 +168,7 @@ python scripts\pipeline.py --skip-git
 - **ZeroMark: Towards Dataset Ownership Verification without Disclosing Watermark**  
   [paper](https://openreview.net/pdf?id=Eyyt3ZmNV6) | NeurIPS 2024 | [![Backdoor Watermark](https://img.shields.io/badge/Backdoor%20Watermark-blueviolet)](topics/backdoor-watermark.md)
 
-#### TMLR 2024
+#### TMLR 2024 (3)
 
 - **Generative Models are Self-Watermarked: Declaring Model Authentication through Re-Generation**  
   [paper](https://openreview.net/pdf?id=LUHmWDydue) | TMLR 2024 | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
@@ -177,29 +177,29 @@ python scripts\pipeline.py --skip-git
 - **Robust Distortion-free Watermarks for Language Models**  
   [paper](https://openreview.net/pdf?id=FpaCL1MO2C) | TMLR 2024 | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
 
-#### TIFS 2024
+#### TIFS 2024 (1)
 
 - **PointNCBW: Toward Dataset Ownership Verification for Point Clouds via Negative Clean-Label Backdoor Watermark**  
   [paper](https://arxiv.org/pdf/2408.05500) | TIFS 2024 | [![Backdoor Watermark](https://img.shields.io/badge/Backdoor%20Watermark-blueviolet)](topics/backdoor-watermark.md)
 
-#### Nature 2024
+#### Nature 2024 (1)
 
 - **Scalable watermarking for identifying large language model outputs**  
   [paper](https://www.nature.com/articles/s41586-024-08025-4) | Nature 2024 | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
 
-#### ACM Computing Surveys 2024
+#### ACM Computing Surveys 2024 (1)
 
 - **A Survey of Text Watermarking in the Era of Large Language Models**  
   [paper](https://dl.acm.org/doi/pdf/10.1145/3691626) | ACM Computing Surveys 2024 | [![Survey](https://img.shields.io/badge/Survey-brightgreen)](topics/survey.md)
 
-### 2025
+### 2025 (51 papers)
 
-#### NDSS 2025 (February)
+#### NDSS 2025 (1)
 
 - **Explanation as a Watermark: Towards Harmless and Multi-bit Model Ownership Verification via Watermarking Feature Attribution**  
   [paper](https://www.ndss-symposium.org/wp-content/uploads/2025-338-paper.pdf) | NDSS 2025 | [![Backdoor Watermark](https://img.shields.io/badge/Backdoor%20Watermark-blueviolet)](topics/backdoor-watermark.md)
 
-#### ICLR 2025 (April)
+#### ICLR 2025 (6)
 
 - **A Watermark for Order-Agnostic Language Models**  
   [paper](https://openreview.net/pdf?id=Nlm3Xf0W9S) | ICLR 2025 | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
@@ -214,7 +214,7 @@ python scripts\pipeline.py --skip-git
 - **Ward: Provable RAG Dataset Inference via LLM Watermarks**  
   [paper](https://openreview.net/pdf?id=kVrwHLAb20) | ICLR 2025 | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
 
-#### NAACL 2025 (April)
+#### NAACL 2025 (5)
 
 - **$B^4$: A Black-Box Scrubbing Attack on LLM Watermarks**  
   [paper](https://aclanthology.org/2025.naacl-long.460/) | NAACL 2025 | [![Attack](https://img.shields.io/badge/Attack-red)](topics/attack.md)
@@ -227,14 +227,14 @@ python scripts\pipeline.py --skip-git
 - **WaterSeeker: Pioneering Efficient Detection of Watermarked Segments in Large Documents**  
   [paper](https://aclanthology.org/2025.findings-naacl.156.pdf) | NAACL 2025 Findings | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
 
-#### S&P 2025 (May)
+#### S&P 2025 (2)
 
 - **SoK: Watermarking for AI-Generated Content**  
   [paper](https://arxiv.org/pdf/2411.18479) | S&P 2025 | [![Survey](https://img.shields.io/badge/Survey-brightgreen)](topics/survey.md)
 - **Watermarking Language Models for Many Adaptive Users**  
   [paper](https://arxiv.org/pdf/2405.11109) | S&P 2025 | [![Multi-bit](https://img.shields.io/badge/Multi--bit-orange)](topics/multi-bit.md)
 
-#### ACL 2025 (July)
+#### ACL 2025 (8)
 
 - **Can LLM Watermarks Robustly Prevent Unauthorized Knowledge Distillation?**  
   [paper](https://aclanthology.org/2025.acl-long.648.pdf) | ACL 2025 | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
@@ -253,7 +253,7 @@ python scripts\pipeline.py --skip-git
 - **Watermarking Large Language Models: An Unbiased and Low-risk Method**  
   [paper](https://aclanthology.org/2025.acl-long.391.pdf) | ACL 2025 | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
 
-#### ICML 2025 (July)
+#### ICML 2025 (9)
 
 - **An End-to-End Model For Logits Based Large Language Models Watermarking**  
   [paper](https://openreview.net/attachment?id=9sNiCqi2RD&name=pdf) | ICML 2025 | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
@@ -274,17 +274,17 @@ python scripts\pipeline.py --skip-git
 - **StealthInk: A Multi-bit and Stealthy Watermark for Large Language Models**  
   [paper](https://openreview.net/attachment?id=dktpDfUTtj&name=pdf) | ICML 2025 | [![Multi-bit](https://img.shields.io/badge/Multi--bit-orange)](topics/multi-bit.md)
 
-#### USENIX 2025 (August)
+#### USENIX 2025 (1)
 
 - **Provably Robust Multi-bit Watermarking for AI-generated Text**  
   [paper](https://arxiv.org/pdf/2401.16820.pdf) | USENIX 2025 | [![Multi-bit](https://img.shields.io/badge/Multi--bit-orange)](topics/multi-bit.md)
 
-#### CCS 2025 (October)
+#### CCS 2025 (1)
 
 - **RAG-WM: An Efficient Black-Box Watermarking Approach for Retrieval-Augmented Generation of Large Language Models**  
   [paper](https://arxiv.org/pdf/2501.05249) | CCS 2025 | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
 
-#### EMNLP 2025 (November)
+#### EMNLP 2025 (9)
 
 - **Addressing Tokenization Inconsistency in Steganography and Watermarking Based on Large Language Models**  
   [paper](https://aclanthology.org/2025.emnlp-main.361.pdf) | EMNLP 2025 | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
@@ -305,7 +305,7 @@ python scripts\pipeline.py --skip-git
 - **Watermarking with Low-Entropy POS-Guided Token Partitioning and Z-Score-Driven Dynamic Bias for Large Language Models**  
   [paper](https://aclanthology.org/2025.findings-emnlp.260.pdf) | EMNLP 2025 Findings | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
 
-#### NeurIPS 2025 (December)
+#### NeurIPS 2025 (7)
 
 - **Enhancing LLM Watermark Resilience Against Both Scrubbing and Spoofing Attacks**  
   [paper](https://openreview.net/pdf?id=RbdLnwEEjk) | NeurIPS 2025 | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
@@ -322,29 +322,29 @@ python scripts\pipeline.py --skip-git
 - **Theoretically Grounded Framework for LLM Watermarking: A Distribution-Adaptive Approach**  
   [paper](https://openreview.net/pdf?id=CMmKcHFDKL) | NeurIPS 2025 | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
 
-#### TMLR 2025
+#### TMLR 2025 (1)
 
 - **Necessary and Sufficient Watermark for Large Language Models**  
   [paper](https://openreview.net/pdf?id=FcyHZ6Q4k0) | TMLR 2025 | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
 
-#### TIFS 2025
+#### TIFS 2025 (1)
 
 - **ModelShield: Adaptive and Robust Watermark Against Model Extraction Attack**  
   [paper](https://arxiv.org/pdf/2405.02365) | TIFS 2025 | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
 
-### 2026
+### 2026 (98 papers)
 
-#### AAAI 2026 (January)
+#### AAAI 2026 (1)
 
 - **WaterMod: Modular Token-Rank Partitioning for Probability-Balanced LLM Watermarking**  
   [paper](https://ojs.aaai.org/index.php/AAAI/article/view/40546/44507) | AAAI 2026 | [![Multi-bit](https://img.shields.io/badge/Multi--bit-orange)](topics/multi-bit.md)
 
-#### NDSS 2026 (February)
+#### NDSS 2026 (1)
 
 - **Character-Level Perturbations Disrupt LLM Watermarks**  
   [paper](https://www.ndss-symposium.org/wp-content/uploads/2026-s138-paper.pdf) | NDSS 2026 | [![Attack](https://img.shields.io/badge/Attack-red)](topics/attack.md)
 
-#### ICLR 2026 (April)
+#### ICLR 2026 (9)
 
 - **An Ensemble Framework for Unbiased Language Model Watermarking**  
   [paper](https://openreview.net/attachment?id=iZ7i2y1YxO&name=pdf) | ICLR 2026 | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
@@ -365,12 +365,12 @@ python scripts\pipeline.py --skip-git
 - **Watermarking Diffusion Language Models**  
   [paper](https://openreview.net/attachment?id=3aBWTYGcaT&name=pdf) | ICLR 2026 | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
 
-#### S&P 2026 (May)
+#### S&P 2026 (1)
 
 - **PromptCOS: Towards Content-only System Prompt Copyright Auditing for LLMs**  
   [paper](https://arxiv.org/abs/2509.03117) | S&P 2026 | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
 
-#### ACL 2026 (July)
+#### ACL 2026 (21)
 
 - **A Linguistics-Aware LLM Watermarking via Syntactic Predictability**  
   [paper](https://aclanthology.org/2026.acl-long.2115.pdf) | ACL 2026 | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
@@ -415,7 +415,7 @@ python scripts\pipeline.py --skip-git
 - **Topic-Based Watermarks for Large Language Models**  
   [paper](https://aclanthology.org/2026.findings-acl.1220.pdf) | ACL 2026 Findings | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
 
-#### ICML 2026 (July)
+#### ICML 2026 (19)
 
 - **Adaptive Code Watermarking Through Reinforcement Learning**  
   [paper](https://openreview.net/pdf?id=4xjq3iR4aK) | ICML 2026 | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
@@ -456,7 +456,7 @@ python scripts\pipeline.py --skip-git
 - **Watermarking LLM Agent Trajectories**  
   [paper](https://arxiv.org/abs/2602.18700) | ICML 2026 | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
 
-#### USENIX 2026 (August)
+#### USENIX 2026 (3)
 
 - **A Distortion-minimization Watermarking Framework for Large Language Models: Larger Capacity, Stronger Robustness and Higher Quality**  
   [paper](https://www.usenix.org/conference/usenixsecurity26/presentation/zhai) | USENIX 2026 | [![Multi-bit](https://img.shields.io/badge/Multi--bit-orange)](topics/multi-bit.md)
@@ -465,14 +465,14 @@ python scripts\pipeline.py --skip-git
 - **PVMark: Enabling Public Verifiability for LLM Watermarking Schemes**  
   [paper](https://www.usenix.org/conference/usenixsecurity26/presentation/duan) | USENIX 2026 | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
 
-#### CCS 2026 (October)
+#### CCS 2026 (2)
 
 - **PathMark: Protecting Intellectual Property of Mixture-of-expert LLMs via Path Watermarks**  
   [paper](https://arxiv.org/abs/2607.03688) | CCS 2026 | [![Backdoor Watermark](https://img.shields.io/badge/Backdoor%20Watermark-blueviolet)](topics/backdoor-watermark.md)
 - **PURA: Provably Unbiased and Robust Multi-Bit Watermarking for AI-Generated Text Attribution**  
   [paper](https://arxiv.org/abs/2608.22218) | CCS 2026 | [![Multi-bit](https://img.shields.io/badge/Multi--bit-orange)](topics/multi-bit.md)
 
-#### EMNLP 2026 (November)
+#### EMNLP 2026 (17)
 
 - **CAD-Mark: Context-Aware Distributional Watermarking for Robust LLM-Generated Text Detection**  
   [paper](https://aclanthology.org/2026.emnlp-main.544/) | EMNLP 2026 | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
@@ -509,7 +509,7 @@ python scripts\pipeline.py --skip-git
 - **SAC-Copula: Quality-Preserving Watermarking for Diffusion Language Models via Smooth Correlated Gumbel Fields**  
   [paper](https://aclanthology.org/2026.findings-emnlp.993/) | EMNLP 2026 Findings | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
 
-#### NeurIPS 2026 (December)
+#### NeurIPS 2026 (19)
 
 - **A Retained-Signal Interface for LLM Watermark Robustness under Paraphrase**  
   paper: TBD | NeurIPS 2026 | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
@@ -550,7 +550,7 @@ python scripts\pipeline.py --skip-git
 - **Watermarking Without Standards Is Not AI Governance**  
   paper: TBD | NeurIPS 2026 | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
 
-#### TMLR 2026
+#### TMLR 2026 (5)
 
 - **A Watermark for Black-Box Language Models**  
   [paper](https://openreview.net/pdf?id=6gcHcgGmLo) | TMLR 2026 | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)

@@ -1,46 +1,46 @@
-# Multi-bit Papers
+# Multi-bit Papers (32 papers)
 
 [Back to README](../README.md)
 
-## 2023
+## 2023 (1 paper)
 
-### WIFS 2023 (December)
+### WIFS 2023 (1)
 
 - **Three Bricks to Consolidate Watermarks for Large Language Models**  
   [paper](https://arxiv.org/pdf/2308.00113) | WIFS 2023
 
-## 2024
+## 2024 (5 papers)
 
-### ICLR 2024 (May)
+### ICLR 2024 (1)
 
 - **Towards Codable Watermarking for Injecting Multi-Bits Information to LLMs**  
   [paper](https://openreview.net/pdf?id=JYu5Flqm9D) | ICLR 2024
 
-### NAACL 2024 (June)
+### NAACL 2024 (1)
 
 - **Advancing Beyond Identification: Multi-bit Watermark for Large Language Models**  
   [paper](https://arxiv.org/pdf/2308.00221) | NAACL 2024
 
-### USENIX 2024 (August)
+### USENIX 2024 (1)
 
 - **REMARK-LLM: A Robust and Efficient Watermarking Framework for Generative Large Language Models**  
   [paper](https://arxiv.org/pdf/2310.12362.pdf) | USENIX 2024
 
-### EMNLP 2024 (November)
+### EMNLP 2024 (2)
 
 - **Waterfall: Scalable Framework for Robust Text Watermarking and Provenance for LLMs**  
   [paper](https://aclanthology.org/2024.emnlp-main.1138.pdf) | EMNLP 2024
 - **CodeIP: A Grammar-Guided Multi-Bit Watermark for Large Language Models of Code**  
   [paper](https://aclanthology.org/2024.findings-emnlp.541.pdf) | EMNLP 2024 Findings
 
-## 2025
+## 2025 (6 papers)
 
-### S&P 2025 (May)
+### S&P 2025 (1)
 
 - **Watermarking Language Models for Many Adaptive Users**  
   [paper](https://arxiv.org/pdf/2405.11109) | S&P 2025
 
-### ICML 2025 (July)
+### ICML 2025 (3)
 
 - **BiMark: Unbiased Multilayer Watermarking for Large Language Models**  
   [paper](https://openreview.net/pdf?id=Zvyb3WAg03) | ICML 2025
@@ -49,24 +49,24 @@
 - **StealthInk: A Multi-bit and Stealthy Watermark for Large Language Models**  
   [paper](https://openreview.net/attachment?id=dktpDfUTtj&name=pdf) | ICML 2025
 
-### USENIX 2025 (August)
+### USENIX 2025 (1)
 
 - **Provably Robust Multi-bit Watermarking for AI-generated Text**  
   [paper](https://arxiv.org/pdf/2401.16820.pdf) | USENIX 2025
 
-### NeurIPS 2025 (December)
+### NeurIPS 2025 (1)
 
 - **SAEMARK: Steering Personalized Multilingual LLMWatermarks with Sparse Autoencoders**  
   [paper](https://openreview.net/pdf?id=tXnyVPNOfa) | NeurIPS 2025
 
-## 2026
+## 2026 (20 papers)
 
-### AAAI 2026 (January)
+### AAAI 2026 (1)
 
 - **WaterMod: Modular Token-Rank Partitioning for Probability-Balanced LLM Watermarking**  
   [paper](https://ojs.aaai.org/index.php/AAAI/article/view/40546/44507) | AAAI 2026
 
-### ACL 2026 (July)
+### ACL 2026 (5)
 
 - **From TDMA to CDMA: A Multi-bit Watermark for Diffusion Language Models**  
   [paper](https://aclanthology.org/2026.acl-long.1737.pdf) | ACL 2026
@@ -79,7 +79,7 @@
 - **Knowledge-Infused Multi-Bit Watermarking for RAG Knowledge Bases**  
   [paper](https://aclanthology.org/2026.findings-acl.1066.pdf) | ACL 2026 Findings
 
-### ICML 2026 (July)
+### ICML 2026 (4)
 
 - **Block-wise Codeword Embedding for Reliable Multi-bit Text Watermarking**  
   [paper](https://openreview.net/pdf?id=Ym1zKxtv8V) | ICML 2026
@@ -90,24 +90,24 @@
 - **Selective Disclosure Watermarking for Large Language Models**  
   [paper](https://openreview.net/pdf?id=Oi1AISOxzt) | ICML 2026
 
-### USENIX 2026 (August)
+### USENIX 2026 (1)
 
 - **A Distortion-minimization Watermarking Framework for Large Language Models: Larger Capacity, Stronger Robustness and Higher Quality**  
   [paper](https://www.usenix.org/conference/usenixsecurity26/presentation/zhai) | USENIX 2026
 
-### CCS 2026 (October)
+### CCS 2026 (1)
 
 - **PURA: Provably Unbiased and Robust Multi-Bit Watermarking for AI-Generated Text Attribution**  
   [paper](https://arxiv.org/abs/2608.22218) | CCS 2026
 
-### EMNLP 2026 (November)
+### EMNLP 2026 (2)
 
 - **HSPMark: Desynchronization-Resilient Multi-Bit LLM Watermarking via Semantic Anchoring**  
   [paper](https://aclanthology.org/2026.findings-emnlp.1099/) | EMNLP 2026 Findings
 - **Revisiting Segmentation in Multi-bit LLM Watermarking**  
   [paper](https://aclanthology.org/2026.findings-emnlp.364/) | EMNLP 2026 Findings
 
-### NeurIPS 2026 (December)
+### NeurIPS 2026 (6)
 
 - **ArcMark: Distortion-Free Multi-Byte LLM Watermark via Optimal Transport**  
   paper: TBD | NeurIPS 2026

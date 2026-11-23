@@ -55,21 +55,6 @@ TOPIC_COLORS: dict[str, str] = {
 
 TRACKS = {"main", "findings", "journal", "workshop", "survey", "preprint"}
 
-MONTH_NAMES = {
-    1: "January",
-    2: "February",
-    3: "March",
-    4: "April",
-    5: "May",
-    6: "June",
-    7: "July",
-    8: "August",
-    9: "September",
-    10: "October",
-    11: "November",
-    12: "December",
-}
-
 
 def load_papers(path: Path = DATA_PATH) -> list[dict[str, Any]]:
     if not path.exists():
@@ -224,7 +209,7 @@ def group_by_timeline(
     result: list[dict[str, Any]] = []
     for year in years:
         venue_groups = []
-        for (month, venue), group_papers in sorted(
+        for (_, venue), group_papers in sorted(
             by_year[year].items(),
             key=lambda item: (
                 item[0][0] or 99,
@@ -232,17 +217,11 @@ def group_by_timeline(
                 item[0][1].lower(),
             ),
         ):
-            label = venue_group_label(venue, year, month)
+            label = venue if year == "Unknown Date" else f"{venue} {year}"
             venue_groups.append({"label": label, "papers": group_papers})
-        result.append({"year": year, "venues": venue_groups})
+        paper_count = sum(len(papers_in_venue) for papers_in_venue in by_year[year].values())
+        result.append({"year": year, "venues": venue_groups, "paper_count": paper_count})
     return result
-
-
-def venue_group_label(venue: str, year: Any, month: int | None = None) -> str:
-    if year == "Unknown Date":
-        return venue
-    month_text = f" ({MONTH_NAMES[month]})" if month else ""
-    return f"{venue} {year}{month_text}"
 
 
 def badge_text(paper: dict[str, Any]) -> str:
