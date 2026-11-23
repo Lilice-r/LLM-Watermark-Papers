@@ -13,6 +13,17 @@
   track: main
   topics:
   - survey
+- title: 'Watermarking GPT Outputs'
+  url: https://www.scottaaronson.com/talks/watermark.ppt
+  venue: OpenAI
+  year: 2022
+  track: talk
+  topics:
+  - zero-bit
+  notes: >-
+    Presented by Aaronson on December 13, 2022, in San Francisco.
+    See also Aaronson's [November 2022 lecture notes](https://scottaaronson.blog/?p=6823)
+    and his 2023 Simons Institute talk, [Watermarking of Large Language Models](https://simons.berkeley.edu/talks/scott-aaronson-ut-austin-openai-2023-08-17).
 - title: 'A Watermark for Large Language Models'
   url: https://arxiv.org/pdf/2301.10226
   venue: ICML

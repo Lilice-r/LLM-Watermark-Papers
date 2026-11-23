@@ -1,10 +1,10 @@
-# {{ label }} Papers ({{ total | paper_count }})
+# {{ label }} Papers ({{ entry_count }})
 
 [Back to README](../README.md)
 
 {% if timeline -%}
 {% for year_group in timeline -%}
-## {{ year_group.year }} ({{ year_group.paper_count | paper_count }})
+## {{ year_group.year }} ({{ year_group.entry_count }})
 
 {% for venue_group in year_group.venues -%}
 ### {{ venue_group.label }} ({{ venue_group.papers | length }})

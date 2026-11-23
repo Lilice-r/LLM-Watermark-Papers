@@ -53,7 +53,7 @@ TOPIC_COLORS: dict[str, str] = {
     "evaluation": "lightgrey",
 }
 
-TRACKS = {"main", "findings", "journal", "workshop", "survey", "preprint"}
+TRACKS = {"main", "findings", "journal", "workshop", "survey", "preprint", "talk"}
 
 
 def load_papers(path: Path = DATA_PATH) -> list[dict[str, Any]]:
@@ -192,6 +192,17 @@ def sorted_papers(
     return sorted(papers, key=lambda paper: sort_key(paper, venue_lookup))
 
 
+def format_entry_count(papers: list[dict[str, Any]]) -> str:
+    talks = sum(paper.get("track") == "talk" for paper in papers)
+    count = len(papers) - talks
+    parts = []
+    if count or not talks:
+        parts.append(f"{count} paper" if count == 1 else f"{count} papers")
+    if talks:
+        parts.append(f"{talks} talk" if talks == 1 else f"{talks} talks")
+    return ", ".join(parts)
+
+
 def group_by_timeline(
     papers: list[dict[str, Any]],
     venues: dict[tuple[str, int | None], dict[str, Any]] | None = None,
@@ -219,8 +230,8 @@ def group_by_timeline(
         ):
             label = venue if year == "Unknown Date" else f"{venue} {year}"
             venue_groups.append({"label": label, "papers": group_papers})
-        paper_count = sum(len(papers_in_venue) for papers_in_venue in by_year[year].values())
-        result.append({"year": year, "venues": venue_groups, "paper_count": paper_count})
+        year_papers = [paper for group in venue_groups for paper in group["papers"]]
+        result.append({"year": year, "venues": venue_groups, "entry_count": format_entry_count(year_papers)})
     return result
 
 
@@ -272,10 +283,14 @@ def paper_item_markdown(
     topic_prefix: str = "topics/",
 ) -> str:
     url = paper.get("url") or ""
-    details = [f"[paper]({url})" if url else "paper: TBD", venue_label(paper)]
+    link_label = "slides" if paper.get("track") == "talk" else "paper"
+    details = [f"[{link_label}]({url})" if url else f"{link_label}: TBD", venue_label(paper)]
     if include_topics:
         details.extend(topic_link(topic, prefix=topic_prefix) for topic in paper.get("topics", []))
-    return f"- **{paper['title']}**  \n  {' | '.join(details)}"
+    item = f"- **{paper['title']}**  \n  {' | '.join(details)}"
+    if paper.get("notes"):
+        item += f"  \n  {paper['notes']}"
+    return item
 
 
 def slugify(text: str) -> str:

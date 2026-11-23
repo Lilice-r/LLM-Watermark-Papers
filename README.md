@@ -1,8 +1,8 @@
-# LLM Watermark Papers (206 papers)
+# LLM Watermark Papers (206 papers, 1 talk)
 
-This repository tracks papers related to LLM watermarking. The main list is sorted by venue or journal time. Topic-specific views are generated from the same data source.
+This repository tracks research on LLM watermarking. The timeline is organized by year and venue. Topic-specific views are generated from the same data source.
 
-> Note: We believe that KGW is the starting point of LLM Watermark, so we only collect watermarking work after KGW.
+> The paper list starts with Kirchenbauer et al. (KGW, ICML 2023). The timeline also includes Aaronson and Kirchner's 2022 talk on watermarking GPT outputs.
 
 ## Topic Pages
 
@@ -21,7 +21,15 @@ After manually editing `data/papers.yml` or adding a new venue-year entry to `da
 python scripts\pipeline.py --skip-git
 ```
 
-## Timeline (206 papers)
+## Timeline (206 papers, 1 talk)
+
+### 2022 (1 talk)
+
+#### OpenAI 2022 (1)
+
+- **Watermarking GPT Outputs**  
+  [slides](https://www.scottaaronson.com/talks/watermark.ppt) | OpenAI 2022 | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)  
+  Presented by Aaronson on December 13, 2022, in San Francisco. See also Aaronson's [November 2022 lecture notes](https://scottaaronson.blog/?p=6823) and his 2023 Simons Institute talk, [Watermarking of Large Language Models](https://simons.berkeley.edu/talks/scott-aaronson-ut-austin-openai-2023-08-17).
 
 ### 2023 (2 papers)
 

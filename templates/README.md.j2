@@ -1,8 +1,8 @@
-# LLM Watermark Papers ({{ total | paper_count }})
+# LLM Watermark Papers ({{ entry_count }})
 
-This repository tracks papers related to LLM watermarking. The main list is sorted by venue or journal time. Topic-specific views are generated from the same data source.
+This repository tracks research on LLM watermarking. The timeline is organized by year and venue. Topic-specific views are generated from the same data source.
 
-> Note: We believe that KGW is the starting point of LLM Watermark, so we only collect watermarking work after KGW.
+> The paper list starts with Kirchenbauer et al. (KGW, ICML 2023). The timeline also includes Aaronson and Kirchner's 2022 talk on watermarking GPT outputs.
 
 ## Topic Pages
 
@@ -18,10 +18,10 @@ After manually editing `data/papers.yml` or adding a new venue-year entry to `da
 python scripts\pipeline.py --skip-git
 ```
 
-## Timeline ({{ total | paper_count }})
+## Timeline ({{ entry_count }})
 
 {% for year_group in timeline -%}
-### {{ year_group.year }} ({{ year_group.paper_count | paper_count }})
+### {{ year_group.year }} ({{ year_group.entry_count }})
 
 {% for venue_group in year_group.venues -%}
 #### {{ venue_group.label }} ({{ venue_group.papers | length }})

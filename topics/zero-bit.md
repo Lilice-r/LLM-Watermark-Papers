@@ -1,6 +1,14 @@
-# Zero-bit Papers (125 papers)
+# Zero-bit Papers (125 papers, 1 talk)
 
 [Back to README](../README.md)
+
+## 2022 (1 talk)
+
+### OpenAI 2022 (1)
+
+- **Watermarking GPT Outputs**  
+  [slides](https://www.scottaaronson.com/talks/watermark.ppt) | OpenAI 2022  
+  Presented by Aaronson on December 13, 2022, in San Francisco. See also Aaronson's [November 2022 lecture notes](https://scottaaronson.blog/?p=6823) and his 2023 Simons Institute talk, [Watermarking of Large Language Models](https://simons.berkeley.edu/talks/scott-aaronson-ut-austin-openai-2023-08-17).
 
 ## 2023 (1 paper)
 
