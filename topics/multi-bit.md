@@ -35,6 +35,11 @@
 
 ## 2025
 
+### S&P 2025 (May)
+
+- **Watermarking Language Models for Many Adaptive Users**  
+  [paper](https://arxiv.org/pdf/2405.11109) | S&P 2025
+
 ### ICML 2025 (July)
 
 - **BiMark: Unbiased Multilayer Watermarking for Large Language Models**  
@@ -80,6 +85,8 @@
   [paper](https://openreview.net/pdf?id=Ym1zKxtv8V) | ICML 2026
 - **IACW: Intent-Aware Controllable Watermarking for Scalable Authorial Intent Attribution**  
   [paper](https://openreview.net/pdf?id=AMI4RvJaS0) | ICML 2026
+- **IPMark: A Sentence-Level Watermark for LLMs with Hierarchical Personalization and Efficient Detection**  
+  [paper](https://openreview.net/pdf?id=JjILY9i6Wi) | ICML 2026
 - **Selective Disclosure Watermarking for Large Language Models**  
   [paper](https://openreview.net/pdf?id=Oi1AISOxzt) | ICML 2026
 

@@ -124,11 +124,6 @@
 - **WaterSeeker: Pioneering Efficient Detection of Watermarked Segments in Large Documents**  
   [paper](https://aclanthology.org/2025.findings-naacl.156.pdf) | NAACL 2025 Findings
 
-### S&P 2025 (May)
-
-- **Watermarking Language Models for Many Adaptive Users**  
-  [paper](https://arxiv.org/pdf/2405.11109) | S&P 2025
-
 ### ACL 2025 (July)
 
 - **Can LLM Watermarks Robustly Prevent Unauthorized Knowledge Distillation?**  
@@ -267,8 +262,6 @@
   [paper](https://arxiv.org/abs/2512.16904) | ICML 2026
 - **Ideal Attribution and Faithful Watermarks for Language Models**  
   [paper](https://arxiv.org/abs/2512.07038) | ICML 2026
-- **IPMark: A Sentence-Level Watermark for LLMs with Hierarchical Personalization and Efficient Detection**  
-  [paper](https://openreview.net/pdf?id=JjILY9i6Wi) | ICML 2026
 - **LORD-GoF: A Robust Online Detection Approach for LLM Watermarks in Sparse and Mixed Streams**  
   [paper](https://openreview.net/pdf?id=ovjx7lFuKu) | ICML 2026
 - **PASA: A Principled Embedding-Space Watermarking Approach for LLM-Generated Text under Semantic-Invariant Attacks**  

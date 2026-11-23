@@ -232,7 +232,7 @@ python scripts\pipeline.py --skip-git
 - **SoK: Watermarking for AI-Generated Content**  
   [paper](https://arxiv.org/pdf/2411.18479) | S&P 2025 | [![Survey](https://img.shields.io/badge/Survey-brightgreen)](topics/survey.md)
 - **Watermarking Language Models for Many Adaptive Users**  
-  [paper](https://arxiv.org/pdf/2405.11109) | S&P 2025 | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
+  [paper](https://arxiv.org/pdf/2405.11109) | S&P 2025 | [![Multi-bit](https://img.shields.io/badge/Multi--bit-orange)](topics/multi-bit.md)
 
 #### ACL 2025 (July)
 
@@ -436,7 +436,7 @@ python scripts\pipeline.py --skip-git
 - **Ideal Attribution and Faithful Watermarks for Language Models**  
   [paper](https://arxiv.org/abs/2512.07038) | ICML 2026 | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
 - **IPMark: A Sentence-Level Watermark for LLMs with Hierarchical Personalization and Efficient Detection**  
-  [paper](https://openreview.net/pdf?id=JjILY9i6Wi) | ICML 2026 | [![Zero-bit](https://img.shields.io/badge/Zero--bit-yellowgreen)](topics/zero-bit.md)
+  [paper](https://openreview.net/pdf?id=JjILY9i6Wi) | ICML 2026 | [![Multi-bit](https://img.shields.io/badge/Multi--bit-orange)](topics/multi-bit.md)
 - **Linear Ensembles Wash Away Watermarks: On the Fragility of Distributional Perturbations in LLMs**  
   [paper](https://arxiv.org/abs/2605.30501) | ICML 2026 | [![Attack](https://img.shields.io/badge/Attack-red)](topics/attack.md)
 - **LORD-GoF: A Robust Online Detection Approach for LLM Watermarks in Sparse and Mixed Streams**  
